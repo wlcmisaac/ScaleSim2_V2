@@ -169,24 +169,36 @@ class double_buffered_scratchpad:
 
             cycle_arr = np.zeros((1,1)) + i + self.stall_cycles
 
+            #start_ifmap = time.time()
             ifmap_demand_line = ifmap_demand_mat[i, :].reshape((1,ifmap_demand_mat.shape[1]))
             ifmap_cycle_out = self.ifmap_buf.service_reads(incoming_requests_arr_np=ifmap_demand_line,
                                                             incoming_cycles_arr=cycle_arr)
             ifmap_serviced_cycles += [ifmap_cycle_out[0]]
             ifmap_stalls = ifmap_cycle_out[0] - cycle_arr[0] - ifmap_hit_latency
-
+            #end_ifmap = time.time()
+            #print(f"Time taken for ifmap part {i}: {end_ifmap - start_ifmap:.6f} seconds")
+            
+            # Timing the filter part
+            #start_filter = time.time()
             filter_demand_line = filter_demand_mat[i, :].reshape((1, filter_demand_mat.shape[1]))
             filter_cycle_out = self.filter_buf.service_reads(incoming_requests_arr_np=filter_demand_line,
                                                            incoming_cycles_arr=cycle_arr)
             filter_serviced_cycles += [filter_cycle_out[0]]
             filter_stalls = filter_cycle_out[0] - cycle_arr[0] - filter_hit_latency
-
+            #end_filter = time.time()
+            #print(f"Time taken for filter part {i}: {end_filter - start_filter:.6f} seconds")
+            
+            # Timing the ofmap part
+            #start_ofmap = time.time()
             ofmap_demand_line = ofmap_demand_mat[i, :].reshape((1, ofmap_demand_mat.shape[1]))
             ofmap_cycle_out = self.ofmap_buf.service_writes(incoming_requests_arr_np=ofmap_demand_line,
                                                              incoming_cycles_arr_np=cycle_arr)
             ofmap_serviced_cycles += [ofmap_cycle_out[0]]
             ofmap_stalls = ofmap_cycle_out[0] - cycle_arr[0] - 1
-
+            
+            #end_ofmap = time.time()
+            #print(f"Time taken for ofmap part {i}: {end_ofmap - start_ofmap:.6f} seconds")
+            
             self.stall_cycles += int(max(ifmap_stalls[0], filter_stalls[0], ofmap_stalls[0]))
 
         if self.estimate_bandwidth_mode:
@@ -197,6 +209,7 @@ class double_buffered_scratchpad:
 
         self.ofmap_buf.empty_all_buffers(ofmap_serviced_cycles[-1])
 
+        start1 = time.time()
         # Prepare the traces
         ifmap_services_cycles_np = np.asarray(ifmap_serviced_cycles).reshape((len(ifmap_serviced_cycles), 1))
         self.ifmap_trace_matrix = np.concatenate((ifmap_services_cycles_np, ifmap_demand_mat), axis=1)
@@ -207,6 +220,8 @@ class double_buffered_scratchpad:
         ofmap_services_cycles_np = np.asarray(ofmap_serviced_cycles).reshape((len(ofmap_serviced_cycles), 1))
         self.ofmap_trace_matrix = np.concatenate((ofmap_services_cycles_np, ofmap_demand_mat), axis=1)
         self.total_cycles = int(ofmap_serviced_cycles[-1][0])
+        end1 = time.time()
+        print(f"Time taken to prepare traces: {end1 - start1:.6f} seconds")
 
         # END of serving demands from memory
         self.traces_valid = True

@@ -222,15 +222,15 @@ class scaled_out_simulator:
 
                 # Save SRAM traces
                 ifmap_sram_trace, filter_sram_trace, ofmap_sram_trace = memory_system.get_sram_trace_matrices()
-                np.savetxt("ifmap_sram_trace.csv", ifmap_sram_trace, delimiter=",")
-                np.savetxt("filter_sram_trace.csv", filter_sram_trace, delimiter=",")
-                np.savetxt("ofmap_sram_trace.csv", ofmap_sram_trace, delimiter=",")
+                #np.savetxt("ifmap_sram_trace.csv", ifmap_sram_trace, delimiter=",")
+                #np.savetxt("filter_sram_trace.csv", filter_sram_trace, delimiter=",")
+                #np.savetxt("ofmap_sram_trace.csv", ofmap_sram_trace, delimiter=",")
 
                 # Save DRAM traces
                 ifmap_dram_trace, filter_dram_trace, ofmap_dram_trace = memory_system.get_dram_trace_matrices()
-                np.savetxt("ifmap_dram_trace.csv", ifmap_dram_trace, delimiter=",")
-                np.savetxt("filter_dram_trace.csv", filter_dram_trace, delimiter=",")
-                np.savetxt("ofmap_dram_trace.csv", ofmap_dram_trace, delimiter=",")
+                #np.savetxt("ifmap_dram_trace.csv", ifmap_dram_trace, delimiter=",")
+                #np.savetxt("filter_dram_trace.csv", filter_dram_trace, delimiter=",")
+                #np.savetxt("ofmap_dram_trace.csv", ofmap_dram_trace, delimiter=",")
 
                 # Belal: End of saving stats for each layer
                 
