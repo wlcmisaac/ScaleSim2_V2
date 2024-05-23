@@ -204,8 +204,11 @@ class systolic_compute_os:
     def create_demand_matrices(self):
         assert self.params_set_flag, 'Parameters are not set'
 
+        print("Creating ifmap demand matrices")
         self.create_ifmap_demand_mat()
+        print("Creating filter demand matrices")
         self.create_filter_demand_mat()
+        print("Creating ofmap demand matrices")
         self.create_ofmap_demand_mat()
 
         assert self.ifmap_demand_matrix.shape[0] == self.filter_demand_matrix.shape[0], 'IFMAP and Filter demands out of sync'
@@ -226,7 +229,7 @@ class systolic_compute_os:
 
         # DEBUG section
         #print('DEBUG: create_ifmap_demand_mat()')
-        pbar = tqdm(total=self.col_fold * self.row_fold, disable=True)
+        pbar = tqdm(total=self.col_fold * self.row_fold, disable=False)
 
         for fc in range(self.col_fold):
             for fr in range(self.row_fold):
