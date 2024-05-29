@@ -7,8 +7,10 @@ test_runs
 */*/__pycache__
 */*/*/__pycache__
 topologies/*.zip
-LayerInfoV3/
-LayerInfoV3_Back/
+LayerInfoV3/topologies/conv_nets/
+LayerInfoV3/topologies/mlperf/
+
+
 .DS_Store
 */.DS_Store
 */*/.DS_Store
