@@ -1,0 +1,17 @@
+.idea/*
+build
+dist
+scalesim.egg-info
+test_runs
+*/__pycache__
+*/*/__pycache__
+*/*/*/__pycache__
+topologies/*.zip
+LayerInfoV3/topologies/conv_nets/
+LayerInfoV3/topologies/mlperf/AlphaGoZero.csv/
+
+
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*/*/*/.DS_Store
