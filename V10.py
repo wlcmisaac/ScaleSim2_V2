@@ -529,7 +529,10 @@ if __name__ == '__main__':
     #grid_sizes_list = ['Grids1', 'Grids4square', 'Grids16square', 'Grids64square', 'Grids256square']
     #grid_sizes_list = ['Grids256mod']
     #grid_sizes_list = ['Grids1', 'Grids2', 'Grids4', 'Grids8', 'Grids16', 'Grids32', 'Grids64', 'Grids128', 'Grids256', 'Grids512', 'Grids1024', 'Grids2048', 'Grids4096', 'Grids8192', 'Grids16384', 'Grids32768', 'Grids65536']
-    grid_sizes_list = ['Grids64', 'Grids128', 'Grids256', 'Grids512', 'Grids1024']
+    #grid_sizes_list = ['Grids4', 'Grids8', 'Grids16', 'Grids32']
+    grid_sizes_list = ['Grids64', 'Grids128', 'Grids256', 'Grids512', 'Grids1024']    
+    #grid_sizes_list = ['Grids2048', 'Grids4096', 'Grids8192']
+
 
 
     for grid_size in grid_sizes_list:
@@ -543,7 +546,7 @@ if __name__ == '__main__':
                         try:
                             print("________________",size,"________________", file_info_list[i][1], "________________")
                             grid = scaled_out_simulator()
-                            grid.set_params(topology_filename=file_info_list[i][1],
+                            grid.set_params(topology_filename= "./topologies/conv_nets/alexnet.csv",
                                             single_arr_config_file=config_file,
                                             grid_rows=size[0], grid_cols=size[1], dataflow='os')
 
