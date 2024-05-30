@@ -57,17 +57,6 @@
     {
         "topologies": "alexnet.csv",
         "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": 278963.0,
-        "util": 36.90257534153275,
-        "ifmapread": 7225184.0,
-        "filterread": 34469.0,
-        "ofmapwrite": 287264.0
-    },
-    {
-        "topologies": "alexnet.csv",
-        "gridsize": "64",
         "gridconfig": "2&32",
         "layerID": 0,
         "cycle": 139850.0,
@@ -119,17 +108,6 @@
         "ifmapread": 2408448.0,
         "filterread": 1762560.0,
         "ofmapwrite": 30600.0
-    },
-    {
-        "topologies": "alexnet.csv",
-        "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": 139850.0,
-        "util": 73.6106766178048,
-        "ifmapread": 4970016.0,
-        "filterread": 68970.0,
-        "ofmapwrite": 287280.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -772,17 +750,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "1024",
-        "gridconfig": "1&1024",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 1.5012287338167423,
-        "ifmapread": 9482114.0,
-        "filterread": 8300.0,
-        "ofmapwrite": 761276.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
         "gridconfig": "128&8",
         "layerID": 0,
         "cycle": 7343.0,
@@ -1417,17 +1384,6 @@
         "ifmapread": 1603456.0,
         "filterread": 3641216.0,
         "ofmapwrite": 99313.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "128&8",
-        "layerID": 0,
-        "cycle": 7343.0,
-        "util": 94.62136558627265,
-        "ifmapread": 4236360.0,
-        "filterread": 1185408.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -2070,17 +2026,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "1024",
-        "gridconfig": "16&64",
-        "layerID": 0,
-        "cycle": 29069.0,
-        "util": 23.901912260483677,
-        "ifmapread": 793973.0,
-        "filterread": 8300.0,
-        "ofmapwrite": 46730.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
         "gridconfig": "2&512",
         "layerID": 0,
         "cycle": 231488.0,
@@ -2715,17 +2660,6 @@
         "ifmapread": 12743807.0,
         "filterread": 31615.0,
         "ofmapwrite": 48887.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "2&512",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 3.001471728556124,
-        "ifmapread": 4867679.0,
-        "filterread": 8300.0,
-        "ofmapwrite": 380189.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -3368,17 +3302,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "1024",
-        "gridconfig": "256&4",
-        "layerID": 0,
-        "cycle": 7343.0,
-        "util": 94.62136558627265,
-        "ifmapread": 2170968.0,
-        "filterread": 2343021.0,
-        "ofmapwrite": 762225.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
         "gridconfig": "32&32",
         "layerID": 0,
         "cycle": 14534.0,
@@ -4013,17 +3936,6 @@
         "ifmapread": 6414336.0,
         "filterread": 1040384.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "32&32",
-        "layerID": 0,
-        "cycle": 14534.0,
-        "util": 47.80546907251961,
-        "ifmapread": 8179680.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -4666,17 +4578,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "1024",
-        "gridconfig": "4&256",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 5.9990043817993435,
-        "ifmapread": 2540333.0,
-        "filterread": 8300.0,
-        "ofmapwrite": 189614.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
         "gridconfig": "64&16",
         "layerID": 0,
         "cycle": 7343.0,
@@ -5315,17 +5216,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "1024",
-        "gridconfig": "64&16",
-        "layerID": 0,
-        "cycle": 7343.0,
-        "util": 94.62136558627265,
-        "ifmapread": 5823120.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
         "gridconfig": "8&128",
         "layerID": 0,
         "cycle": 57986.0,
@@ -5960,17 +5850,6 @@
         "ifmapread": 3185279.0,
         "filterread": 31615.0,
         "ofmapwrite": 11549.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "8&128",
-        "layerID": 0,
-        "cycle": 57986.0,
-        "util": 11.982283439105991,
-        "ifmapread": 1376093.0,
-        "filterread": 8300.0,
-        "ofmapwrite": 94358.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -6613,17 +6492,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "128",
-        "gridconfig": "1&128",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 12.009829870533938,
-        "ifmapread": 9483010.0,
-        "filterread": 9196.0,
-        "ofmapwrite": 762172.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
         "gridconfig": "128&1",
         "layerID": 0,
         "cycle": 58751.0,
@@ -7258,17 +7126,6 @@
         "ifmapread": 200432.0,
         "filterread": 3641328.0,
         "ofmapwrite": 99425.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
-        "layerID": 0,
-        "cycle": 58751.0,
-        "util": 94.61009174311926,
-        "ifmapread": 529545.0,
-        "filterread": 1185408.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -7911,17 +7768,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "128",
-        "gridconfig": "16&8",
-        "layerID": 0,
-        "cycle": 58139.0,
-        "util": 95.60600457524208,
-        "ifmapread": 1611000.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
         "gridconfig": "2&64",
         "layerID": 0,
         "cycle": 231488.0,
@@ -8556,17 +8402,6 @@
         "ifmapread": 12828672.0,
         "filterread": 65024.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
-        "gridconfig": "2&64",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 24.01177382844899,
-        "ifmapread": 4868575.0,
-        "filterread": 9196.0,
-        "ofmapwrite": 381085.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -9209,17 +9044,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "128",
-        "gridconfig": "32&4",
-        "layerID": 0,
-        "cycle": 58139.0,
-        "util": 95.60600457524208,
-        "ifmapread": 1022460.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
         "gridconfig": "4&32",
         "layerID": 0,
         "cycle": 115820.0,
@@ -9854,17 +9678,6 @@
         "ifmapread": 6414336.0,
         "filterread": 130048.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
-        "gridconfig": "4&32",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 47.99203505439475,
-        "ifmapread": 5141280.0,
-        "filterread": 37044.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -10507,17 +10320,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "128",
-        "gridconfig": "64&2",
-        "layerID": 0,
-        "cycle": 58751.0,
-        "util": 94.61009174311926,
-        "ifmapread": 727890.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
         "gridconfig": "8&16",
         "layerID": 0,
         "cycle": 57986.0,
@@ -11152,17 +10954,6 @@
         "ifmapread": 3207168.0,
         "filterread": 260096.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "layerID": 0,
-        "cycle": 57986.0,
-        "util": 95.85826751284793,
-        "ifmapread": 2788080.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -11805,17 +11596,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "256",
-        "gridconfig": "1&256",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 6.004914935266969,
-        "ifmapread": 9482882.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 762044.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
         "gridconfig": "128&2",
         "layerID": 0,
         "cycle": 29375.0,
@@ -12450,17 +12230,6 @@
         "ifmapread": 400864.0,
         "filterread": 3641312.0,
         "ofmapwrite": 99409.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "128&2",
-        "layerID": 0,
-        "cycle": 29375.0,
-        "util": 94.61170212765957,
-        "ifmapread": 1059090.0,
-        "filterread": 1185408.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -13103,17 +12872,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "256",
-        "gridconfig": "16&16",
-        "layerID": 0,
-        "cycle": 29069.0,
-        "util": 95.6076490419347,
-        "ifmapread": 3222000.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
         "gridconfig": "2&128",
         "layerID": 0,
         "cycle": 231488.0,
@@ -13748,17 +13506,6 @@
         "ifmapread": 12744575.0,
         "filterread": 32383.0,
         "ofmapwrite": 49655.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 12.005886914224495,
-        "ifmapread": 4868447.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 380957.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -14401,17 +14148,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "256",
-        "gridconfig": "256&1",
-        "layerID": 0,
-        "cycle": 29375.0,
-        "util": 94.61170212765957,
-        "ifmapread": 542742.0,
-        "filterread": 2343030.0,
-        "ofmapwrite": 762234.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
         "gridconfig": "32&8",
         "layerID": 0,
         "cycle": 29069.0,
@@ -15046,17 +14782,6 @@
         "ifmapread": 1603584.0,
         "filterread": 1040384.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "32&8",
-        "layerID": 0,
-        "cycle": 29069.0,
-        "util": 95.6076490419347,
-        "ifmapread": 2044920.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -15699,17 +15424,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "256",
-        "gridconfig": "4&64",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 23.996017527197374,
-        "ifmapread": 2541101.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 190382.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
         "gridconfig": "64&4",
         "layerID": 0,
         "cycle": 29375.0,
@@ -16348,17 +16062,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "256",
-        "gridconfig": "64&4",
-        "layerID": 0,
-        "cycle": 29375.0,
-        "util": 94.61170212765957,
-        "ifmapread": 1455780.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
         "gridconfig": "8&32",
         "layerID": 0,
         "cycle": 57986.0,
@@ -16993,17 +16696,6 @@
         "ifmapread": 6414336.0,
         "filterread": 260096.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "8&32",
-        "layerID": 0,
-        "cycle": 57986.0,
-        "util": 47.929133756423965,
-        "ifmapread": 5576160.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -17646,17 +17338,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "512",
-        "gridconfig": "1&512",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 3.0024574676334845,
-        "ifmapread": 9482626.0,
-        "filterread": 8812.0,
-        "ofmapwrite": 761788.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
         "gridconfig": "128&4",
         "layerID": 0,
         "cycle": 14687.0,
@@ -18291,17 +17972,6 @@
         "ifmapread": 801728.0,
         "filterread": 3641280.0,
         "ofmapwrite": 99377.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "128&4",
-        "layerID": 0,
-        "cycle": 14687.0,
-        "util": 94.6149230612106,
-        "ifmapread": 2118180.0,
-        "filterread": 1185408.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -18944,17 +18614,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "512",
-        "gridconfig": "16&32",
-        "layerID": 0,
-        "cycle": 29069.0,
-        "util": 47.80382452096735,
-        "ifmapread": 6444000.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
         "gridconfig": "2&256",
         "layerID": 0,
         "cycle": 231488.0,
@@ -19589,17 +19248,6 @@
         "ifmapread": 12744319.0,
         "filterread": 32127.0,
         "ofmapwrite": 49399.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "2&256",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 6.002943457112248,
-        "ifmapread": 4868191.0,
-        "filterread": 8812.0,
-        "ofmapwrite": 380701.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -20242,17 +19890,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "512",
-        "gridconfig": "256&2",
-        "layerID": 0,
-        "cycle": 14687.0,
-        "util": 94.6149230612106,
-        "ifmapread": 1085484.0,
-        "filterread": 2343027.0,
-        "ofmapwrite": 762231.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
         "gridconfig": "32&16",
         "layerID": 0,
         "cycle": 14534.0,
@@ -20887,17 +20524,6 @@
         "ifmapread": 3207168.0,
         "filterread": 1040384.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "32&16",
-        "layerID": 0,
-        "cycle": 14534.0,
-        "util": 95.61093814503921,
-        "ifmapread": 4089840.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -21540,17 +21166,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "512",
-        "gridconfig": "4&128",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 11.998008763598687,
-        "ifmapread": 2540845.0,
-        "filterread": 8812.0,
-        "ofmapwrite": 190126.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
         "gridconfig": "512&1",
         "layerID": 0,
         "cycle": 14687.0,
@@ -22185,17 +21800,6 @@
         "ifmapread": 200328.0,
         "filterread": 12744584.0,
         "ofmapwrite": 99321.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "512&1",
-        "layerID": 0,
-        "cycle": 14687.0,
-        "util": 94.6149230612106,
-        "ifmapread": 568643.0,
-        "filterread": 4676798.0,
-        "ofmapwrite": 762230.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -22838,17 +22442,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "512",
-        "gridconfig": "64&8",
-        "layerID": 0,
-        "cycle": 14687.0,
-        "util": 94.6149230612106,
-        "ifmapread": 2911560.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
         "gridconfig": "8&64",
         "layerID": 0,
         "cycle": 57986.0,
@@ -23483,17 +23076,6 @@
         "ifmapread": 12828672.0,
         "filterread": 260096.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "8&64",
-        "layerID": 0,
-        "cycle": 57986.0,
-        "util": 23.964566878211983,
-        "ifmapread": 1376605.0,
-        "filterread": 8812.0,
-        "ofmapwrite": 94870.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -24136,17 +23718,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 24.019659741067876,
-        "ifmapread": 9483074.0,
-        "filterread": 9260.0,
-        "ofmapwrite": 762236.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "64",
         "gridconfig": "16&4",
         "layerID": 0,
         "cycle": 116279.0,
@@ -24781,17 +24352,6 @@
         "ifmapread": 801792.0,
         "filterread": 520192.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "layerID": 0,
-        "cycle": 116279.0,
-        "util": 95.60518236310942,
-        "ifmapread": 805500.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -25434,17 +24994,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 48.02354765689798,
-        "ifmapread": 4924320.0,
-        "filterread": 18522.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "64",
         "gridconfig": "32&2",
         "layerID": 0,
         "cycle": 116279.0,
@@ -26079,17 +25628,6 @@
         "ifmapread": 400896.0,
         "filterread": 1040384.0,
         "ofmapwrite": 99441.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "layerID": 0,
-        "cycle": 116279.0,
-        "util": 95.60518236310942,
-        "ifmapread": 511230.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -26732,17 +26270,6 @@
     {
         "topologies": "Googlenet.csv",
         "gridsize": "64",
-        "gridconfig": "4&16",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 95.9840701087895,
-        "ifmapread": 2570640.0,
-        "filterread": 37044.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "64",
         "gridconfig": "64&1",
         "layerID": 0,
         "cycle": 117503.0,
@@ -27377,17 +26904,6 @@
         "ifmapread": 200445.0,
         "filterread": 1983229.0,
         "ofmapwrite": 99438.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "64",
-        "gridconfig": "64&1",
-        "layerID": 0,
-        "cycle": 117503.0,
-        "util": 94.6092865714067,
-        "ifmapread": 363945.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -28028,17 +27544,6 @@
         "ofmapwrite": 99441.0
     },
     {
-        "topologies": "Googlenet.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "layerID": 0,
-        "cycle": 115973.0,
-        "util": 95.8574409560846,
-        "ifmapread": 1394040.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
-    },
-    {
         "topologies": "mobilenet.csv",
         "gridsize": "1024",
         "gridconfig": "1&1024",
@@ -28334,17 +27839,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "1&1024",
-        "layerID": 0,
-        "cycle": 103487.0,
-        "util": 0.6392107221196865,
-        "ifmapread": 4665282.0,
-        "filterread": -156.0,
-        "ofmapwrite": 387840.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -28646,17 +28140,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "1024",
-        "gridconfig": "1024&1",
-        "layerID": 0,
-        "cycle": 1055.0,
-        "util": 62.70142180094786,
-        "ifmapread": 233635.0,
-        "filterread": 807646.0,
-        "ofmapwrite": 388774.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
         "gridconfig": "128&8",
         "layerID": 0,
         "cycle": 824.0,
@@ -28950,17 +28433,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "128&8",
-        "layerID": 0,
-        "cycle": 824.0,
-        "util": 80.27912621359224,
-        "ifmapread": 1808952.0,
-        "filterread": 107136.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -29262,17 +28734,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "1024",
-        "gridconfig": "16&64",
-        "layerID": 0,
-        "cycle": 6467.0,
-        "util": 10.228854182774084,
-        "ifmapread": 311487.0,
-        "filterread": -156.0,
-        "ofmapwrite": 23311.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
         "gridconfig": "2&512",
         "layerID": 0,
         "cycle": 51743.0,
@@ -29566,17 +29027,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "2&512",
-        "layerID": 0,
-        "cycle": 51743.0,
-        "util": 1.2784337978083993,
-        "ifmapread": 2353023.0,
-        "filterread": -156.0,
-        "ofmapwrite": 193439.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -29878,17 +29328,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "1024",
-        "gridconfig": "256&4",
-        "layerID": 0,
-        "cycle": 857.0,
-        "util": 77.18786464410735,
-        "ifmapread": 909072.0,
-        "filterread": 214272.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
         "gridconfig": "32&32",
         "layerID": 0,
         "cycle": 3233.0,
@@ -30182,17 +29621,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "32&32",
-        "layerID": 0,
-        "cycle": 3233.0,
-        "util": 20.46087225487164,
-        "ifmapread": 165849.0,
-        "filterread": -156.0,
-        "ofmapwrite": 11159.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -30494,17 +29922,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "1024",
-        "gridconfig": "4&256",
-        "layerID": 0,
-        "cycle": 25871.0,
-        "util": 2.5569170113254223,
-        "ifmapread": 1186431.0,
-        "filterread": -156.0,
-        "ofmapwrite": 96223.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
         "gridconfig": "512&2",
         "layerID": 0,
         "cycle": 923.0,
@@ -30798,17 +30215,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "512&2",
-        "layerID": 0,
-        "cycle": 923.0,
-        "util": 71.66847237269772,
-        "ifmapread": 459130.0,
-        "filterread": 420154.0,
-        "ofmapwrite": 388813.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -31110,17 +30516,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "1024",
-        "gridconfig": "64&16",
-        "layerID": 0,
-        "cycle": 1616.0,
-        "util": 40.93440594059406,
-        "ifmapread": 3090384.0,
-        "filterread": 53568.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
         "gridconfig": "8&128",
         "layerID": 0,
         "cycle": 12935.0,
@@ -31414,17 +30809,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "8&128",
-        "layerID": 0,
-        "cycle": 12935.0,
-        "util": 5.114031696946269,
-        "ifmapread": 603135.0,
-        "filterread": -156.0,
-        "ofmapwrite": 47615.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -31726,17 +31110,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "128",
-        "gridconfig": "1&128",
-        "layerID": 0,
-        "cycle": 103487.0,
-        "util": 5.113685776957492,
-        "ifmapread": 4666178.0,
-        "filterread": 740.0,
-        "ofmapwrite": 388736.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "128",
         "gridconfig": "128&1",
         "layerID": 0,
         "cycle": 6599.0,
@@ -32030,17 +31403,6 @@
         "ifmapread": -128.0,
         "filterread": -128.0,
         "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
-        "layerID": 0,
-        "cycle": 6599.0,
-        "util": 80.19396878314896,
-        "ifmapread": 226119.0,
-        "filterread": 107136.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -32342,17 +31704,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "128",
-        "gridconfig": "16&8",
-        "layerID": 0,
-        "cycle": 6467.0,
-        "util": 81.83083346219267,
-        "ifmapread": 1284840.0,
-        "filterread": 13392.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "128",
         "gridconfig": "2&64",
         "layerID": 0,
         "cycle": 51743.0,
@@ -32646,17 +31997,6 @@
         "ifmapread": -128.0,
         "filterread": -128.0,
         "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "128",
-        "gridconfig": "2&64",
-        "layerID": 0,
-        "cycle": 51743.0,
-        "util": 10.227470382467194,
-        "ifmapread": 2353919.0,
-        "filterread": 740.0,
-        "ofmapwrite": 194335.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -32958,17 +32298,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "128",
-        "gridconfig": "32&4",
-        "layerID": 0,
-        "cycle": 6467.0,
-        "util": 81.83083346219267,
-        "ifmapread": 685812.0,
-        "filterread": 26784.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "128",
         "gridconfig": "4&32",
         "layerID": 0,
         "cycle": 25871.0,
@@ -33262,17 +32591,6 @@
         "ifmapread": -128.0,
         "filterread": -128.0,
         "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "128",
-        "gridconfig": "4&32",
-        "layerID": 0,
-        "cycle": 25871.0,
-        "util": 20.455336090603378,
-        "ifmapread": 1187327.0,
-        "filterread": 740.0,
-        "ofmapwrite": 97119.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -33574,17 +32892,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "128",
-        "gridconfig": "64&2",
-        "layerID": 0,
-        "cycle": 6467.0,
-        "util": 81.83083346219267,
-        "ifmapread": 386298.0,
-        "filterread": 53568.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "128",
         "gridconfig": "8&16",
         "layerID": 0,
         "cycle": 12935.0,
@@ -33878,17 +33185,6 @@
         "ifmapread": -128.0,
         "filterread": -128.0,
         "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "layerID": 0,
-        "cycle": 12935.0,
-        "util": 40.912253575570155,
-        "ifmapread": 2483664.0,
-        "filterread": 6696.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -34190,17 +33486,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "256",
-        "gridconfig": "1&256",
-        "layerID": 0,
-        "cycle": 103487.0,
-        "util": 2.556842888478746,
-        "ifmapread": 4666050.0,
-        "filterread": 612.0,
-        "ofmapwrite": 388608.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "256",
         "gridconfig": "128&2",
         "layerID": 0,
         "cycle": 3299.0,
@@ -34494,17 +33779,6 @@
         "ifmapread": -256.0,
         "filterread": -256.0,
         "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "256",
-        "gridconfig": "128&2",
-        "layerID": 0,
-        "cycle": 3299.0,
-        "util": 80.20612306759625,
-        "ifmapread": 452238.0,
-        "filterread": 107136.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -34806,17 +34080,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "256",
-        "gridconfig": "16&16",
-        "layerID": 0,
-        "cycle": 6467.0,
-        "util": 40.915416731096336,
-        "ifmapread": 2569680.0,
-        "filterread": 13392.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "256",
         "gridconfig": "2&128",
         "layerID": 0,
         "cycle": 51743.0,
@@ -35110,17 +34373,6 @@
         "ifmapread": -256.0,
         "filterread": -256.0,
         "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
-        "layerID": 0,
-        "cycle": 51743.0,
-        "util": 5.113735191233597,
-        "ifmapread": 2353791.0,
-        "filterread": 612.0,
-        "ofmapwrite": 194207.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -35422,17 +34674,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "256",
-        "gridconfig": "256&1",
-        "layerID": 0,
-        "cycle": 3431.0,
-        "util": 77.12037306907608,
-        "ifmapread": 227268.0,
-        "filterread": 214272.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "256",
         "gridconfig": "32&8",
         "layerID": 0,
         "cycle": 3233.0,
@@ -35726,17 +34967,6 @@
         "ifmapread": -256.0,
         "filterread": -256.0,
         "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "256",
-        "gridconfig": "32&8",
-        "layerID": 0,
-        "cycle": 3233.0,
-        "util": 81.84348901948655,
-        "ifmapread": 1371624.0,
-        "filterread": 26784.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -36038,17 +35268,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "256",
-        "gridconfig": "4&64",
-        "layerID": 0,
-        "cycle": 25871.0,
-        "util": 10.227668045301689,
-        "ifmapread": 1187199.0,
-        "filterread": 612.0,
-        "ofmapwrite": 96991.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "256",
         "gridconfig": "64&4",
         "layerID": 0,
         "cycle": 3233.0,
@@ -36346,17 +35565,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "256",
-        "gridconfig": "64&4",
-        "layerID": 0,
-        "cycle": 3233.0,
-        "util": 81.84348901948655,
-        "ifmapread": 772596.0,
-        "filterread": 53568.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "256",
         "gridconfig": "8&32",
         "layerID": 0,
         "cycle": 12935.0,
@@ -36650,17 +35858,6 @@
         "ifmapread": -256.0,
         "filterread": -256.0,
         "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "256",
-        "gridconfig": "8&32",
-        "layerID": 0,
-        "cycle": 12935.0,
-        "util": 20.456126787785077,
-        "ifmapread": 603903.0,
-        "filterread": 612.0,
-        "ofmapwrite": 48383.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -36962,17 +36159,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "512",
-        "gridconfig": "1&512",
-        "layerID": 0,
-        "cycle": 103487.0,
-        "util": 1.278421444239373,
-        "ifmapread": 4665794.0,
-        "filterread": 356.0,
-        "ofmapwrite": 388352.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
         "gridconfig": "128&4",
         "layerID": 0,
         "cycle": 1649.0,
@@ -37266,17 +36452,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "128&4",
-        "layerID": 0,
-        "cycle": 1649.0,
-        "util": 80.23044269254093,
-        "ifmapread": 904476.0,
-        "filterread": 107136.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -37578,17 +36753,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "512",
-        "gridconfig": "16&32",
-        "layerID": 0,
-        "cycle": 6467.0,
-        "util": 20.457708365548168,
-        "ifmapread": 311999.0,
-        "filterread": 356.0,
-        "ofmapwrite": 23823.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
         "gridconfig": "2&256",
         "layerID": 0,
         "cycle": 51743.0,
@@ -37882,17 +37046,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "2&256",
-        "layerID": 0,
-        "cycle": 51743.0,
-        "util": 2.5568675956167985,
-        "ifmapread": 2353535.0,
-        "filterread": 356.0,
-        "ofmapwrite": 193951.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -38194,17 +37347,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "512",
-        "gridconfig": "256&2",
-        "layerID": 0,
-        "cycle": 1715.0,
-        "util": 77.14285714285715,
-        "ifmapread": 454536.0,
-        "filterread": 214272.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
         "gridconfig": "32&16",
         "layerID": 0,
         "cycle": 3233.0,
@@ -38498,17 +37640,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "32&16",
-        "layerID": 0,
-        "cycle": 3233.0,
-        "util": 40.92174450974328,
-        "ifmapread": 2743248.0,
-        "filterread": 26784.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -38810,17 +37941,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "512",
-        "gridconfig": "4&128",
-        "layerID": 0,
-        "cycle": 25871.0,
-        "util": 5.1138340226508445,
-        "ifmapread": 1186943.0,
-        "filterread": 356.0,
-        "ofmapwrite": 96735.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
         "gridconfig": "512&1",
         "layerID": 0,
         "cycle": 1847.0,
@@ -39114,17 +38234,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "512&1",
-        "layerID": 0,
-        "cycle": 1847.0,
-        "util": 71.62966973470492,
-        "ifmapread": 229565.0,
-        "filterread": 420164.0,
-        "ofmapwrite": 388823.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -39426,17 +38535,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "512",
-        "gridconfig": "64&8",
-        "layerID": 0,
-        "cycle": 1616.0,
-        "util": 81.86881188118812,
-        "ifmapread": 1545192.0,
-        "filterread": 53568.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
         "gridconfig": "8&64",
         "layerID": 0,
         "cycle": 12935.0,
@@ -39730,17 +38828,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "8&64",
-        "layerID": 0,
-        "cycle": 12935.0,
-        "util": 10.228063393892539,
-        "ifmapread": 603647.0,
-        "filterread": 356.0,
-        "ofmapwrite": 48127.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -40042,17 +39129,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": 103487.0,
-        "util": 10.227371553914985,
-        "ifmapread": 4666242.0,
-        "filterread": 804.0,
-        "ofmapwrite": 388800.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "64",
         "gridconfig": "16&4",
         "layerID": 0,
         "cycle": 12935.0,
@@ -40346,17 +39422,6 @@
         "ifmapread": -64.0,
         "filterread": -64.0,
         "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "layerID": 0,
-        "cycle": 12935.0,
-        "util": 81.82450715114031,
-        "ifmapread": 642420.0,
-        "filterread": 13392.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -40658,17 +39723,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": 51743.0,
-        "util": 20.45494076493439,
-        "ifmapread": 2353983.0,
-        "filterread": 804.0,
-        "ofmapwrite": 194399.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "64",
         "gridconfig": "32&2",
         "layerID": 0,
         "cycle": 12935.0,
@@ -40962,17 +40016,6 @@
         "ifmapread": -64.0,
         "filterread": -64.0,
         "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "layerID": 0,
-        "cycle": 12935.0,
-        "util": 81.82450715114031,
-        "ifmapread": 342906.0,
-        "filterread": 26784.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -41274,17 +40317,6 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "64",
-        "gridconfig": "4&16",
-        "layerID": 0,
-        "cycle": 25871.0,
-        "util": 40.910672181206756,
-        "ifmapread": 2440656.0,
-        "filterread": 3348.0,
-        "ofmapwrite": 388833.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "64",
         "gridconfig": "64&1",
         "layerID": 0,
         "cycle": 12935.0,
@@ -41578,17 +40610,6 @@
         "ifmapread": -64.0,
         "filterread": -64.0,
         "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "64",
-        "gridconfig": "64&1",
-        "layerID": 0,
-        "cycle": 12935.0,
-        "util": 81.82450715114031,
-        "ifmapread": 193149.0,
-        "filterread": 53568.0,
-        "ofmapwrite": 388833.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -41888,17 +40909,6 @@
         "ofmapwrite": -64.0
     },
     {
-        "topologies": "mobilenet.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "layerID": 0,
-        "cycle": 12935.0,
-        "util": 81.82450715114031,
-        "ifmapread": 1241832.0,
-        "filterread": 6696.0,
-        "ofmapwrite": 388833.0
-    },
-    {
         "topologies": "Resnet18.csv",
         "gridsize": "1024",
         "gridconfig": "1&1024",
@@ -42132,17 +41142,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "1024",
-        "gridconfig": "1&1024",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 1.5012287338167423,
-        "ifmapread": 9482114.0,
-        "filterread": 8300.0,
-        "ofmapwrite": 761276.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "1024",
         "gridconfig": "2&512",
         "layerID": 0,
         "cycle": 231488.0,
@@ -42370,17 +41369,6 @@
         "ifmapread": 6826623.0,
         "filterread": 145407.0,
         "ofmapwrite": 42029.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "1024",
-        "gridconfig": "2&512",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 3.001471728556124,
-        "ifmapread": 4867679.0,
-        "filterread": 8300.0,
-        "ofmapwrite": 380189.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -42616,17 +41604,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "128",
-        "gridconfig": "1&128",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 12.009829870533938,
-        "ifmapread": 9483010.0,
-        "filterread": 9196.0,
-        "ofmapwrite": 762172.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
         "gridconfig": "128&1",
         "layerID": 0,
         "cycle": 58751.0,
@@ -42854,17 +41831,6 @@
         "ifmapread": 359025.0,
         "filterread": 16532337.0,
         "ofmapwrite": 85710.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
-        "layerID": 0,
-        "cycle": 58751.0,
-        "util": 94.61009174311926,
-        "ifmapread": 529545.0,
-        "filterread": 1185408.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -43100,17 +42066,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "128",
-        "gridconfig": "16&8",
-        "layerID": 0,
-        "cycle": 58139.0,
-        "util": 95.60600457524208,
-        "ifmapread": 1611000.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
         "gridconfig": "2&64",
         "layerID": 0,
         "cycle": 231488.0,
@@ -43338,17 +42293,6 @@
         "ifmapread": 6873088.0,
         "filterread": 292608.0,
         "ofmapwrite": 85725.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
-        "gridconfig": "2&64",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 24.01177382844899,
-        "ifmapread": 4868575.0,
-        "filterread": 9196.0,
-        "ofmapwrite": 381085.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -43584,17 +42528,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "128",
-        "gridconfig": "32&4",
-        "layerID": 0,
-        "cycle": 58139.0,
-        "util": 95.60600457524208,
-        "ifmapread": 1022460.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
         "gridconfig": "4&32",
         "layerID": 0,
         "cycle": 115820.0,
@@ -43822,17 +42755,6 @@
         "ifmapread": 3911680.0,
         "filterread": 585216.0,
         "ofmapwrite": 85725.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
-        "gridconfig": "4&32",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 47.99203505439475,
-        "ifmapread": 5141280.0,
-        "filterread": 37044.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -44068,17 +42990,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "128",
-        "gridconfig": "64&2",
-        "layerID": 0,
-        "cycle": 58751.0,
-        "util": 94.61009174311926,
-        "ifmapread": 727890.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
         "gridconfig": "8&16",
         "layerID": 0,
         "cycle": 57986.0,
@@ -44306,17 +43217,6 @@
         "ifmapread": 2435072.0,
         "filterread": 1170432.0,
         "ofmapwrite": 85725.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "layerID": 0,
-        "cycle": 57986.0,
-        "util": 95.85826751284793,
-        "ifmapread": 2788080.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -44552,17 +43452,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "256",
-        "gridconfig": "1&256",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 6.004914935266969,
-        "ifmapread": 9482882.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 762044.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
         "gridconfig": "128&2",
         "layerID": 0,
         "cycle": 29375.0,
@@ -44790,17 +43679,6 @@
         "ifmapread": 718050.0,
         "filterread": 16532322.0,
         "ofmapwrite": 85695.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "128&2",
-        "layerID": 0,
-        "cycle": 29375.0,
-        "util": 94.61170212765957,
-        "ifmapread": 1059090.0,
-        "filterread": 1185408.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -45036,17 +43914,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "256",
-        "gridconfig": "16&16",
-        "layerID": 0,
-        "cycle": 29069.0,
-        "util": 95.6076490419347,
-        "ifmapread": 3222000.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
         "gridconfig": "2&128",
         "layerID": 0,
         "cycle": 231488.0,
@@ -45274,17 +44141,6 @@
         "ifmapread": 6827391.0,
         "filterread": 146175.0,
         "ofmapwrite": 42797.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 12.005886914224495,
-        "ifmapread": 4868447.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 380957.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -45520,17 +44376,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "256",
-        "gridconfig": "256&1",
-        "layerID": 0,
-        "cycle": 29375.0,
-        "util": 94.61170212765957,
-        "ifmapread": 542742.0,
-        "filterread": 2343030.0,
-        "ofmapwrite": 762234.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
         "gridconfig": "32&8",
         "layerID": 0,
         "cycle": 29069.0,
@@ -45758,17 +44603,6 @@
         "ifmapread": 2405368.0,
         "filterread": 4535416.0,
         "ofmapwrite": 85717.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "32&8",
-        "layerID": 0,
-        "cycle": 29069.0,
-        "util": 95.6076490419347,
-        "ifmapread": 2044920.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -46004,17 +44838,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "256",
-        "gridconfig": "4&64",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 23.996017527197374,
-        "ifmapread": 2541101.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 190382.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
         "gridconfig": "64&4",
         "layerID": 0,
         "cycle": 29375.0,
@@ -46246,17 +45069,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "256",
-        "gridconfig": "64&4",
-        "layerID": 0,
-        "cycle": 29375.0,
-        "util": 94.61170212765957,
-        "ifmapread": 1455780.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
         "gridconfig": "8&32",
         "layerID": 0,
         "cycle": 57986.0,
@@ -46484,17 +45296,6 @@
         "ifmapread": 4870144.0,
         "filterread": 1170432.0,
         "ofmapwrite": 85725.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "8&32",
-        "layerID": 0,
-        "cycle": 57986.0,
-        "util": 47.929133756423965,
-        "ifmapread": 5576160.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -46730,17 +45531,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "512",
-        "gridconfig": "1&512",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 3.0024574676334845,
-        "ifmapread": 9482626.0,
-        "filterread": 8812.0,
-        "ofmapwrite": 761788.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
         "gridconfig": "128&4",
         "layerID": 0,
         "cycle": 14687.0,
@@ -46968,17 +45758,6 @@
         "ifmapread": 1436100.0,
         "filterread": 16532292.0,
         "ofmapwrite": 85665.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "128&4",
-        "layerID": 0,
-        "cycle": 14687.0,
-        "util": 94.6149230612106,
-        "ifmapread": 2118180.0,
-        "filterread": 1185408.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -47214,17 +45993,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "512",
-        "gridconfig": "16&32",
-        "layerID": 0,
-        "cycle": 29069.0,
-        "util": 47.80382452096735,
-        "ifmapread": 6444000.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
         "gridconfig": "2&256",
         "layerID": 0,
         "cycle": 231488.0,
@@ -47452,17 +46220,6 @@
         "ifmapread": 6827135.0,
         "filterread": 145919.0,
         "ofmapwrite": 42541.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "2&256",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 6.002943457112248,
-        "ifmapread": 4868191.0,
-        "filterread": 8812.0,
-        "ofmapwrite": 380701.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -47698,17 +46455,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "512",
-        "gridconfig": "256&2",
-        "layerID": 0,
-        "cycle": 14687.0,
-        "util": 94.6149230612106,
-        "ifmapread": 1085484.0,
-        "filterread": 2343027.0,
-        "ofmapwrite": 762231.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
         "gridconfig": "32&16",
         "layerID": 0,
         "cycle": 14534.0,
@@ -47936,17 +46682,6 @@
         "ifmapread": 4810736.0,
         "filterread": 4535408.0,
         "ofmapwrite": 85709.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "32&16",
-        "layerID": 0,
-        "cycle": 14534.0,
-        "util": 95.61093814503921,
-        "ifmapread": 4089840.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -48182,17 +46917,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "512",
-        "gridconfig": "4&128",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 11.998008763598687,
-        "ifmapread": 2540845.0,
-        "filterread": 8812.0,
-        "ofmapwrite": 190126.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
         "gridconfig": "512&1",
         "layerID": 0,
         "cycle": 14687.0,
@@ -48420,17 +47144,6 @@
         "ifmapread": 518610.0,
         "filterread": 49450578.0,
         "ofmapwrite": 85551.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "512&1",
-        "layerID": 0,
-        "cycle": 14687.0,
-        "util": 94.6149230612106,
-        "ifmapread": 568643.0,
-        "filterread": 4676798.0,
-        "ofmapwrite": 762230.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -48666,17 +47379,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "512",
-        "gridconfig": "64&8",
-        "layerID": 0,
-        "cycle": 14687.0,
-        "util": 94.6149230612106,
-        "ifmapread": 2911560.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
         "gridconfig": "8&64",
         "layerID": 0,
         "cycle": 57986.0,
@@ -48904,17 +47606,6 @@
         "ifmapread": 9740288.0,
         "filterread": 1170432.0,
         "ofmapwrite": 85725.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "8&64",
-        "layerID": 0,
-        "cycle": 57986.0,
-        "util": 23.964566878211983,
-        "ifmapread": 1376605.0,
-        "filterread": 8812.0,
-        "ofmapwrite": 94870.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -49150,17 +47841,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 24.019659741067876,
-        "ifmapread": 9483074.0,
-        "filterread": 9260.0,
-        "ofmapwrite": 762236.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "64",
         "gridconfig": "16&4",
         "layerID": 0,
         "cycle": 116279.0,
@@ -49388,17 +48068,6 @@
         "ifmapread": 846336.0,
         "filterread": 2340864.0,
         "ofmapwrite": 85725.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "layerID": 0,
-        "cycle": 116279.0,
-        "util": 95.60518236310942,
-        "ifmapread": 805500.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -49634,17 +48303,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 48.02354765689798,
-        "ifmapread": 4924320.0,
-        "filterread": 18522.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "64",
         "gridconfig": "32&2",
         "layerID": 0,
         "cycle": 116279.0,
@@ -49872,17 +48530,6 @@
         "ifmapread": 601342.0,
         "filterread": 4535422.0,
         "ofmapwrite": 85723.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "layerID": 0,
-        "cycle": 116279.0,
-        "util": 95.60518236310942,
-        "ifmapread": 511230.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -50118,17 +48765,6 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "64",
-        "gridconfig": "4&16",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 95.9840701087895,
-        "ifmapread": 2570640.0,
-        "filterread": 37044.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "64",
         "gridconfig": "64&1",
         "layerID": 0,
         "cycle": 117503.0,
@@ -50356,17 +48992,6 @@
         "ifmapread": 324478.0,
         "filterread": 9070846.0,
         "ofmapwrite": 85723.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "64",
-        "gridconfig": "64&1",
-        "layerID": 0,
-        "cycle": 117503.0,
-        "util": 94.6092865714067,
-        "ifmapread": 363945.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -50600,17 +49225,6 @@
         "ofmapwrite": 85725.0
     },
     {
-        "topologies": "Resnet18.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "layerID": 0,
-        "cycle": 115973.0,
-        "util": 95.8574409560846,
-        "ifmapread": 1394040.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
-    },
-    {
         "topologies": "test.csv",
         "gridsize": "64",
         "gridconfig": "1&64",
@@ -50620,28 +49234,6 @@
         "ifmapread": 589824.0,
         "filterread": 661824.0,
         "ofmapwrite": 9192.0
-    },
-    {
-        "topologies": "test.csv",
-        "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": 20807.0,
-        "util": 77.85841303407507,
-        "ifmapread": 589824.0,
-        "filterread": 661824.0,
-        "ofmapwrite": 9192.0
-    },
-    {
-        "topologies": "test.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "layerID": 0,
-        "cycle": 41615.0,
-        "util": 38.92827105610957,
-        "ifmapread": 119792.0,
-        "filterread": 7941872.0,
-        "ofmapwrite": 9176.0
     },
     {
         "topologies": "test.csv",
@@ -50668,28 +49260,6 @@
     {
         "topologies": "test.csv",
         "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": 20807.0,
-        "util": 77.85841303407507,
-        "ifmapread": 393216.0,
-        "filterread": 1323648.0,
-        "ofmapwrite": 9192.0
-    },
-    {
-        "topologies": "test.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "layerID": 0,
-        "cycle": 83231.0,
-        "util": 19.463901671252298,
-        "ifmapread": 82928.0,
-        "filterread": 15883760.0,
-        "ofmapwrite": 9176.0
-    },
-    {
-        "topologies": "test.csv",
-        "gridsize": "64",
         "gridconfig": "32&2",
         "layerID": 0,
         "cycle": 83231.0,
@@ -50712,17 +49282,6 @@
     {
         "topologies": "test.csv",
         "gridsize": "64",
-        "gridconfig": "4&16",
-        "layerID": 0,
-        "cycle": 20807.0,
-        "util": 77.85841303407507,
-        "ifmapread": 282624.0,
-        "filterread": 2647296.0,
-        "ofmapwrite": 9192.0
-    },
-    {
-        "topologies": "test.csv",
-        "gridsize": "64",
         "gridconfig": "64&1",
         "layerID": 0,
         "cycle": 166463.0,
@@ -50730,28 +49289,6 @@
         "ifmapread": 41432.0,
         "filterread": 15883736.0,
         "ofmapwrite": 9152.0
-    },
-    {
-        "topologies": "test.csv",
-        "gridsize": "64",
-        "gridconfig": "64&1",
-        "layerID": 0,
-        "cycle": 166463.0,
-        "util": 9.73189237247917,
-        "ifmapread": 41432.0,
-        "filterread": 15883736.0,
-        "ofmapwrite": 9152.0
-    },
-    {
-        "topologies": "test.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "layerID": 0,
-        "cycle": 20807.0,
-        "util": 77.85841303407507,
-        "ifmapread": 184304.0,
-        "filterread": 3970928.0,
-        "ofmapwrite": 9176.0
     },
     {
         "topologies": "test.csv",
@@ -50855,17 +49392,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "1024",
-        "gridconfig": "1&1024",
-        "layerID": 0,
-        "cycle": 11447.0,
-        "util": 6.035560627238578,
-        "ifmapread": 1559831.0,
-        "filterread": 38246.0,
-        "ofmapwrite": 72671.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
         "gridconfig": "1024&1",
         "layerID": 0,
         "cycle": 10175.0,
@@ -50950,17 +49476,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
-        "gridconfig": "1024&1",
-        "layerID": 0,
-        "cycle": 10175.0,
-        "util": 6.7900798525798525,
-        "ifmapread": 43328.0,
-        "filterread": 11235584.0,
-        "ofmapwrite": 72704.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -51053,17 +49568,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "1024",
-        "gridconfig": "128&8",
-        "layerID": 0,
-        "cycle": 1271.0,
-        "util": 54.35803501180173,
-        "ifmapread": 204560.0,
-        "filterread": 3745184.0,
-        "ofmapwrite": 73184.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
         "gridconfig": "16&64",
         "layerID": 0,
         "cycle": 794.0,
@@ -51148,17 +49652,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
-        "gridconfig": "16&64",
-        "layerID": 0,
-        "cycle": 794.0,
-        "util": 87.01393261964736,
-        "ifmapread": 1014016.0,
-        "filterread": 624240.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -51251,17 +49744,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "1024",
-        "gridconfig": "2&512",
-        "layerID": 0,
-        "cycle": 5882.0,
-        "util": 11.745845375722544,
-        "ifmapread": 870566.0,
-        "filterread": 38246.0,
-        "ofmapwrite": 36206.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
         "gridconfig": "256&4",
         "layerID": 0,
         "cycle": 2543.0,
@@ -51346,17 +49828,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
-        "gridconfig": "256&4",
-        "layerID": 0,
-        "cycle": 2543.0,
-        "util": 27.16832972866693,
-        "ifmapread": 120320.0,
-        "filterread": 5617712.0,
-        "ofmapwrite": 72992.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -51449,17 +49920,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "1024",
-        "gridconfig": "32&32",
-        "layerID": 0,
-        "cycle": 953.0,
-        "util": 72.49639296956978,
-        "ifmapread": 613536.0,
-        "filterread": 1131339.0,
-        "ofmapwrite": 73344.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
         "gridconfig": "4&256",
         "layerID": 0,
         "cycle": 3020.0,
@@ -51544,17 +50004,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
-        "gridconfig": "4&256",
-        "layerID": 0,
-        "cycle": 3020.0,
-        "util": 22.877173013245034,
-        "ifmapread": 523766.0,
-        "filterread": 38246.0,
-        "ofmapwrite": 17846.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -51647,17 +50096,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "1024",
-        "gridconfig": "512&2",
-        "layerID": 0,
-        "cycle": 5087.0,
-        "util": 13.58149449577354,
-        "ifmapread": 87680.0,
-        "filterread": 11235872.0,
-        "ofmapwrite": 72992.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
         "gridconfig": "64&16",
         "layerID": 0,
         "cycle": 1271.0,
@@ -51746,17 +50184,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "1024",
-        "gridconfig": "64&16",
-        "layerID": 0,
-        "cycle": 1271.0,
-        "util": 54.35803501180173,
-        "ifmapread": 350784.0,
-        "filterread": 2262774.0,
-        "ofmapwrite": 73344.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
         "gridconfig": "8&128",
         "layerID": 0,
         "cycle": 1589.0,
@@ -51841,17 +50268,6 @@
         "ifmapread": -1024.0,
         "filterread": -1024.0,
         "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
-        "gridconfig": "8&128",
-        "layerID": 0,
-        "cycle": 1589.0,
-        "util": 43.47958621774701,
-        "ifmapread": 1392640.0,
-        "filterread": 312120.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -51944,17 +50360,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "128",
-        "gridconfig": "1&128",
-        "layerID": 0,
-        "cycle": 11447.0,
-        "util": 48.28448501790862,
-        "ifmapread": 783360.0,
-        "filterread": 39015.0,
-        "ofmapwrite": 73440.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "128",
         "gridconfig": "128&1",
         "layerID": 0,
         "cycle": 10175.0,
@@ -52039,17 +50444,6 @@
         "ifmapread": -128.0,
         "filterread": -128.0,
         "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
-        "layerID": 0,
-        "cycle": 10175.0,
-        "util": 54.32063882063882,
-        "ifmapread": 25570.0,
-        "filterread": 3745408.0,
-        "ofmapwrite": 73408.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -52142,17 +50536,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "128",
-        "gridconfig": "16&8",
-        "layerID": 0,
-        "cycle": 6359.0,
-        "util": 86.91814750746973,
-        "ifmapread": 126752.0,
-        "filterread": 624240.0,
-        "ofmapwrite": 73440.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "128",
         "gridconfig": "2&64",
         "layerID": 0,
         "cycle": 5882.0,
@@ -52237,17 +50620,6 @@
         "ifmapread": -128.0,
         "filterread": -128.0,
         "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "128",
-        "gridconfig": "2&64",
-        "layerID": 0,
-        "cycle": 5882.0,
-        "util": 93.96676300578035,
-        "ifmapread": 435200.0,
-        "filterread": 78030.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -52340,17 +50712,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "128",
-        "gridconfig": "32&4",
-        "layerID": 0,
-        "cycle": 7631.0,
-        "util": 72.42989123312803,
-        "ifmapread": 76692.0,
-        "filterread": 1131423.0,
-        "ofmapwrite": 73428.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "128",
         "gridconfig": "4&32",
         "layerID": 0,
         "cycle": 6041.0,
@@ -52435,17 +50796,6 @@
         "ifmapread": -128.0,
         "filterread": -128.0,
         "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "128",
-        "gridconfig": "4&32",
-        "layerID": 0,
-        "cycle": 6041.0,
-        "util": 91.49354411521271,
-        "ifmapread": 261120.0,
-        "filterread": 156060.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -52538,17 +50888,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "128",
-        "gridconfig": "64&2",
-        "layerID": 0,
-        "cycle": 10175.0,
-        "util": 54.32063882063882,
-        "ifmapread": 43848.0,
-        "filterread": 2262858.0,
-        "ofmapwrite": 73428.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "128",
         "gridconfig": "8&16",
         "layerID": 0,
         "cycle": 6359.0,
@@ -52633,17 +50972,6 @@
         "ifmapread": -128.0,
         "filterread": -128.0,
         "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "layerID": 0,
-        "cycle": 6359.0,
-        "util": 86.91814750746973,
-        "ifmapread": 174080.0,
-        "filterread": 312120.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -52736,17 +51064,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "256",
-        "gridconfig": "1&256",
-        "layerID": 0,
-        "cycle": 11447.0,
-        "util": 24.14224250895431,
-        "ifmapread": 1560599.0,
-        "filterread": 39014.0,
-        "ofmapwrite": 73439.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "256",
         "gridconfig": "128&2",
         "layerID": 0,
         "cycle": 5087.0,
@@ -52831,17 +51148,6 @@
         "ifmapread": -256.0,
         "filterread": -256.0,
         "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "256",
-        "gridconfig": "128&2",
-        "layerID": 0,
-        "cycle": 5087.0,
-        "util": 54.32597798309416,
-        "ifmapread": 51140.0,
-        "filterread": 3745376.0,
-        "ofmapwrite": 73376.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -52934,17 +51240,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "256",
-        "gridconfig": "16&16",
-        "layerID": 0,
-        "cycle": 3179.0,
-        "util": 86.93181818181817,
-        "ifmapread": 253504.0,
-        "filterread": 624240.0,
-        "ofmapwrite": 73440.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "256",
         "gridconfig": "2&128",
         "layerID": 0,
         "cycle": 5882.0,
@@ -53029,17 +51324,6 @@
         "ifmapread": -256.0,
         "filterread": -256.0,
         "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
-        "layerID": 0,
-        "cycle": 5882.0,
-        "util": 46.983381502890175,
-        "ifmapread": 870400.0,
-        "filterread": 78030.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -53132,17 +51416,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "256",
-        "gridconfig": "256&1",
-        "layerID": 0,
-        "cycle": 10175.0,
-        "util": 27.16031941031941,
-        "ifmapread": 30080.0,
-        "filterread": 5618048.0,
-        "ofmapwrite": 73328.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "256",
         "gridconfig": "32&8",
         "layerID": 0,
         "cycle": 3815.0,
@@ -53227,17 +51500,6 @@
         "ifmapread": -256.0,
         "filterread": -256.0,
         "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "256",
-        "gridconfig": "32&8",
-        "layerID": 0,
-        "cycle": 3815.0,
-        "util": 72.43938401048493,
-        "ifmapread": 153384.0,
-        "filterread": 1131411.0,
-        "ofmapwrite": 73416.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -53330,17 +51592,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "256",
-        "gridconfig": "4&64",
-        "layerID": 0,
-        "cycle": 3020.0,
-        "util": 91.50869205298014,
-        "ifmapread": 522240.0,
-        "filterread": 156060.0,
-        "ofmapwrite": 73440.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "256",
         "gridconfig": "64&4",
         "layerID": 0,
         "cycle": 5087.0,
@@ -53429,17 +51680,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "256",
-        "gridconfig": "64&4",
-        "layerID": 0,
-        "cycle": 5087.0,
-        "util": 54.32597798309416,
-        "ifmapread": 87696.0,
-        "filterread": 2262846.0,
-        "ofmapwrite": 73416.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "256",
         "gridconfig": "8&32",
         "layerID": 0,
         "cycle": 3179.0,
@@ -53524,17 +51764,6 @@
         "ifmapread": -256.0,
         "filterread": -256.0,
         "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "256",
-        "gridconfig": "8&32",
-        "layerID": 0,
-        "cycle": 3179.0,
-        "util": 86.93181818181817,
-        "ifmapread": 348160.0,
-        "filterread": 312120.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -53627,17 +51856,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "512",
-        "gridconfig": "1&512",
-        "layerID": 0,
-        "cycle": 11447.0,
-        "util": 12.071121254477156,
-        "ifmapread": 1560343.0,
-        "filterread": 38758.0,
-        "ofmapwrite": 73183.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
         "gridconfig": "128&4",
         "layerID": 0,
         "cycle": 2543.0,
@@ -53722,17 +51940,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
-        "gridconfig": "128&4",
-        "layerID": 0,
-        "cycle": 2543.0,
-        "util": 54.33665945733386,
-        "ifmapread": 102280.0,
-        "filterread": 3745312.0,
-        "ofmapwrite": 73312.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -53825,17 +52032,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "512",
-        "gridconfig": "16&32",
-        "layerID": 0,
-        "cycle": 1589.0,
-        "util": 86.95917243549403,
-        "ifmapread": 507008.0,
-        "filterread": 624240.0,
-        "ofmapwrite": 73440.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
         "gridconfig": "2&256",
         "layerID": 0,
         "cycle": 5882.0,
@@ -53920,17 +52116,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
-        "gridconfig": "2&256",
-        "layerID": 0,
-        "cycle": 5882.0,
-        "util": 23.491690751445088,
-        "ifmapread": 871078.0,
-        "filterread": 38758.0,
-        "ofmapwrite": 36718.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -54023,17 +52208,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "512",
-        "gridconfig": "256&2",
-        "layerID": 0,
-        "cycle": 5087.0,
-        "util": 27.16298899154708,
-        "ifmapread": 60160.0,
-        "filterread": 5617936.0,
-        "ofmapwrite": 73216.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
         "gridconfig": "32&16",
         "layerID": 0,
         "cycle": 1907.0,
@@ -54118,17 +52292,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
-        "gridconfig": "32&16",
-        "layerID": 0,
-        "cycle": 1907.0,
-        "util": 72.45837703198742,
-        "ifmapread": 306768.0,
-        "filterread": 1131387.0,
-        "ofmapwrite": 73392.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -54221,17 +52384,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "512",
-        "gridconfig": "4&128",
-        "layerID": 0,
-        "cycle": 3020.0,
-        "util": 45.75434602649007,
-        "ifmapread": 1044480.0,
-        "filterread": 156060.0,
-        "ofmapwrite": 73440.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
         "gridconfig": "512&1",
         "layerID": 0,
         "cycle": 10175.0,
@@ -54316,17 +52468,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
-        "gridconfig": "512&1",
-        "layerID": 0,
-        "cycle": 10175.0,
-        "util": 13.580159705159705,
-        "ifmapread": 43840.0,
-        "filterread": 11236096.0,
-        "ofmapwrite": 73216.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -54419,17 +52560,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "512",
-        "gridconfig": "64&8",
-        "layerID": 0,
-        "cycle": 2543.0,
-        "util": 54.33665945733386,
-        "ifmapread": 175392.0,
-        "filterread": 2262822.0,
-        "ofmapwrite": 73392.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
         "gridconfig": "8&64",
         "layerID": 0,
         "cycle": 1589.0,
@@ -54514,17 +52644,6 @@
         "ifmapread": -512.0,
         "filterread": -512.0,
         "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "512",
-        "gridconfig": "8&64",
-        "layerID": 0,
-        "cycle": 1589.0,
-        "util": 86.95917243549403,
-        "ifmapread": 696320.0,
-        "filterread": 312120.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -54617,17 +52736,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": 11447.0,
-        "util": 96.56897003581724,
-        "ifmapread": 391680.0,
-        "filterread": 39015.0,
-        "ofmapwrite": 73440.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "64",
         "gridconfig": "16&4",
         "layerID": 0,
         "cycle": 12719.0,
@@ -54712,17 +52820,6 @@
         "ifmapread": -64.0,
         "filterread": -64.0,
         "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "layerID": 0,
-        "cycle": 12719.0,
-        "util": 86.91131378253007,
-        "ifmapread": 63376.0,
-        "filterread": 624240.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -54815,17 +52912,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": 11765.0,
-        "util": 93.95877603059924,
-        "ifmapread": 217600.0,
-        "filterread": 78030.0,
-        "ofmapwrite": 73440.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "64",
         "gridconfig": "32&2",
         "layerID": 0,
         "cycle": 15263.0,
@@ -54910,17 +52996,6 @@
         "ifmapread": -64.0,
         "filterread": -64.0,
         "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "layerID": 0,
-        "cycle": 15263.0,
-        "util": 72.42514577737012,
-        "ifmapread": 38346.0,
-        "filterread": 1131429.0,
-        "ofmapwrite": 73434.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -55013,17 +53088,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "64",
-        "gridconfig": "4&16",
-        "layerID": 0,
-        "cycle": 12083.0,
-        "util": 91.48597202681454,
-        "ifmapread": 130560.0,
-        "filterread": 156060.0,
-        "ofmapwrite": 73440.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "64",
         "gridconfig": "64&1",
         "layerID": 0,
         "cycle": 20351.0,
@@ -55112,17 +53176,6 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "64",
-        "gridconfig": "64&1",
-        "layerID": 0,
-        "cycle": 20351.0,
-        "util": 54.31796963294187,
-        "ifmapread": 21924.0,
-        "filterread": 2262864.0,
-        "ofmapwrite": 73434.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "64",
         "gridconfig": "8&8",
         "layerID": 0,
         "cycle": 12719.0,
@@ -55207,17 +53260,6 @@
         "ifmapread": -64.0,
         "filterread": -64.0,
         "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "layerID": 0,
-        "cycle": 12719.0,
-        "util": 86.91131378253007,
-        "ifmapread": 87040.0,
-        "filterread": 312120.0,
-        "ofmapwrite": 73440.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -55728,17 +53770,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "128",
-        "gridconfig": "1&128",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 12.009829870533938,
-        "ifmapread": 9483010.0,
-        "filterread": 9196.0,
-        "ofmapwrite": 762172.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
         "gridconfig": "128&1",
         "layerID": 0,
         "cycle": 58751.0,
@@ -56241,17 +54272,6 @@
         "ifmapread": 628031.0,
         "filterread": 4608575.0,
         "ofmapwrite": 183644.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
-        "layerID": 0,
-        "cycle": 58751.0,
-        "util": 94.61009174311926,
-        "ifmapread": 529545.0,
-        "filterread": 1185408.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -56762,17 +54782,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "128",
-        "gridconfig": "16&8",
-        "layerID": 0,
-        "cycle": 58139.0,
-        "util": 95.60600457524208,
-        "ifmapread": 1611000.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
         "gridconfig": "2&64",
         "layerID": 0,
         "cycle": 231488.0,
@@ -57275,17 +55284,6 @@
         "ifmapread": 6547903.0,
         "filterread": 36223.0,
         "ofmapwrite": 91789.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "2&64",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 24.01177382844899,
-        "ifmapread": 4868575.0,
-        "filterread": 9196.0,
-        "ofmapwrite": 381085.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -57796,17 +55794,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "128",
-        "gridconfig": "32&4",
-        "layerID": 0,
-        "cycle": 58139.0,
-        "util": 95.60600457524208,
-        "ifmapread": 1022460.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
         "gridconfig": "4&32",
         "layerID": 0,
         "cycle": 115820.0,
@@ -58309,17 +56296,6 @@
         "ifmapread": 7116800.0,
         "filterread": 145152.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "4&32",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 47.99203505439475,
-        "ifmapread": 5141280.0,
-        "filterread": 37044.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -58830,17 +56806,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "128",
-        "gridconfig": "64&2",
-        "layerID": 0,
-        "cycle": 58751.0,
-        "util": 94.61009174311926,
-        "ifmapread": 727890.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
         "gridconfig": "8&16",
         "layerID": 0,
         "cycle": 57986.0,
@@ -59343,17 +57308,6 @@
         "ifmapread": 4027392.0,
         "filterread": 290304.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "layerID": 0,
-        "cycle": 57986.0,
-        "util": 95.85826751284793,
-        "ifmapread": 2788080.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -59864,17 +57818,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "256",
-        "gridconfig": "1&256",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 6.004914935266969,
-        "ifmapread": 9482882.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 762044.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "256",
         "gridconfig": "2&128",
         "layerID": 0,
         "cycle": 231488.0,
@@ -60381,17 +58324,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "256",
-        "gridconfig": "2&128",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 12.005886914224495,
-        "ifmapread": 4868447.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 380957.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "256",
         "gridconfig": "4&64",
         "layerID": 0,
         "cycle": 115820.0,
@@ -60894,17 +58826,6 @@
         "ifmapread": 3503615.0,
         "filterread": 36095.0,
         "ofmapwrite": 45734.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "256",
-        "gridconfig": "4&64",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 23.996017527197374,
-        "ifmapread": 2541101.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 190382.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -61415,17 +59336,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 24.019659741067876,
-        "ifmapread": 9483074.0,
-        "filterread": 9260.0,
-        "ofmapwrite": 762236.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "64",
         "gridconfig": "16&4",
         "layerID": 0,
         "cycle": 116279.0,
@@ -61928,17 +59838,6 @@
         "ifmapread": 1240320.0,
         "filterread": 580608.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "layerID": 0,
-        "cycle": 116279.0,
-        "util": 95.60518236310942,
-        "ifmapread": 805500.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -62449,17 +60348,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 48.02354765689798,
-        "ifmapread": 4924320.0,
-        "filterread": 18522.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "64",
         "gridconfig": "32&2",
         "layerID": 0,
         "cycle": 116279.0,
@@ -62962,17 +60850,6 @@
         "ifmapread": 853376.0,
         "filterread": 1161216.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "layerID": 0,
-        "cycle": 116279.0,
-        "util": 95.60518236310942,
-        "ifmapread": 511230.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -63483,17 +61360,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "64",
-        "gridconfig": "4&16",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 95.9840701087895,
-        "ifmapread": 2570640.0,
-        "filterread": 37044.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "64",
         "gridconfig": "64&1",
         "layerID": 0,
         "cycle": 117503.0,
@@ -64000,17 +61866,6 @@
     {
         "topologies": "FasterRCNN.csv",
         "gridsize": "64",
-        "gridconfig": "64&1",
-        "layerID": 0,
-        "cycle": 117503.0,
-        "util": 94.6092865714067,
-        "ifmapread": 363945.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "64",
         "gridconfig": "8&8",
         "layerID": 0,
         "cycle": 115973.0,
@@ -64513,17 +62368,6 @@
         "ifmapread": 2013696.0,
         "filterread": 290304.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "layerID": 0,
-        "cycle": 115973.0,
-        "util": 95.8574409560846,
-        "ifmapread": 1394040.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet50.csv",
@@ -65118,17 +62962,6 @@
         "ifmapread": 12640255.0,
         "filterread": 36223.0,
         "ofmapwrite": 183580.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "1&128",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 12.009829870533938,
-        "ifmapread": 9483010.0,
-        "filterread": 9196.0,
-        "ofmapwrite": 762172.0
     },
     {
         "topologies": "Resnet50.csv",
@@ -65727,17 +63560,6 @@
     {
         "topologies": "Resnet50.csv",
         "gridsize": "128",
-        "gridconfig": "128&1",
-        "layerID": 0,
-        "cycle": 58751.0,
-        "util": 94.61009174311926,
-        "ifmapread": 529545.0,
-        "filterread": 1185408.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
         "gridconfig": "16&8",
         "layerID": 0,
         "cycle": 58139.0,
@@ -66328,17 +64150,6 @@
         "ifmapread": 2480640.0,
         "filterread": 580608.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "16&8",
-        "layerID": 0,
-        "cycle": 58139.0,
-        "util": 95.60600457524208,
-        "ifmapread": 1611000.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet50.csv",
@@ -66937,17 +64748,6 @@
     {
         "topologies": "Resnet50.csv",
         "gridsize": "128",
-        "gridconfig": "2&64",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 24.01177382844899,
-        "ifmapread": 4868575.0,
-        "filterread": 9196.0,
-        "ofmapwrite": 381085.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
         "gridconfig": "32&4",
         "layerID": 0,
         "cycle": 58139.0,
@@ -67538,17 +65338,6 @@
         "ifmapread": 1706752.0,
         "filterread": 1161216.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "32&4",
-        "layerID": 0,
-        "cycle": 58139.0,
-        "util": 95.60600457524208,
-        "ifmapread": 1022460.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet50.csv",
@@ -68147,17 +65936,6 @@
     {
         "topologies": "Resnet50.csv",
         "gridsize": "128",
-        "gridconfig": "4&32",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 47.99203505439475,
-        "ifmapread": 5141280.0,
-        "filterread": 37044.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
         "gridconfig": "64&2",
         "layerID": 0,
         "cycle": 58751.0,
@@ -68752,17 +66530,6 @@
     {
         "topologies": "Resnet50.csv",
         "gridsize": "128",
-        "gridconfig": "64&2",
-        "layerID": 0,
-        "cycle": 58751.0,
-        "util": 94.61009174311926,
-        "ifmapread": 727890.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
         "gridconfig": "8&16",
         "layerID": 0,
         "cycle": 57986.0,
@@ -69353,17 +67120,6 @@
         "ifmapread": 4027392.0,
         "filterread": 290304.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "layerID": 0,
-        "cycle": 57986.0,
-        "util": 95.85826751284793,
-        "ifmapread": 2788080.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet50.csv",
@@ -69962,17 +67718,6 @@
     {
         "topologies": "Resnet50.csv",
         "gridsize": "256",
-        "gridconfig": "1&256",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 6.004914935266969,
-        "ifmapread": 9482882.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 762044.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "256",
         "gridconfig": "2&128",
         "layerID": 0,
         "cycle": 231488.0,
@@ -70567,17 +68312,6 @@
     {
         "topologies": "Resnet50.csv",
         "gridsize": "256",
-        "gridconfig": "2&128",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 12.005886914224495,
-        "ifmapread": 4868447.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 380957.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "256",
         "gridconfig": "4&64",
         "layerID": 0,
         "cycle": 115820.0,
@@ -71168,17 +68902,6 @@
         "ifmapread": 3503615.0,
         "filterread": 36095.0,
         "ofmapwrite": 45734.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "256",
-        "gridconfig": "4&64",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 23.996017527197374,
-        "ifmapread": 2541101.0,
-        "filterread": 9068.0,
-        "ofmapwrite": 190382.0
     },
     {
         "topologies": "Resnet50.csv",
@@ -71777,17 +69500,6 @@
     {
         "topologies": "Resnet50.csv",
         "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": 462824.0,
-        "util": 24.019659741067876,
-        "ifmapread": 9483074.0,
-        "filterread": 9260.0,
-        "ofmapwrite": 762236.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
         "gridconfig": "16&4",
         "layerID": 0,
         "cycle": 116279.0,
@@ -72378,17 +70090,6 @@
         "ifmapread": 1240320.0,
         "filterread": 580608.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "layerID": 0,
-        "cycle": 116279.0,
-        "util": 95.60518236310942,
-        "ifmapread": 805500.0,
-        "filterread": 148176.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet50.csv",
@@ -72987,17 +70688,6 @@
     {
         "topologies": "Resnet50.csv",
         "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": 231488.0,
-        "util": 48.02354765689798,
-        "ifmapread": 4924320.0,
-        "filterread": 18522.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
         "gridconfig": "32&2",
         "layerID": 0,
         "cycle": 116279.0,
@@ -73588,17 +71278,6 @@
         "ifmapread": 853376.0,
         "filterread": 1161216.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "layerID": 0,
-        "cycle": 116279.0,
-        "util": 95.60518236310942,
-        "ifmapread": 511230.0,
-        "filterread": 296352.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet50.csv",
@@ -74197,17 +71876,6 @@
     {
         "topologies": "Resnet50.csv",
         "gridsize": "64",
-        "gridconfig": "4&16",
-        "layerID": 0,
-        "cycle": 115820.0,
-        "util": 95.9840701087895,
-        "ifmapread": 2570640.0,
-        "filterread": 37044.0,
-        "ofmapwrite": 762237.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
         "gridconfig": "64&1",
         "layerID": 0,
         "cycle": 117503.0,
@@ -74798,17 +72466,6 @@
         "ifmapread": 603840.0,
         "filterread": 2322432.0,
         "ofmapwrite": 183645.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "64&1",
-        "layerID": 0,
-        "cycle": 117503.0,
-        "util": 94.6092865714067,
-        "ifmapread": 363945.0,
-        "filterread": 592704.0,
-        "ofmapwrite": 762237.0
     },
     {
         "topologies": "Resnet50.csv",
@@ -75405,17 +73062,6 @@
         "ofmapwrite": 183645.0
     },
     {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "layerID": 0,
-        "cycle": 115973.0,
-        "util": 95.8574409560846,
-        "ifmapread": 1394040.0,
-        "filterread": 74088.0,
-        "ofmapwrite": 762237.0
-    },
-    {
         "topologies": "handwriting_rec.csv",
         "gridsize": "1024",
         "gridconfig": "1&1024",
@@ -75431,17 +73077,6 @@
         "gridsize": "1024",
         "gridconfig": "1&1024",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "1&1024",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -2.44140625,
         "ifmapread": -1024.0,
@@ -75473,17 +73108,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "1024",
-        "gridconfig": "1024&1",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
         "gridconfig": "128&8",
         "layerID": 0,
         "cycle": -1.0,
@@ -75497,17 +73121,6 @@
         "gridsize": "1024",
         "gridconfig": "128&8",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "128&8",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -2.44140625,
         "ifmapread": -1024.0,
@@ -75539,17 +73152,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "1024",
-        "gridconfig": "16&64",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
         "gridconfig": "2&512",
         "layerID": 0,
         "cycle": -1.0,
@@ -75563,17 +73165,6 @@
         "gridsize": "1024",
         "gridconfig": "2&512",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "2&512",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -2.44140625,
         "ifmapread": -1024.0,
@@ -75605,17 +73196,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "1024",
-        "gridconfig": "256&4",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
         "gridconfig": "32&32",
         "layerID": 0,
         "cycle": -1.0,
@@ -75629,17 +73209,6 @@
         "gridsize": "1024",
         "gridconfig": "32&32",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "32&32",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -2.44140625,
         "ifmapread": -1024.0,
@@ -75671,17 +73240,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "1024",
-        "gridconfig": "4&256",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
         "gridconfig": "512&2",
         "layerID": 0,
         "cycle": -1.0,
@@ -75695,17 +73253,6 @@
         "gridsize": "1024",
         "gridconfig": "512&2",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "512&2",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -2.44140625,
         "ifmapread": -1024.0,
@@ -75737,17 +73284,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "1024",
-        "gridconfig": "64&16",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
         "gridconfig": "8&128",
         "layerID": 0,
         "cycle": -1.0,
@@ -75761,17 +73297,6 @@
         "gridsize": "1024",
         "gridconfig": "8&128",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -2.44140625,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "8&128",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -2.44140625,
         "ifmapread": -1024.0,
@@ -75803,17 +73328,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "128",
-        "gridconfig": "1&128",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -19.53125,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
         "gridconfig": "128&1",
         "layerID": 0,
         "cycle": -1.0,
@@ -75827,17 +73341,6 @@
         "gridsize": "128",
         "gridconfig": "128&1",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -19.53125,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -19.53125,
         "ifmapread": -128.0,
@@ -75869,17 +73372,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "128",
-        "gridconfig": "16&8",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -19.53125,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
         "gridconfig": "2&64",
         "layerID": 0,
         "cycle": -1.0,
@@ -75893,17 +73385,6 @@
         "gridsize": "128",
         "gridconfig": "2&64",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -19.53125,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "2&64",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -19.53125,
         "ifmapread": -128.0,
@@ -75935,17 +73416,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "128",
-        "gridconfig": "32&4",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -19.53125,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
         "gridconfig": "4&32",
         "layerID": 0,
         "cycle": -1.0,
@@ -75959,17 +73429,6 @@
         "gridsize": "128",
         "gridconfig": "4&32",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -19.53125,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "4&32",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -19.53125,
         "ifmapread": -128.0,
@@ -76001,17 +73460,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "128",
-        "gridconfig": "64&2",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -19.53125,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
         "gridconfig": "8&16",
         "layerID": 0,
         "cycle": -1.0,
@@ -76025,17 +73473,6 @@
         "gridsize": "128",
         "gridconfig": "8&16",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -19.53125,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -19.53125,
         "ifmapread": -128.0,
@@ -76067,17 +73504,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "256",
-        "gridconfig": "1&256",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -9.765625,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
         "gridconfig": "128&2",
         "layerID": 0,
         "cycle": -1.0,
@@ -76091,17 +73517,6 @@
         "gridsize": "256",
         "gridconfig": "128&2",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -9.765625,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "128&2",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -9.765625,
         "ifmapread": -256.0,
@@ -76133,17 +73548,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "256",
-        "gridconfig": "16&16",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -9.765625,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
         "gridconfig": "2&128",
         "layerID": 0,
         "cycle": -1.0,
@@ -76157,17 +73561,6 @@
         "gridsize": "256",
         "gridconfig": "2&128",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -9.765625,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -9.765625,
         "ifmapread": -256.0,
@@ -76199,17 +73592,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "256",
-        "gridconfig": "256&1",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -9.765625,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
         "gridconfig": "32&8",
         "layerID": 0,
         "cycle": -1.0,
@@ -76223,17 +73605,6 @@
         "gridsize": "256",
         "gridconfig": "32&8",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -9.765625,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "32&8",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -9.765625,
         "ifmapread": -256.0,
@@ -76265,17 +73636,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "256",
-        "gridconfig": "4&64",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -9.765625,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
         "gridconfig": "64&4",
         "layerID": 0,
         "cycle": -1.0,
@@ -76298,17 +73658,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "256",
-        "gridconfig": "64&4",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -9.765625,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
         "gridconfig": "8&32",
         "layerID": 0,
         "cycle": -1.0,
@@ -76322,17 +73671,6 @@
         "gridsize": "256",
         "gridconfig": "8&32",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -9.765625,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "8&32",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -9.765625,
         "ifmapread": -256.0,
@@ -76364,17 +73702,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "512",
-        "gridconfig": "1&512",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
         "gridconfig": "128&4",
         "layerID": 0,
         "cycle": -1.0,
@@ -76388,17 +73715,6 @@
         "gridsize": "512",
         "gridconfig": "128&4",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "128&4",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -4.8828125,
         "ifmapread": -512.0,
@@ -76430,17 +73746,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "512",
-        "gridconfig": "16&32",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
         "gridconfig": "2&256",
         "layerID": 0,
         "cycle": -1.0,
@@ -76454,17 +73759,6 @@
         "gridsize": "512",
         "gridconfig": "2&256",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "2&256",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -4.8828125,
         "ifmapread": -512.0,
@@ -76496,17 +73790,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "512",
-        "gridconfig": "256&2",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
         "gridconfig": "32&16",
         "layerID": 0,
         "cycle": -1.0,
@@ -76520,17 +73803,6 @@
         "gridsize": "512",
         "gridconfig": "32&16",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "32&16",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -4.8828125,
         "ifmapread": -512.0,
@@ -76562,17 +73834,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "512",
-        "gridconfig": "4&128",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
         "gridconfig": "512&1",
         "layerID": 0,
         "cycle": -1.0,
@@ -76586,17 +73847,6 @@
         "gridsize": "512",
         "gridconfig": "512&1",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "512&1",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -4.8828125,
         "ifmapread": -512.0,
@@ -76628,17 +73878,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "512",
-        "gridconfig": "64&8",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
         "gridconfig": "8&64",
         "layerID": 0,
         "cycle": -1.0,
@@ -76652,17 +73891,6 @@
         "gridsize": "512",
         "gridconfig": "8&64",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -4.8828125,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "8&64",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -4.8828125,
         "ifmapread": -512.0,
@@ -76694,17 +73922,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -39.0625,
-        "ifmapread": -64.0,
-        "filterread": -64.0,
-        "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
         "gridconfig": "16&4",
         "layerID": 0,
         "cycle": -1.0,
@@ -76718,17 +73935,6 @@
         "gridsize": "64",
         "gridconfig": "16&4",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -39.0625,
-        "ifmapread": -64.0,
-        "filterread": -64.0,
-        "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -39.0625,
         "ifmapread": -64.0,
@@ -76760,17 +73966,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -39.0625,
-        "ifmapread": -64.0,
-        "filterread": -64.0,
-        "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
         "gridconfig": "32&2",
         "layerID": 0,
         "cycle": -1.0,
@@ -76784,17 +73979,6 @@
         "gridsize": "64",
         "gridconfig": "32&2",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -39.0625,
-        "ifmapread": -64.0,
-        "filterread": -64.0,
-        "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -39.0625,
         "ifmapread": -64.0,
@@ -76826,17 +74010,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "64",
-        "gridconfig": "4&16",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -39.0625,
-        "ifmapread": -64.0,
-        "filterread": -64.0,
-        "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
         "gridconfig": "64&1",
         "layerID": 0,
         "cycle": -1.0,
@@ -76859,17 +74032,6 @@
     {
         "topologies": "handwriting_rec.csv",
         "gridsize": "64",
-        "gridconfig": "64&1",
-        "layerID": 0,
-        "cycle": -1.0,
-        "util": -39.0625,
-        "ifmapread": -64.0,
-        "filterread": -64.0,
-        "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
         "gridconfig": "8&8",
         "layerID": 0,
         "cycle": -1.0,
@@ -76883,17 +74045,6 @@
         "gridsize": "64",
         "gridconfig": "8&8",
         "layerID": 1,
-        "cycle": -1.0,
-        "util": -39.0625,
-        "ifmapread": -64.0,
-        "filterread": -64.0,
-        "ofmapwrite": -64.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "layerID": 0,
         "cycle": -1.0,
         "util": -39.0625,
         "ifmapread": -64.0,
@@ -76969,17 +74120,6 @@
     {
         "topologies": "gpt2.csv",
         "gridsize": "64",
-        "gridconfig": "1&64",
-        "layerID": 0,
-        "cycle": 7811583.0,
-        "util": 98.31553988480952,
-        "ifmapread": 104755200.0,
-        "filterread": 7678400.0,
-        "ofmapwrite": 4909377.0
-    },
-    {
-        "topologies": "gpt2.csv",
-        "gridsize": "64",
         "gridconfig": "2&32",
         "layerID": 0,
         "cycle": 7811583.0,
@@ -77046,17 +74186,6 @@
     {
         "topologies": "gpt2.csv",
         "gridsize": "64",
-        "gridconfig": "2&32",
-        "layerID": 0,
-        "cycle": 7811583.0,
-        "util": 98.31553988480952,
-        "ifmapread": 52377600.0,
-        "filterread": 15356800.0,
-        "ofmapwrite": 4909377.0
-    },
-    {
-        "topologies": "gpt2.csv",
-        "gridsize": "64",
         "gridconfig": "4&16",
         "layerID": 0,
         "cycle": 7708799.0,
@@ -77119,16 +74248,5 @@
         "ifmapread": 50282496.0,
         "filterread": 19648512.0,
         "ofmapwrite": 1635777.0
-    },
-    {
-        "topologies": "gpt2.csv",
-        "gridsize": "64",
-        "gridconfig": "4&16",
-        "layerID": 0,
-        "cycle": 7708799.0,
-        "util": 99.62641391998936,
-        "ifmapread": 26188800.0,
-        "filterread": 30713600.0,
-        "ofmapwrite": 4909377.0
     }
 ]
