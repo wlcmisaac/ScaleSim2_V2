@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 import os
 
-def create_bar_graph(json_data, output_dir):
+def create_bar_and_line_plot(json_data, output_dir):
     # Dictionary to store unique combinations of 'topologies', 'gridsize', and 'gridconfig'
     unique_combinations = {}
 
@@ -13,7 +13,7 @@ def create_bar_graph(json_data, output_dir):
             unique_combinations[key] = []
         unique_combinations[key].append(entry)
 
-    # Create a bar graph for each unique combination
+    # Create a bar and line plot for each unique combination
     for key, data_list in unique_combinations.items():
         topologies, gridsize, gridconfig = key
 
@@ -21,22 +21,32 @@ def create_bar_graph(json_data, output_dir):
         output_subdir = os.path.join(output_dir, topologies, gridsize)
         os.makedirs(output_subdir, exist_ok=True)
 
-        # Extract layerID and cycle values
+        # Extract layerID, cycle, and util values
         layer_ids = [entry['layerID'] for entry in data_list]
         cycles = [entry['cycle'] for entry in data_list]
+        utils = [entry['util'] for entry in data_list]
 
-        # Create bar graph
-        plt.bar(layer_ids, cycles, color='skyblue')
+        # Create bar plot
+        plt.bar(layer_ids, cycles, color='skyblue', label='Cycle')
         plt.xlabel('Layer ID')
         plt.ylabel('Cycle')
-        plt.title(f'Cycle vs. Layer ID ({topologies}, {gridsize}, {gridconfig})')
+
+        # Create line plot for 'util'
+        plt.twinx()  # Create a second y-axis
+        plt.plot(layer_ids, utils, color='orange', label='Utilization')
+        plt.ylabel('Utilization')
+
+        plt.title(f'Cycle and Utilization vs. Layer ID ({topologies}, {gridsize}, {gridconfig})')
+
+        # Add legend
+        plt.legend(loc='upper left')
 
         # Save the plot as a PNG file in the subfolder
-        output_file = os.path.join(output_subdir, f'bar_graph_{topologies}_{gridsize}_{gridconfig}.png')
+        output_file = os.path.join(output_subdir, f'bar_and_line_plot_{topologies}_{gridsize}_{gridconfig}.png')
         plt.savefig(output_file)
         plt.close()
 
-        print(f"Bar graph saved as '{output_file}'")
+        print(f"Bar and line plot saved as '{output_file}'")
 
 # Load JSON data from file
 with open('./figures/withoutPE/output.json', 'r') as file:
@@ -48,5 +58,5 @@ output_dir = './figures/withoutPE'  # Base directory to save the plots
 # Ensure output directory exists
 os.makedirs(output_dir, exist_ok=True)
 
-# Create bar graphs
-create_bar_graph(json_data, output_dir)
+# Create bar and line plots
+create_bar_and_line_plot(json_data, output_dir)
