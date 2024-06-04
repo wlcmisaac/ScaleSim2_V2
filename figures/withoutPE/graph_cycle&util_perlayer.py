@@ -21,25 +21,35 @@ def create_bar_and_line_plot(json_data, output_dir):
         output_subdir = os.path.join(output_dir, topologies, gridsize)
         os.makedirs(output_subdir, exist_ok=True)
 
-        # Extract layerID, cycle, and util values
+        # Extract layerID, cycle, and util values and sort them by layerID
+        data_list.sort(key=lambda x: x['layerID'])
         layer_ids = [entry['layerID'] for entry in data_list]
         cycles = [entry['cycle'] for entry in data_list]
         utils = [entry['util'] for entry in data_list]
 
-        # Create bar plot
-        plt.bar(layer_ids, cycles, color='skyblue', label='Cycle')
-        plt.xlabel('Layer ID')
-        plt.ylabel('Cycle')
+        fig, ax1 = plt.subplots()
 
-        # Create line plot for 'util'
-        plt.twinx()  # Create a second y-axis
-        plt.plot(layer_ids, utils, color='orange', label='Utilization')
-        plt.ylabel('Utilization')
+        # Create bar plot for cycles
+        color = 'tab:blue'
+        ax1.set_xlabel('Layer ID')
+        ax1.set_ylabel('Cycle', color=color)
+        ax1.bar(layer_ids, cycles, color=color, label='Cycle')
+        ax1.tick_params(axis='y', labelcolor=color)
+
+        # Create a second y-axis for utilization
+        ax2 = ax1.twinx()
+        color = 'tab:orange'
+        ax2.set_ylabel('Utilization (%)', color=color)
+        ax2.plot(layer_ids, utils, color=color, marker='o', label='Utilization')  # Adding markers for better visibility
+        ax2.tick_params(axis='y', labelcolor=color)
+        ax2.set_ylim(0, 100)  # Assuming utilization is a percentage
+
+        fig.tight_layout()  # To ensure there is no overlap
 
         plt.title(f'Cycle and Utilization vs. Layer ID ({topologies}, {gridsize}, {gridconfig})')
 
         # Add legend
-        plt.legend(loc='upper left')
+        fig.legend(loc='upper left')
 
         # Save the plot as a PNG file in the subfolder
         output_file = os.path.join(output_subdir, f'bar_and_line_plot_{topologies}_{gridsize}_{gridconfig}.png')
