@@ -63,7 +63,7 @@ def write_to_json(json_data_list, output_file):
 
 # Main function
 def main():
-    layer_info = './LayerInfo/topologies'  # Directory provided by you
+    layer_info = './ResLayer/topologies'  # Directory provided by you
     output_file = './figures/withoutPE/output.json'  # Output file to store combined JSON data
 
     # Traverse through directories and process text files
