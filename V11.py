@@ -3,6 +3,9 @@ import numpy as np
 
 import traceback
 
+import multiprocessing
+import logging
+
 # import os
 import os
 import json
@@ -521,54 +524,53 @@ def read_grid_file_info(file_path):
             grid.append([int((grid_size[0])), int((grid_size[1]))])
     return grid
 
+
+
+def process_grid_topology(grid_size, topology_file, config_file):
+    try:
+        gridsize = read_grid_file_info('./Grids/' + str(grid_size) + '.txt')
+        for size in gridsize:
+            try:
+                logging.info(f"Processing grid size: {size}, topology: {topology_file}")
+                grid = scaled_out_simulator()
+                grid.set_params(topology_filename=topology_file,
+                                single_arr_config_file=config_file,
+                                grid_rows=size[0], grid_cols=size[1], dataflow='os')
+
+                grid.run_simulations_all_layers()
+                grid.calc_overall_stats_all_layer()
+                logging.info(f"Completed processing grid size: {size}, topology: {topology_file}")
+
+            except Exception as e:
+                logging.error(f"Error in completing size - [{size[0]}, {size[1]}]: {str(e)}")
+                logging.info("Saving stats!")
+                grid.calc_overall_stats_all_layer()
+                logging.exception(e)
+                continue
+
+    except Exception as e:
+        logging.error(f"Error in processing grid file {grid_size}: {str(e)}")
+        logging.exception(e)
+
 if __name__ == '__main__':
     config_file = './configs/PTC.cfg'
-    file_path = 'topologiesV6.txt'  # Update this with the correct file path if needed
+    file_path = 'topologiesV6.txt'
     file_info_list = read_csv_file_info(file_path)
 
+    grid_sizes_list = ['Grids64', 'Grids128', 'Grids256', 'Grids512', 'Grids1024']
 
-    #grid_sizes_list = ['Grids1', 'Grids2', 'Grids4', 'Grids8', 'Grids16', 'Grids32', 'Grids64', 'Grids128', 'Grids256', 'Grids512', 'Grids1024', 'Grids2048', 'Grids4096', 'Grids8192', 'Grids16384', 'Grids32768', 'Grids65536']
-    #grid_sizes_list = ['Grids4', 'Grids8', 'Grids16', 'Grids32']
-    grid_sizes_list = ['Grids64', 'Grids128', 'Grids256', 'Grids512', 'Grids1024']    
-    #grid_sizes_list = ['Grids2048', 'Grids4096', 'Grids8192']
+    # Configure logging
+    logging.basicConfig(filename='simulation.log', level=logging.INFO,
+                        format='%(asctime)s - %(levelname)s - %(message)s')
 
+    # Create a multiprocessing pool
+    pool = multiprocessing.Pool()
 
-
+    # Iterate over grid sizes and topologies
     for grid_size in grid_sizes_list:
-        gridsize = read_grid_file_info('./Grids/' + str(grid_size) + '.txt')
-        try:
+        for file_info in file_info_list:
+            pool.apply_async(process_grid_topology, args=(grid_size, file_info[1], config_file))
 
-            for i in range(len(file_info_list)):
-                try:
-
-                    for size in gridsize:
-                        try:
-                            print("________________",size,"________________", file_info_list[i][1], "________________")
-                            grid = scaled_out_simulator()
-                            grid.set_params(topology_filename=file_info_list[i][1],
-                                            single_arr_config_file=config_file,
-                                            grid_rows=size[0], grid_cols=size[1], dataflow='os')
-
-                            #print("After Set Params")
-                            grid.run_simulations_all_layers()
-                            #print("After run_simulations_all_layers")
-                            grid.calc_overall_stats_all_layer()
-
-                            
-                        except Exception as e:
-                            print("2 Error in completing size - [" + str(size[0]) + ", " + str(size[1]) + "]: " + str(e))
-                            #output_file.write(f"Error in processing size -Size{size} - Grid{grid_size}: {e}\n")
-                            print("===========Saving stats!===========")
-                            grid.calc_overall_stats_all_layer()
-                            traceback.print_exc()
-                            continue
-
-                except Exception as e:
-                    print(" 3 ---- Error in processing grid file " + file_info_list[i][1] + ": " + str(e))
-                    traceback.print_exc()
-                    continue
-        
-        except Exception as e:
-            print("4 ---- Error in processing grid list " + str(grid_size) + ": " + str(e))
-            traceback.print_exc()
-            continue
+    # Close the pool and wait for all processes to finish
+    pool.close()
+    pool.join()
