@@ -546,7 +546,7 @@ if __name__ == '__main__':
                         try:
                             print("________________",size,"________________", file_info_list[i][1], "________________")
                             grid = scaled_out_simulator()
-                            grid.set_params(topology_filename= "./topologies/conv_nets/alexnet.csv",
+                            grid.set_params(topology_filename=file_info_list[i][1],
                                             single_arr_config_file=config_file,
                                             grid_rows=size[0], grid_cols=size[1], dataflow='os')
 
