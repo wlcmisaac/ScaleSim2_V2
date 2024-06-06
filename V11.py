@@ -131,12 +131,12 @@ class scaled_out_simulator:
         merged_content = []
 
         for grid_row_id in range(self.grid_rows):
-            print('Running row ' + str(grid_row_id+1) + ' out of ' + str(self.grid_rows))
+            #print('Running row ' + str(grid_row_id+1) + ' out of ' + str(self.grid_rows))
             for grid_col_id in range(self.grid_cols):
                 try:
                     arr_id = grid_row_id * self.grid_cols + grid_col_id
-                    print('     Running col ' + str(grid_col_id+1)+' out of ' + str(self.grid_cols))
-                    print('     Running ID ' + str(arr_id+1) + ' out of ' + str(self.grid_rows * self.grid_cols))
+                    #print('     Running col ' + str(grid_col_id+1)+' out of ' + str(self.grid_cols))
+                    #print('     Running ID ' + str(arr_id+1) + ' out of ' + str(self.grid_rows * self.grid_cols))
 
                     ifmap_op_mat_part, filter_op_mat_part, ofmap_op_mat_part =\
                         self.get_opmat_parts(ifmap_op_mat, filter_op_mat, ofmap_op_mat,
@@ -264,7 +264,7 @@ class scaled_out_simulator:
 
 
                 except Exception as e:
-                    print(f"An error occurred for PE_{grid_row_id}_{grid_col_id}: {str(e)}")
+                    #print(f"An error occurred for PE_{grid_row_id}_{grid_col_id}: {str(e)}")
                     pe_key = f"PE_{grid_row_id}_{grid_col_id}"
                     error_message = f"An error occurred for {pe_key}"
                     merged_data[pe_key] = error_message
@@ -297,13 +297,13 @@ class scaled_out_simulator:
         merged_json_path = os.path.join(current_dir, f"merged_Layer{layer_id:02d}.json")
         with open(merged_json_path, "w") as merged_json:
             json.dump(merged_data, merged_json, indent=4)
-        print(f"Merged JSON file created: {merged_json_path}")
+        #print(f"Merged JSON file created: {merged_json_path}")
 
         # Create merged text file with folder name
         merged_txt_path = os.path.join(current_dir, f"merged_Layer{layer_id:02d}.txt")
         with open(merged_txt_path, "w") as merged_txt:
             merged_txt.writelines(merged_content)
-        print(f"Merged text file created: {merged_txt_path}")
+        #print(f"Merged text file created: {merged_txt_path}")
 
         self.all_grids_done = True
 
@@ -314,11 +314,11 @@ class scaled_out_simulator:
         
         for lid in range(num_layers):
             try:
-                print(f'Running layer={lid+1} out of {num_layers}')
+                #print(f'Running layer={lid+1} out of {num_layers}')
                 self.run_simulation_single_layer(lid)
             except Exception as e:
-                print(f'Error occurred while running layer {lid+1}: {e}')
-                print('Continuing to the next layer...')
+                #print(f'Error occurred while running layer {lid+1}: {e}')
+                #print('Continuing to the next layer...')
                 continue
 
     #
