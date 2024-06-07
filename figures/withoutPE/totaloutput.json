@@ -1,115 +1,5 @@
 [
     {
-        "topologies": "alexnet.csv",
-        "gridsize": "64",
-        "gridconfig": "1&64",
-        "totalcycle": 25515751.0,
-        "totalutil": 98.73998429930595,
-        "ifmapread": 286603360.0,
-        "filterread": 3733829.0,
-        "ofmapwrite": 10917824.0
-    },
-    {
-        "topologies": "alexnet.csv",
-        "gridsize": "64",
-        "gridconfig": "2&32",
-        "totalcycle": 25319110.0,
-        "totalutil": 99.50684890286429,
-        "ifmapread": 145577504.0,
-        "filterread": 7467690.0,
-        "ofmapwrite": 10917840.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "1&1024",
-        "totalcycle": 2698991.0,
-        "totalutil": 3.0582490711343624,
-        "ifmapread": 481311754.0,
-        "filterread": 5742560.0,
-        "ofmapwrite": 2878592.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "128&8",
-        "totalcycle": 228794.0,
-        "totalutil": 36.076936977149735,
-        "ifmapread": 54761952.0,
-        "filterread": 386369664.0,
-        "ofmapwrite": 2911329.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "16&64",
-        "totalcycle": 203730.0,
-        "totalutil": 40.51532282309921,
-        "ifmapread": 141059396.0,
-        "filterread": 55642519.0,
-        "ofmapwrite": 1362292.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "2&512",
-        "totalcycle": 1368519.0,
-        "totalutil": 6.031473964738521,
-        "ifmapread": 248274723.0,
-        "filterread": 5742560.0,
-        "ofmapwrite": 1417961.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "256&4",
-        "totalcycle": 389118.0,
-        "totalutil": 21.21255433763024,
-        "ifmapread": 29475980.0,
-        "filterread": 662042753.0,
-        "ofmapwrite": 2906545.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "32&32",
-        "totalcycle": 159613.0,
-        "totalutil": 51.713749624090745,
-        "ifmapread": 142005625.0,
-        "filterread": 138127905.0,
-        "ofmapwrite": 2703414.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "4&256",
-        "totalcycle": 695289.0,
-        "totalutil": 11.871591120742593,
-        "ifmapread": 123664182.0,
-        "filterread": 5741717.0,
-        "ofmapwrite": 683191.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "64&16",
-        "totalcycle": 147956.0,
-        "totalutil": 55.78811754001188,
-        "ifmapread": 94624150.0,
-        "filterread": 252545886.0,
-        "ofmapwrite": 2890478.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "8&128",
-        "totalcycle": 360093.0,
-        "totalutil": 22.92237482747512,
-        "ifmapread": 80231469.0,
-        "filterread": 15236936.0,
-        "ofmapwrite": 429131.0
-    },
-    {
         "topologies": "Googlenet.csv",
         "gridsize": "128",
         "gridconfig": "1&128",
@@ -118,16 +8,6 @@
         "ifmapread": 363156418.0,
         "filterread": 5792120.0,
         "ofmapwrite": 2928152.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
-        "totalcycle": 1810486.0,
-        "totalutil": 36.472799982987986,
-        "ifmapread": 6845244.0,
-        "filterread": 386386667.0,
-        "ofmapwrite": 2928332.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -145,9 +25,9 @@
         "gridconfig": "2&64",
         "totalcycle": 1436569.0,
         "totalutil": 45.96611353161593,
-        "ifmapread": 174974482.0,
-        "filterread": 9800183.0,
-        "ofmapwrite": 2112556.0
+        "ifmapread": 247181967.0,
+        "filterread": 11588206.0,
+        "ofmapwrite": 2929509.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -165,19 +45,9 @@
         "gridconfig": "4&32",
         "totalcycle": 990381.0,
         "totalutil": 66.67483902659681,
-        "ifmapread": 117547609.0,
-        "filterread": 21349149.0,
-        "ofmapwrite": 2770781.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "128",
-        "gridconfig": "64&2",
-        "totalcycle": 1108118.0,
-        "totalutil": 59.590669721094706,
-        "ifmapread": 12701236.0,
-        "filterread": 254210138.0,
-        "ofmapwrite": 2929035.0
+        "ifmapread": 145668868.0,
+        "filterread": 22975176.0,
+        "ofmapwrite": 2930221.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -185,199 +55,179 @@
         "gridconfig": "8&16",
         "totalcycle": 773617.0,
         "totalutil": 85.356828702058,
-        "ifmapread": 74219526.0,
-        "filterread": 42015794.0,
-        "ofmapwrite": 2909210.0
+        "ifmapread": 79505664.0,
+        "filterread": 42251596.0,
+        "ofmapwrite": 2930233.0
     },
     {
         "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "1&256",
+        "gridsize": "16",
+        "gridconfig": "1&16",
+        "totalcycle": 5742981.0,
+        "totalutil": 91.98497261265537,
+        "ifmapread": 72990166.0,
+        "filterread": 5794703.0,
+        "ofmapwrite": 2930735.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "16",
+        "gridconfig": "16&1",
+        "totalcycle": 6258062.0,
+        "totalutil": 84.41398471283924,
+        "ifmapread": 5429678.0,
+        "filterread": 81181695.0,
+        "ofmapwrite": 2930664.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "16",
+        "gridconfig": "2&8",
+        "totalcycle": 5495562.0,
+        "totalutil": 96.12628335373161,
+        "ifmapread": 37495384.0,
+        "filterread": 11589442.0,
+        "ofmapwrite": 2930745.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "16",
+        "gridconfig": "4&4",
+        "totalcycle": 5533732.0,
+        "totalutil": 95.46323349233396,
+        "ifmapread": 19217932.0,
+        "filterread": 22975692.0,
+        "ofmapwrite": 2930737.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "16",
+        "gridconfig": "8&2",
+        "totalcycle": 5751098.0,
+        "totalutil": 91.85514661721987,
+        "ifmapread": 10068550.0,
+        "filterread": 42252068.0,
+        "ofmapwrite": 2930705.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "1&2048",
         "totalcycle": 2698991.0,
-        "totalutil": 12.23299628453745,
-        "ifmapread": 461770063.0,
-        "filterread": 5786261.0,
-        "ofmapwrite": 2922293.0
+        "totalutil": 1.5291245355671812,
+        "ifmapread": 481252362.0,
+        "filterread": 5683168.0,
+        "ofmapwrite": 2819200.0
     },
     {
         "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "128&2",
-        "totalcycle": 905214.0,
-        "totalutil": 36.473968448344806,
-        "ifmapread": 13690488.0,
-        "filterread": 386384238.0,
-        "ofmapwrite": 2925903.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "16&16",
-        "totalcycle": 421086.0,
-        "totalutil": 78.40855994974899,
-        "ifmapread": 80170534.0,
-        "filterread": 80705590.0,
-        "ofmapwrite": 2906175.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
+        "gridsize": "2048",
+        "gridconfig": "2&1024",
         "totalcycle": 1368519.0,
-        "totalutil": 24.125895858954085,
-        "ifmapread": 199809519.0,
-        "filterread": 7406376.0,
-        "ofmapwrite": 1522464.0
+        "totalutil": 3.0157369823692606,
+        "ifmapread": 492764769.0,
+        "filterread": 11485120.0,
+        "ofmapwrite": 2826423.0
     },
     {
         "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "256&1",
-        "totalcycle": 1554574.0,
-        "totalutil": 21.238453026359636,
-        "ifmapread": 7368995.0,
-        "filterread": 662060915.0,
-        "ofmapwrite": 2924707.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "32&8",
-        "totalcycle": 466192.0,
-        "totalutil": 70.82220817817552,
-        "ifmapread": 47306608.0,
-        "filterread": 152751248.0,
-        "ofmapwrite": 2928449.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "4&64",
-        "totalcycle": 729733.0,
-        "totalutil": 45.24496887902837,
-        "ifmapread": 143792464.0,
-        "filterread": 17609015.0,
-        "ofmapwrite": 1698736.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "64&4",
-        "totalcycle": 554548.0,
-        "totalutil": 59.53812271435474,
-        "ifmapread": 25402472.0,
-        "filterread": 254208412.0,
-        "ofmapwrite": 2927309.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "256",
-        "gridconfig": "8&32",
-        "totalcycle": 514073.0,
-        "totalutil": 64.22579453696267,
-        "ifmapread": 119600601.0,
-        "filterread": 38521429.0,
-        "ofmapwrite": 2741845.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "1&512",
-        "totalcycle": 2698991.0,
-        "totalutil": 6.116498142268725,
-        "ifmapread": 481341450.0,
-        "filterread": 5772256.0,
-        "ofmapwrite": 2908288.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "128&4",
-        "totalcycle": 453096.0,
-        "totalutil": 36.43460422846372,
-        "ifmapread": 27380976.0,
-        "filterread": 386379380.0,
-        "ofmapwrite": 2921045.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "16&32",
-        "totalcycle": 277202.0,
-        "totalutil": 59.553587050237745,
-        "ifmapread": 128764121.0,
-        "filterread": 73575961.0,
-        "ofmapwrite": 2722897.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "2&256",
-        "totalcycle": 1368519.0,
-        "totalutil": 12.062947929477042,
-        "ifmapread": 237125496.0,
-        "filterread": 5771413.0,
-        "ofmapwrite": 1446814.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "256&2",
-        "totalcycle": 777258.0,
-        "totalutil": 21.239245446814312,
-        "ifmapread": 14737990.0,
-        "filterread": 662054861.0,
-        "ofmapwrite": 2918653.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "32&16",
-        "totalcycle": 247597.0,
-        "totalutil": 66.67436777303439,
-        "ifmapread": 87721974.0,
-        "filterread": 151827550.0,
-        "ofmapwrite": 2901497.0
-    },
-    {
-        "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "4&128",
+        "gridsize": "2048",
+        "gridconfig": "4&512",
         "totalcycle": 695289.0,
-        "totalutil": 23.743182241485187,
-        "ifmapread": 118633373.0,
-        "filterread": 10634888.0,
-        "ofmapwrite": 806598.0
+        "totalutil": 5.935795560371297,
+        "ifmapread": 515199381.0,
+        "filterread": 22885570.0,
+        "ofmapwrite": 2840615.0
     },
     {
         "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "512&1",
-        "totalcycle": 1509710.0,
-        "totalutil": 10.934797701214139,
-        "ifmapread": 7686867.0,
-        "filterread": 762834462.0,
-        "ofmapwrite": 2912546.0
+        "gridsize": "2048",
+        "gridconfig": "8&256",
+        "totalcycle": 360093.0,
+        "totalutil": 11.46118741373756,
+        "ifmapread": 524451216.0,
+        "filterread": 42181531.0,
+        "ofmapwrite": 2860168.0
     },
     {
         "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "64&8",
-        "totalcycle": 279718.0,
-        "totalutil": 59.0179160350782,
-        "ifmapread": 50804944.0,
-        "filterread": 254204960.0,
-        "ofmapwrite": 2923857.0
+        "gridsize": "32",
+        "gridconfig": "1&32",
+        "totalcycle": 3838089.0,
+        "totalutil": 68.81913759686132,
+        "ifmapread": 140035369.0,
+        "filterread": 5794610.0,
+        "ofmapwrite": 2930642.0
     },
     {
         "topologies": "Googlenet.csv",
-        "gridsize": "512",
-        "gridconfig": "8&64",
-        "totalcycle": 378689.0,
-        "totalutil": 43.59348551845974,
-        "ifmapread": 134768104.0,
-        "filterread": 29879351.0,
-        "ofmapwrite": 1484744.0
+        "gridsize": "32",
+        "gridconfig": "16&2",
+        "totalcycle": 3129002.0,
+        "totalutil": 84.41476707269601,
+        "ifmapread": 10859356.0,
+        "filterread": 81181598.0,
+        "ofmapwrite": 2930567.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "32",
+        "gridconfig": "2&16",
+        "totalcycle": 2924693.0,
+        "totalutil": 90.3116925434567,
+        "ifmapread": 73948092.0,
+        "filterread": 11589406.0,
+        "ofmapwrite": 2930709.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "32",
+        "gridconfig": "4&8",
+        "totalcycle": 2791960.0,
+        "totalutil": 94.60521461625524,
+        "ifmapread": 38435864.0,
+        "filterread": 22975668.0,
+        "ofmapwrite": 2930713.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "32",
+        "gridconfig": "8&4",
+        "totalcycle": 2879146.0,
+        "totalutil": 91.74038933767164,
+        "ifmapread": 20137100.0,
+        "filterread": 42252012.0,
+        "ofmapwrite": 2930649.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "4",
+        "gridconfig": "1&4",
+        "totalcycle": 21381040.0,
+        "totalutil": 98.82923375102428,
+        "ifmapread": 18508208.0,
+        "filterread": 5794725.0,
+        "ofmapwrite": 2930757.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "4",
+        "gridconfig": "2&2",
+        "totalcycle": 21762106.0,
+        "totalutil": 97.09868153385521,
+        "ifmapread": 9373846.0,
+        "filterread": 11589454.0,
+        "ofmapwrite": 2930757.0
+    },
+    {
+        "topologies": "Googlenet.csv",
+        "gridsize": "4",
+        "gridconfig": "4&1",
+        "totalcycle": 22108166.0,
+        "totalutil": 95.57879201739304,
+        "ifmapread": 4804483.0,
+        "filterread": 22975710.0,
+        "ofmapwrite": 2930755.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -405,9 +255,9 @@
         "gridconfig": "2&32",
         "totalcycle": 1950483.0,
         "totalutil": 67.70988903774088,
-        "ifmapread": 123406569.0,
-        "filterread": 11047211.0,
-        "ofmapwrite": 2824964.0
+        "ifmapread": 141936818.0,
+        "filterread": 11589220.0,
+        "ofmapwrite": 2930523.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -425,9 +275,9 @@
         "gridconfig": "4&16",
         "totalcycle": 1485923.0,
         "totalutil": 88.87875583055113,
-        "ifmapread": 71293062.0,
-        "filterread": 22874522.0,
-        "ofmapwrite": 2912752.0
+        "ifmapread": 75829032.0,
+        "filterread": 22975580.0,
+        "ofmapwrite": 2930625.0
     },
     {
         "topologies": "Googlenet.csv",
@@ -450,114 +300,44 @@
         "ofmapwrite": 2930537.0
     },
     {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "1&1024",
-        "totalcycle": 618505.0,
-        "totalutil": 5.580645316125175,
-        "ifmapread": 539070549.0,
-        "filterread": 3113783.0,
-        "ofmapwrite": 3049062.0
+        "topologies": "Googlenet.csv",
+        "gridsize": "8",
+        "gridconfig": "1&8",
+        "totalcycle": 10785638.0,
+        "totalutil": 97.9576637005618,
+        "ifmapread": 37016416.0,
+        "filterread": 5794721.0,
+        "ofmapwrite": 2930753.0
     },
     {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "1024&1",
-        "totalcycle": 796677.0,
-        "totalutil": 4.332567692113617,
-        "ifmapread": 2139192.0,
-        "filterread": 454544307.0,
-        "ofmapwrite": 3049422.0
+        "topologies": "Googlenet.csv",
+        "gridsize": "8",
+        "gridconfig": "2&4",
+        "totalcycle": 10893974.0,
+        "totalutil": 96.98351584095943,
+        "ifmapread": 18747692.0,
+        "filterread": 11589450.0,
+        "ofmapwrite": 2930753.0
     },
     {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "128&8",
-        "totalcycle": 109914.0,
-        "totalutil": 31.403251917408156,
-        "ifmapread": 17207160.0,
-        "filterread": 230831680.0,
-        "ofmapwrite": 3054420.0
+        "topologies": "Googlenet.csv",
+        "gridsize": "8",
+        "gridconfig": "4&2",
+        "totalcycle": 11054054.0,
+        "totalutil": 95.57904276566767,
+        "ifmapread": 9608966.0,
+        "filterread": 22975704.0,
+        "ofmapwrite": 2930749.0
     },
     {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "16&64",
-        "totalcycle": 58041.0,
-        "totalutil": 59.46928948932649,
-        "ifmapread": 99505022.0,
-        "filterread": 42384131.0,
-        "ofmapwrite": 1949232.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "2&512",
-        "totalcycle": 312213.0,
-        "totalutil": 11.05545583063486,
-        "ifmapread": 270363828.0,
-        "filterread": 4685113.0,
-        "ofmapwrite": 1564760.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "256&4",
-        "totalcycle": 206007.0,
-        "totalutil": 16.755047310285573,
-        "ifmapread": 8599304.0,
-        "filterread": 381830648.0,
-        "ofmapwrite": 3053708.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "32&32",
-        "totalcycle": 52775.0,
-        "totalutil": 65.40325971103742,
-        "ifmapread": 61809369.0,
-        "filterread": 81966692.0,
-        "ofmapwrite": 2678474.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "4&256",
-        "totalcycle": 158293.0,
-        "totalutil": 21.80549380736988,
-        "ifmapread": 205249466.0,
-        "filterread": 12147775.0,
-        "ofmapwrite": 1271360.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "512&2",
-        "totalcycle": 402897.0,
-        "totalutil": 8.56709538976463,
-        "ifmapread": 4293034.0,
-        "filterread": 406745194.0,
-        "ofmapwrite": 3050992.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "64&16",
-        "totalcycle": 62676.0,
-        "totalutil": 55.07143134932031,
-        "ifmapread": 33904080.0,
-        "filterread": 153634496.0,
-        "ofmapwrite": 3055380.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "1024",
-        "gridconfig": "8&128",
-        "totalcycle": 83853.0,
-        "totalutil": 41.16319071768452,
-        "ifmapread": 131516988.0,
-        "filterread": 23304385.0,
-        "ofmapwrite": 1325052.0
+        "topologies": "Googlenet.csv",
+        "gridsize": "8",
+        "gridconfig": "8&1",
+        "totalcycle": 11502254.0,
+        "totalutil": 91.85468343856783,
+        "ifmapread": 5034275.0,
+        "filterread": 42252096.0,
+        "ofmapwrite": 2930733.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -595,9 +375,9 @@
         "gridconfig": "2&64",
         "totalcycle": 416021.0,
         "totalutil": 66.37466918737276,
-        "ifmapread": 112624702.0,
-        "filterread": 6266243.0,
-        "ofmapwrite": 2479440.0
+        "ifmapread": 127600223.0,
+        "filterread": 6269190.0,
+        "ofmapwrite": 3069008.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -615,9 +395,9 @@
         "gridconfig": "4&32",
         "totalcycle": 332269.0,
         "totalutil": 83.10512340904505,
-        "ifmapread": 62843775.0,
-        "filterread": 12537572.0,
-        "ofmapwrite": 2777362.0
+        "ifmapread": 66385215.0,
+        "filterread": 12540176.0,
+        "ofmapwrite": 3069072.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -638,6 +418,176 @@
         "ifmapread": 33311024.0,
         "filterread": 23510664.0,
         "ofmapwrite": 3069044.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "16",
+        "gridconfig": "1&16",
+        "totalcycle": 2268165.0,
+        "totalutil": 97.39417105898382,
+        "ifmapread": 33237248.0,
+        "filterread": 3135253.0,
+        "ofmapwrite": 3070532.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "16",
+        "gridconfig": "16&1",
+        "totalcycle": 2676741.0,
+        "totalutil": 82.52798832610254,
+        "ifmapread": 2087199.0,
+        "filterread": 42442866.0,
+        "ofmapwrite": 3070518.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "16",
+        "gridconfig": "2&8",
+        "totalcycle": 2288773.0,
+        "totalutil": 96.51723871262027,
+        "ifmapread": 16623896.0,
+        "filterread": 6270714.0,
+        "ofmapwrite": 3070532.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "16",
+        "gridconfig": "4&4",
+        "totalcycle": 2383941.0,
+        "totalutil": 92.66422700897378,
+        "ifmapread": 8317220.0,
+        "filterread": 12541636.0,
+        "ofmapwrite": 3070532.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "16",
+        "gridconfig": "8&2",
+        "totalcycle": 2481541.0,
+        "totalutil": 89.01970590048684,
+        "ifmapread": 4163878.0,
+        "filterread": 23512148.0,
+        "ofmapwrite": 3070528.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "1&2048",
+        "totalcycle": 618505.0,
+        "totalutil": 2.7903226580625873,
+        "ifmapread": 539042901.0,
+        "filterread": 3086135.0,
+        "ofmapwrite": 3021414.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "1024&2",
+        "totalcycle": 398325.0,
+        "totalutil": 4.332714531161741,
+        "ifmapread": 4278384.0,
+        "filterread": 454522989.0,
+        "ofmapwrite": 3028104.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "128&16",
+        "totalcycle": 55356.0,
+        "totalutil": 31.176900708595284,
+        "ifmapread": 34414320.0,
+        "filterread": 230815360.0,
+        "ofmapwrite": 3038100.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "16&128",
+        "totalcycle": 43537.0,
+        "totalutil": 39.64050154179205,
+        "ifmapread": 224888803.0,
+        "filterread": 42412048.0,
+        "ofmapwrite": 3039700.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "2&1024",
+        "totalcycle": 312213.0,
+        "totalutil": 5.52772791531743,
+        "ifmapread": 539069703.0,
+        "filterread": 6227566.0,
+        "ofmapwrite": 3027384.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "2048&1",
+        "totalcycle": 794933.0,
+        "totalutil": 2.1710364466250613,
+        "ifmapread": 2121261.0,
+        "filterread": 475996368.0,
+        "ofmapwrite": 3024996.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "256&8",
+        "totalcycle": 102990.0,
+        "totalutil": 16.757243573405184,
+        "ifmapread": 17198608.0,
+        "filterread": 381813616.0,
+        "ofmapwrite": 3036676.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "32&64",
+        "totalcycle": 32403.0,
+        "totalutil": 53.261380601333194,
+        "ifmapread": 128199619.0,
+        "filterread": 81977952.0,
+        "ofmapwrite": 3040468.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "4&512",
+        "totalcycle": 158293.0,
+        "totalutil": 10.90274690368494,
+        "ifmapread": 501444211.0,
+        "filterread": 12506340.0,
+        "ofmapwrite": 3035236.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "512&4",
+        "totalcycle": 201435.0,
+        "totalutil": 8.567669549110136,
+        "ifmapread": 8586068.0,
+        "filterread": 406725446.0,
+        "ofmapwrite": 3031244.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "64&32",
+        "totalcycle": 33064.0,
+        "totalutil": 52.19660402930682,
+        "ifmapread": 67614947.0,
+        "filterread": 153619072.0,
+        "ofmapwrite": 3039956.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "2048",
+        "gridconfig": "8&256",
+        "totalcycle": 80757.0,
+        "totalutil": 21.37063679464319,
+        "ifmapread": 342630515.0,
+        "filterread": 23479800.0,
+        "ofmapwrite": 3038180.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -675,9 +625,9 @@
         "gridconfig": "2&128",
         "totalcycle": 323049.0,
         "totalutil": 42.73849516636794,
-        "ifmapread": 171439036.0,
-        "filterread": 6239681.0,
-        "ofmapwrite": 2079244.0
+        "ifmapread": 224624539.0,
+        "filterread": 6267266.0,
+        "ofmapwrite": 3067084.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -705,9 +655,9 @@
         "gridconfig": "4&64",
         "totalcycle": 213945.0,
         "totalutil": 64.5335395779289,
-        "ifmapread": 105134014.0,
-        "filterread": 12529539.0,
-        "ofmapwrite": 2182736.0
+        "ifmapread": 127640155.0,
+        "filterread": 12538380.0,
+        "ofmapwrite": 3067276.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -725,9 +675,109 @@
         "gridconfig": "8&32",
         "totalcycle": 172221.0,
         "totalutil": 80.16808707997282,
-        "ifmapread": 62258623.0,
-        "filterread": 23502884.0,
-        "ofmapwrite": 2726898.0
+        "ifmapread": 66466811.0,
+        "filterread": 23508960.0,
+        "ofmapwrite": 3067340.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "32",
+        "gridconfig": "1&32",
+        "totalcycle": 1245397.0,
+        "totalutil": 88.68900840454893,
+        "ifmapread": 66323970.0,
+        "filterread": 3135044.0,
+        "ofmapwrite": 3070323.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "32",
+        "gridconfig": "16&2",
+        "totalcycle": 1338357.0,
+        "totalutil": 82.52882078548551,
+        "ifmapread": 4174398.0,
+        "filterread": 42442644.0,
+        "ofmapwrite": 3070296.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "32",
+        "gridconfig": "2&16",
+        "totalcycle": 1170245.0,
+        "totalutil": 94.38453058974831,
+        "ifmapread": 33247792.0,
+        "filterread": 6270506.0,
+        "ofmapwrite": 3070324.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "32",
+        "gridconfig": "32&1",
+        "totalcycle": 1552437.0,
+        "totalutil": 71.14815287190397,
+        "ifmapread": 2097813.0,
+        "filterread": 82007768.0,
+        "ofmapwrite": 3070284.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "32",
+        "gridconfig": "4&8",
+        "totalcycle": 1191957.0,
+        "totalutil": 92.66527651584745,
+        "ifmapread": 16634440.0,
+        "filterread": 12541428.0,
+        "ofmapwrite": 3070324.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "32",
+        "gridconfig": "8&4",
+        "totalcycle": 1240757.0,
+        "totalutil": 89.02067447534046,
+        "ifmapread": 8327756.0,
+        "filterread": 23511936.0,
+        "ofmapwrite": 3070316.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "4",
+        "gridconfig": "1&4",
+        "totalcycle": 8865765.0,
+        "totalutil": 99.66699997123764,
+        "ifmapread": 8309312.0,
+        "filterread": 3135409.0,
+        "ofmapwrite": 3070688.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "4",
+        "gridconfig": "2&2",
+        "totalcycle": 9155173.0,
+        "totalutil": 96.51638478049512,
+        "ifmapread": 4155974.0,
+        "filterread": 6270870.0,
+        "ofmapwrite": 3070688.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "4",
+        "gridconfig": "4&1",
+        "totalcycle": 9535845.0,
+        "totalutil": 92.66343989441941,
+        "ifmapread": 2079305.0,
+        "filterread": 12541792.0,
+        "ofmapwrite": 3070688.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "4096",
+        "gridconfig": "1&4096",
+        "totalcycle": 618505.0,
+        "totalutil": 1.3951613290312936,
+        "ifmapread": 538987605.0,
+        "filterread": 3030839.0,
+        "ofmapwrite": 2966118.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -742,52 +792,12 @@
     {
         "topologies": "mobilenet.csv",
         "gridsize": "512",
-        "gridconfig": "128&4",
-        "totalcycle": 219855.0,
-        "totalutil": 31.399395340110523,
-        "ifmapread": 8603580.0,
-        "filterread": 230839840.0,
-        "ofmapwrite": 3062580.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "16&32",
-        "totalcycle": 92197.0,
-        "totalutil": 74.87569077627255,
-        "ifmapread": 61963007.0,
-        "filterread": 42422948.0,
-        "ofmapwrite": 2698626.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
         "gridconfig": "2&256",
         "totalcycle": 312213.0,
         "totalutil": 22.11091166126972,
-        "ifmapread": 251057338.0,
-        "filterread": 6136895.0,
-        "ofmapwrite": 1874968.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "256&2",
-        "totalcycle": 412041.0,
-        "totalutil": 16.753949394599083,
-        "ifmapread": 4299652.0,
-        "filterread": 381839164.0,
-        "ofmapwrite": 3062224.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "32&16",
-        "totalcycle": 98619.0,
-        "totalutil": 69.99983839321023,
-        "ifmapread": 33565008.0,
-        "filterread": 82000928.0,
-        "ofmapwrite": 3063444.0
+        "ifmapread": 342530071.0,
+        "filterread": 6262910.0,
+        "ofmapwrite": 3062728.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -795,39 +805,9 @@
         "gridconfig": "4&128",
         "totalcycle": 164485.0,
         "totalutil": 41.96926201477338,
-        "ifmapread": 144828860.0,
-        "filterread": 12451777.0,
-        "ofmapwrite": 1580972.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "512&1",
-        "totalcycle": 805821.0,
-        "totalutil": 8.566808338948723,
-        "ifmapread": 2146517.0,
-        "filterread": 406755068.0,
-        "ofmapwrite": 3060866.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "64&8",
-        "totalcycle": 123762.0,
-        "totalutil": 55.77894719299947,
-        "ifmapread": 16952040.0,
-        "filterread": 153642176.0,
-        "ofmapwrite": 3063060.0
-    },
-    {
-        "topologies": "mobilenet.csv",
-        "gridsize": "512",
-        "gridconfig": "8&64",
-        "totalcycle": 110009.0,
-        "totalutil": 62.75226629184885,
-        "ifmapread": 101385662.0,
-        "filterread": 23484675.0,
-        "ofmapwrite": 2031376.0
+        "ifmapread": 224662547.0,
+        "filterread": 12534532.0,
+        "ofmapwrite": 3063428.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -855,9 +835,9 @@
         "gridconfig": "2&32",
         "totalcycle": 640773.0,
         "totalutil": 86.18732764957326,
-        "ifmapread": 64011263.0,
-        "filterread": 6269220.0,
-        "ofmapwrite": 2875474.0
+        "ifmapread": 66344385.0,
+        "filterread": 6270088.0,
+        "ofmapwrite": 3069906.0
     },
     {
         "topologies": "mobilenet.csv",
@@ -900,24 +880,44 @@
         "ofmapwrite": 3069892.0
     },
     {
-        "topologies": "Resnet18.csv",
-        "gridsize": "1024",
-        "gridconfig": "1&1024",
-        "totalcycle": 3304484.0,
-        "totalutil": 2.71733187011951,
-        "ifmapread": 269804079.0,
-        "filterread": 11119065.0,
-        "ofmapwrite": 2253142.0
+        "topologies": "mobilenet.csv",
+        "gridsize": "8",
+        "gridconfig": "1&8",
+        "totalcycle": 4432869.0,
+        "totalutil": 99.66730350028391,
+        "ifmapread": 16618624.0,
+        "filterread": 3135357.0,
+        "ofmapwrite": 3070636.0
     },
     {
-        "topologies": "Resnet18.csv",
-        "gridsize": "1024",
-        "gridconfig": "2&512",
-        "totalcycle": 1672144.0,
-        "totalutil": 5.369979910522061,
-        "ifmapread": 151876108.0,
-        "filterread": 11119065.0,
-        "ofmapwrite": 1121812.0
+        "topologies": "mobilenet.csv",
+        "gridsize": "8",
+        "gridconfig": "2&4",
+        "totalcycle": 4577573.0,
+        "totalutil": 96.51666942285793,
+        "ifmapread": 8311948.0,
+        "filterread": 6270818.0,
+        "ofmapwrite": 3070636.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "8",
+        "gridconfig": "4&2",
+        "totalcycle": 4767909.0,
+        "totalutil": 92.66370226445179,
+        "ifmapread": 4158610.0,
+        "filterread": 12541740.0,
+        "ofmapwrite": 3070636.0
+    },
+    {
+        "topologies": "mobilenet.csv",
+        "gridsize": "8",
+        "gridconfig": "8&1",
+        "totalcycle": 4963109.0,
+        "totalutil": 89.0192216209638,
+        "ifmapread": 2081939.0,
+        "filterread": 23512254.0,
+        "ofmapwrite": 3070634.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -932,42 +932,12 @@
     {
         "topologies": "Resnet18.csv",
         "gridsize": "128",
-        "gridconfig": "128&1",
-        "totalcycle": 3173483.0,
-        "totalutil": 22.636024046765016,
-        "ifmapread": 5780766.0,
-        "filterread": 464437461.0,
-        "ofmapwrite": 2233185.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
-        "gridconfig": "16&8",
-        "totalcycle": 929623.0,
-        "totalutil": 77.273300574534,
-        "ifmapread": 26640848.0,
-        "filterread": 144586024.0,
-        "ofmapwrite": 2262423.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
         "gridconfig": "2&64",
         "totalcycle": 1745778.0,
         "totalutil": 41.14786502063837,
-        "ifmapread": 97722459.0,
-        "filterread": 22116712.0,
-        "ofmapwrite": 1521162.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "128",
-        "gridconfig": "32&4",
-        "totalcycle": 1263911.0,
-        "totalutil": 56.835518877515895,
-        "ifmapread": 17317780.0,
-        "filterread": 282817400.0,
-        "ofmapwrite": 2263508.0
+        "ifmapread": 128724633.0,
+        "filterread": 22271440.0,
+        "ofmapwrite": 2269728.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -981,213 +951,163 @@
     },
     {
         "topologies": "Resnet18.csv",
-        "gridsize": "128",
-        "gridconfig": "64&2",
-        "totalcycle": 1804299.0,
-        "totalutil": 39.813266814424885,
-        "ifmapread": 10568094.0,
-        "filterread": 369720780.0,
-        "ofmapwrite": 2233942.0
+        "gridsize": "16",
+        "gridconfig": "1&16",
+        "totalcycle": 5766288.0,
+        "totalutil": 99.66208763766221,
+        "ifmapread": 30653376.0,
+        "filterread": 11135773.0,
+        "ofmapwrite": 2269850.0
     },
     {
         "topologies": "Resnet18.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "totalcycle": 785078.0,
-        "totalutil": 91.50051014039371,
-        "ifmapread": 42251760.0,
-        "filterread": 73649768.0,
-        "ofmapwrite": 2266033.0
+        "gridsize": "16",
+        "gridconfig": "16&1",
+        "totalcycle": 7437131.0,
+        "totalutil": 77.27177321469799,
+        "ifmapread": 3330106.0,
+        "filterread": 144586283.0,
+        "ofmapwrite": 2262682.0
     },
     {
         "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "1&256",
+        "gridsize": "16",
+        "gridconfig": "2&8",
+        "totalcycle": 6040133.0,
+        "totalutil": 95.1436499825418,
+        "ifmapread": 16213720.0,
+        "filterread": 22271562.0,
+        "ofmapwrite": 2269850.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "16",
+        "gridconfig": "4&4",
+        "totalcycle": 6106287.0,
+        "totalutil": 94.11288725865656,
+        "ifmapread": 8981844.0,
+        "filterread": 44543140.0,
+        "ofmapwrite": 2269850.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "16",
+        "gridconfig": "8&2",
+        "totalcycle": 6280771.0,
+        "totalutil": 91.49836859200887,
+        "ifmapread": 5281470.0,
+        "filterread": 73649992.0,
+        "ofmapwrite": 2266257.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "2048",
+        "gridconfig": "1&2048",
         "totalcycle": 3304484.0,
-        "totalutil": 10.86932748047804,
-        "ifmapread": 235089972.0,
-        "filterread": 11133918.0,
-        "ofmapwrite": 2267995.0
+        "totalutil": 1.358665935059755,
+        "ifmapread": 269782575.0,
+        "filterread": 11097561.0,
+        "ofmapwrite": 2231638.0
     },
     {
         "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "128&2",
-        "totalcycle": 1586731.0,
-        "totalutil": 22.636173837909524,
-        "ifmapread": 11561532.0,
-        "filterread": 464436522.0,
-        "ofmapwrite": 2232246.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "16&16",
-        "totalcycle": 464801.0,
-        "totalutil": 77.27504620256839,
-        "ifmapread": 53281696.0,
-        "filterread": 144585728.0,
-        "ofmapwrite": 2262127.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
+        "gridsize": "2048",
+        "gridconfig": "2&1024",
         "totalcycle": 1672144.0,
-        "totalutil": 21.479919642088245,
-        "ifmapread": 127572246.0,
-        "filterread": 21595107.0,
-        "ofmapwrite": 1288482.0
+        "totalutil": 2.6849899552610306,
+        "ifmapread": 296040379.0,
+        "filterread": 22238130.0,
+        "ofmapwrite": 2236418.0
     },
     {
         "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "256&1",
-        "totalcycle": 2900331.0,
-        "totalutil": 12.383937816063064,
-        "ifmapread": 6548241.0,
-        "filterread": 689107633.0,
-        "ofmapwrite": 2181832.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "32&8",
-        "totalcycle": 631945.0,
-        "totalutil": 56.83646322069168,
-        "ifmapread": 34635560.0,
-        "filterread": 282817040.0,
-        "ofmapwrite": 2263148.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "4&64",
-        "totalcycle": 878812.0,
-        "totalutil": 40.87053744145506,
-        "ifmapread": 93048105.0,
-        "filterread": 44078696.0,
-        "ofmapwrite": 1146111.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "64&4",
-        "totalcycle": 902139.0,
-        "totalutil": 39.81373020122176,
-        "ifmapread": 21136188.0,
-        "filterread": 369720088.0,
-        "ofmapwrite": 2233250.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "256",
-        "gridconfig": "8&32",
-        "totalcycle": 528610.0,
-        "totalutil": 67.94710419780176,
-        "ifmapread": 84503520.0,
-        "filterread": 73649512.0,
-        "ofmapwrite": 2265777.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "1&512",
-        "totalcycle": 3304484.0,
-        "totalutil": 5.43466374023902,
-        "ifmapread": 269814831.0,
-        "filterread": 11129817.0,
-        "ofmapwrite": 2263894.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "128&4",
-        "totalcycle": 793355.0,
-        "totalutil": 22.636473426145926,
-        "ifmapread": 23123064.0,
-        "filterread": 464434644.0,
-        "ofmapwrite": 2230368.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "16&32",
-        "totalcycle": 300469.0,
-        "totalutil": 59.7690922358047,
-        "ifmapread": 106563392.0,
-        "filterread": 144585136.0,
-        "ofmapwrite": 2261535.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "2&256",
-        "totalcycle": 1672144.0,
-        "totalutil": 10.739959821044122,
-        "ifmapread": 149352977.0,
-        "filterread": 19502046.0,
-        "ofmapwrite": 1177026.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "256&2",
-        "totalcycle": 1450155.0,
-        "totalutil": 12.384027483269032,
-        "ifmapread": 13096482.0,
-        "filterread": 689105321.0,
-        "ofmapwrite": 2179520.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "32&16",
-        "totalcycle": 315962.0,
-        "totalutil": 56.83835200119003,
-        "ifmapread": 69271120.0,
-        "filterread": 282816320.0,
-        "ofmapwrite": 2262428.0
-    },
-    {
-        "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "4&128",
+        "gridsize": "2048",
+        "gridconfig": "4&512",
         "totalcycle": 840840.0,
-        "totalutil": 21.35811732909947,
-        "ifmapread": 109257764.0,
-        "filterread": 42514659.0,
-        "ofmapwrite": 795432.0
+        "totalutil": 5.339529332274868,
+        "ifmapread": 345810327.0,
+        "filterread": 44519268.0,
+        "ofmapwrite": 2245978.0
     },
     {
         "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "512&1",
-        "totalcycle": 2848395.0,
-        "totalutil": 6.304869716103278,
-        "ifmapread": 7160876.0,
-        "filterread": 792294759.0,
-        "ofmapwrite": 2178418.0
+        "gridsize": "2048",
+        "gridconfig": "8&256",
+        "totalcycle": 427824.0,
+        "totalutil": 10.494244931911252,
+        "ifmapread": 353047769.0,
+        "filterread": 73633008.0,
+        "ofmapwrite": 2249273.0
     },
     {
         "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "64&8",
-        "totalcycle": 451059.0,
-        "totalutil": 39.814657007176436,
-        "ifmapread": 42272376.0,
-        "filterread": 369718704.0,
-        "ofmapwrite": 2231866.0
+        "gridsize": "32",
+        "gridconfig": "1&32",
+        "totalcycle": 3963102.0,
+        "totalutil": 72.50384925747558,
+        "ifmapread": 61306752.0,
+        "filterread": 11135757.0,
+        "ofmapwrite": 2269834.0
     },
     {
         "topologies": "Resnet18.csv",
-        "gridsize": "512",
-        "gridconfig": "8&64",
-        "totalcycle": 446810.0,
-        "totalutil": 40.193279861686186,
-        "ifmapread": 102710105.0,
-        "filterread": 72565864.0,
-        "ofmapwrite": 953502.0
+        "gridsize": "32",
+        "gridconfig": "2&16",
+        "totalcycle": 3020056.0,
+        "totalutil": 95.14398077386647,
+        "ifmapread": 32427440.0,
+        "filterread": 22271546.0,
+        "ofmapwrite": 2269834.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "32",
+        "gridconfig": "4&8",
+        "totalcycle": 3053133.0,
+        "totalutil": 94.1132109213716,
+        "ifmapread": 17963688.0,
+        "filterread": 44543124.0,
+        "ofmapwrite": 2269834.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "32",
+        "gridconfig": "8&4",
+        "totalcycle": 3140375.0,
+        "totalutil": 91.49867452135491,
+        "ifmapread": 10562940.0,
+        "filterread": 73649960.0,
+        "ofmapwrite": 2266225.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "4",
+        "gridconfig": "1&4",
+        "totalcycle": 23065215.0,
+        "totalutil": 99.66181542205439,
+        "ifmapread": 7663344.0,
+        "filterread": 11135785.0,
+        "ofmapwrite": 2269862.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "4",
+        "gridconfig": "2&2",
+        "totalcycle": 24160595.0,
+        "totalutil": 95.14340189055773,
+        "ifmapread": 4053430.0,
+        "filterread": 22271574.0,
+        "ofmapwrite": 2269862.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "4",
+        "gridconfig": "4&1",
+        "totalcycle": 24425211.0,
+        "totalutil": 94.11264451308118,
+        "ifmapread": 2245461.0,
+        "filterread": 44543152.0,
+        "ofmapwrite": 2269862.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -1245,9 +1165,9 @@
         "gridconfig": "64&1",
         "totalcycle": 3608619.0,
         "totalutil": 39.81303512507138,
-        "ifmapread": 5284047.0,
-        "filterread": 369721126.0,
-        "ofmapwrite": 2234288.0
+        "ifmapread": 5294841.0,
+        "filterread": 375215440.0,
+        "ofmapwrite": 2255792.0
     },
     {
         "topologies": "Resnet18.csv",
@@ -1258,6 +1178,816 @@
         "ifmapread": 21125880.0,
         "filterread": 73649896.0,
         "ofmapwrite": 2266161.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "8",
+        "gridconfig": "1&8",
+        "totalcycle": 11532597.0,
+        "totalutil": 99.66190616042506,
+        "ifmapread": 15326688.0,
+        "filterread": 11135781.0,
+        "ofmapwrite": 2269858.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "8",
+        "gridconfig": "2&4",
+        "totalcycle": 12080287.0,
+        "totalutil": 95.14348458774202,
+        "ifmapread": 8106860.0,
+        "filterread": 22271570.0,
+        "ofmapwrite": 2269858.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "8",
+        "gridconfig": "4&2",
+        "totalcycle": 12212595.0,
+        "totalutil": 94.11272542813381,
+        "ifmapread": 4490922.0,
+        "filterread": 44543148.0,
+        "ofmapwrite": 2269858.0
+    },
+    {
+        "topologies": "Resnet18.csv",
+        "gridsize": "8",
+        "gridconfig": "8&1",
+        "totalcycle": 12561563.0,
+        "totalutil": 91.49821562810298,
+        "ifmapread": 2640735.0,
+        "filterread": 73650008.0,
+        "ofmapwrite": 2266273.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "1&1024",
+        "totalcycle": 10403.0,
+        "totalutil": 9.7327693934442,
+        "ifmapread": 3529087.0,
+        "filterread": 661183.0,
+        "ofmapwrite": 8551.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "1024&1",
+        "totalcycle": 166463.0,
+        "totalutil": 0.6082432732799481,
+        "ifmapread": 40472.0,
+        "filterread": 15882776.0,
+        "ofmapwrite": 8192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "128&8",
+        "totalcycle": 20807.0,
+        "totalutil": 4.866150814629692,
+        "ifmapread": 330944.0,
+        "filterread": 15882944.0,
+        "ofmapwrite": 8360.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "16&64",
+        "totalcycle": 3467.0,
+        "totalutil": 29.20392269974041,
+        "ifmapread": 1916672.0,
+        "filterread": 7941632.0,
+        "ofmapwrite": 8936.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "2&512",
+        "totalcycle": 6935.0,
+        "totalutil": 14.599855803893295,
+        "ifmapread": 4706046.0,
+        "filterread": 1323390.0,
+        "ofmapwrite": 8934.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "256&4",
+        "totalcycle": 41615.0,
+        "totalutil": 2.4330169410068483,
+        "ifmapread": 164960.0,
+        "filterread": 15882848.0,
+        "ofmapwrite": 8264.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "32&32",
+        "totalcycle": 5201.0,
+        "totalutil": 19.467410113439723,
+        "ifmapread": 1326848.0,
+        "filterread": 15883520.0,
+        "ofmapwrite": 8936.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "4&256",
+        "totalcycle": 3467.0,
+        "totalutil": 29.20392269974041,
+        "ifmapread": 3391232.0,
+        "filterread": 2647040.0,
+        "ofmapwrite": 8936.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "512&2",
+        "totalcycle": 83231.0,
+        "totalutil": 1.2164938544532686,
+        "ifmapread": 81968.0,
+        "filterread": 15882800.0,
+        "ofmapwrite": 8216.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "64&16",
+        "totalcycle": 10403.0,
+        "totalutil": 9.7327693934442,
+        "ifmapread": 662912.0,
+        "filterread": 15883136.0,
+        "ofmapwrite": 8552.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "1024",
+        "gridconfig": "8&128",
+        "totalcycle": 1733.0,
+        "totalutil": 58.42469705712637,
+        "ifmapread": 2948864.0,
+        "filterread": 3970688.0,
+        "ofmapwrite": 8936.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "128",
+        "gridconfig": "1&128",
+        "totalcycle": 10403.0,
+        "totalutil": 77.8621551475536,
+        "ifmapread": 1179648.0,
+        "filterread": 661824.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "128",
+        "gridconfig": "128&1",
+        "totalcycle": 166463.0,
+        "totalutil": 4.865946186239585,
+        "ifmapread": 41368.0,
+        "filterread": 15883672.0,
+        "ofmapwrite": 9088.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "128",
+        "gridconfig": "16&8",
+        "totalcycle": 20807.0,
+        "totalutil": 38.929206517037535,
+        "ifmapread": 239584.0,
+        "filterread": 7941856.0,
+        "ofmapwrite": 9160.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "128",
+        "gridconfig": "2&64",
+        "totalcycle": 13871.0,
+        "totalutil": 58.39521303438829,
+        "ifmapread": 786432.0,
+        "filterread": 1323648.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "128",
+        "gridconfig": "32&4",
+        "totalcycle": 41615.0,
+        "totalutil": 19.464135528054786,
+        "ifmapread": 165856.0,
+        "filterread": 15883744.0,
+        "ofmapwrite": 9160.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "128",
+        "gridconfig": "4&32",
+        "totalcycle": 10403.0,
+        "totalutil": 77.8621551475536,
+        "ifmapread": 565248.0,
+        "filterread": 2647296.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "128",
+        "gridconfig": "64&2",
+        "totalcycle": 83231.0,
+        "totalutil": 9.731950835626149,
+        "ifmapread": 82864.0,
+        "filterread": 15883696.0,
+        "ofmapwrite": 9112.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "128",
+        "gridconfig": "8&16",
+        "totalcycle": 10403.0,
+        "totalutil": 77.8621551475536,
+        "ifmapread": 368608.0,
+        "filterread": 3970912.0,
+        "ofmapwrite": 9160.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "16",
+        "gridconfig": "1&16",
+        "totalcycle": 62423.0,
+        "totalutil": 103.80789132210883,
+        "ifmapread": 147456.0,
+        "filterread": 661824.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "16",
+        "gridconfig": "16&1",
+        "totalcycle": 166463.0,
+        "totalutil": 38.92756948991668,
+        "ifmapread": 29948.0,
+        "filterread": 7941884.0,
+        "ofmapwrite": 9188.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "16",
+        "gridconfig": "2&8",
+        "totalcycle": 83231.0,
+        "totalutil": 77.85560668500919,
+        "ifmapread": 98304.0,
+        "filterread": 1323648.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "16",
+        "gridconfig": "4&4",
+        "totalcycle": 83231.0,
+        "totalutil": 77.85560668500919,
+        "ifmapread": 70656.0,
+        "filterread": 2647296.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "16",
+        "gridconfig": "8&2",
+        "totalcycle": 83231.0,
+        "totalutil": 77.85560668500919,
+        "ifmapread": 46076.0,
+        "filterread": 3970940.0,
+        "ofmapwrite": 9188.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "1&2048",
+        "totalcycle": 10403.0,
+        "totalutil": 4.8663846967221,
+        "ifmapread": 3528063.0,
+        "filterread": 660159.0,
+        "ofmapwrite": 7527.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "1024&2",
+        "totalcycle": 83231.0,
+        "totalutil": 0.6082469272266343,
+        "ifmapread": 80944.0,
+        "filterread": 15881776.0,
+        "ofmapwrite": 7192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "128&16",
+        "totalcycle": 10403.0,
+        "totalutil": 4.8663846967221,
+        "ifmapread": 661888.0,
+        "filterread": 15882112.0,
+        "ofmapwrite": 7528.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "16&128",
+        "totalcycle": 1733.0,
+        "totalutil": 29.212348528563187,
+        "ifmapread": 3833344.0,
+        "filterread": 7941376.0,
+        "ofmapwrite": 8680.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "2&1024",
+        "totalcycle": 6935.0,
+        "totalutil": 7.299927901946647,
+        "ifmapread": 4705022.0,
+        "filterread": 1322366.0,
+        "ofmapwrite": 7910.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "2048&1",
+        "totalcycle": 166463.0,
+        "totalutil": 0.30412163663997405,
+        "ifmapread": 39448.0,
+        "filterread": 15881752.0,
+        "ofmapwrite": 7168.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "256&8",
+        "totalcycle": 20807.0,
+        "totalutil": 2.433075407314846,
+        "ifmapread": 329920.0,
+        "filterread": 15881920.0,
+        "ofmapwrite": 7336.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "32&64",
+        "totalcycle": 3467.0,
+        "totalutil": 14.601961349870205,
+        "ifmapread": 2653696.0,
+        "filterread": 15883264.0,
+        "ofmapwrite": 8680.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "4&512",
+        "totalcycle": 3467.0,
+        "totalutil": 14.601961349870205,
+        "ifmapread": 6764796.0,
+        "filterread": 2646780.0,
+        "ofmapwrite": 8676.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "512&4",
+        "totalcycle": 41615.0,
+        "totalutil": 1.2165084705034241,
+        "ifmapread": 163936.0,
+        "filterread": 15881824.0,
+        "ofmapwrite": 7240.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "64&32",
+        "totalcycle": 5201.0,
+        "totalutil": 9.733705056719861,
+        "ifmapread": 1325824.0,
+        "filterread": 15882496.0,
+        "ofmapwrite": 7912.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "2048",
+        "gridconfig": "8&256",
+        "totalcycle": 1733.0,
+        "totalutil": 29.212348528563187,
+        "ifmapread": 4422784.0,
+        "filterread": 3970048.0,
+        "ofmapwrite": 8296.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "256",
+        "gridconfig": "1&256",
+        "totalcycle": 10403.0,
+        "totalutil": 38.9310775737768,
+        "ifmapread": 1769408.0,
+        "filterread": 661760.0,
+        "ofmapwrite": 9128.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "256",
+        "gridconfig": "128&2",
+        "totalcycle": 83231.0,
+        "totalutil": 4.8659754178130745,
+        "ifmapread": 82736.0,
+        "filterread": 15883568.0,
+        "ofmapwrite": 8984.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "256",
+        "gridconfig": "16&16",
+        "totalcycle": 10403.0,
+        "totalutil": 38.9310775737768,
+        "ifmapread": 479168.0,
+        "filterread": 7941824.0,
+        "ofmapwrite": 9128.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "256",
+        "gridconfig": "2&128",
+        "totalcycle": 6935.0,
+        "totalutil": 58.39942321557318,
+        "ifmapread": 1572864.0,
+        "filterread": 1323648.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "256",
+        "gridconfig": "256&1",
+        "totalcycle": 166463.0,
+        "totalutil": 2.4329730931197924,
+        "ifmapread": 41240.0,
+        "filterread": 15883544.0,
+        "ofmapwrite": 8960.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "256",
+        "gridconfig": "32&8",
+        "totalcycle": 20807.0,
+        "totalutil": 19.464603258518768,
+        "ifmapread": 331712.0,
+        "filterread": 15883712.0,
+        "ofmapwrite": 9128.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "256",
+        "gridconfig": "4&64",
+        "totalcycle": 6935.0,
+        "totalutil": 58.39942321557318,
+        "ifmapread": 1130496.0,
+        "filterread": 2647296.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "256",
+        "gridconfig": "64&4",
+        "totalcycle": 41615.0,
+        "totalutil": 9.732067764027393,
+        "ifmapread": 165728.0,
+        "filterread": 15883616.0,
+        "ofmapwrite": 9032.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "256",
+        "gridconfig": "8&32",
+        "totalcycle": 5201.0,
+        "totalutil": 77.86964045375889,
+        "ifmapread": 737216.0,
+        "filterread": 3970880.0,
+        "ofmapwrite": 9128.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "32",
+        "gridconfig": "1&32",
+        "totalcycle": 31211.0,
+        "totalutil": 103.8095543237961,
+        "ifmapread": 294912.0,
+        "filterread": 661824.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "32",
+        "gridconfig": "16&2",
+        "totalcycle": 83231.0,
+        "totalutil": 38.927803342504596,
+        "ifmapread": 59896.0,
+        "filterread": 7941880.0,
+        "ofmapwrite": 9184.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "32",
+        "gridconfig": "2&16",
+        "totalcycle": 41615.0,
+        "totalutil": 77.85654211221915,
+        "ifmapread": 196608.0,
+        "filterread": 1323648.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "32",
+        "gridconfig": "32&1",
+        "totalcycle": 166463.0,
+        "totalutil": 19.46378474495834,
+        "ifmapread": 41464.0,
+        "filterread": 15883768.0,
+        "ofmapwrite": 9184.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "32",
+        "gridconfig": "4&8",
+        "totalcycle": 41615.0,
+        "totalutil": 77.85654211221915,
+        "ifmapread": 141312.0,
+        "filterread": 2647296.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "32",
+        "gridconfig": "8&4",
+        "totalcycle": 41615.0,
+        "totalutil": 77.85654211221915,
+        "ifmapread": 92152.0,
+        "filterread": 3970936.0,
+        "ofmapwrite": 9184.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4",
+        "gridconfig": "1&4",
+        "totalcycle": 249695.0,
+        "totalutil": 103.80664410580908,
+        "ifmapread": 36864.0,
+        "filterread": 661824.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4",
+        "gridconfig": "2&2",
+        "totalcycle": 332927.0,
+        "totalutil": 77.85490512935269,
+        "ifmapread": 24576.0,
+        "filterread": 1323648.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4",
+        "gridconfig": "4&1",
+        "totalcycle": 332927.0,
+        "totalutil": 77.85490512935269,
+        "ifmapread": 17664.0,
+        "filterread": 2647296.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "1&4096",
+        "totalcycle": 10403.0,
+        "totalutil": 2.43319234836105,
+        "ifmapread": 3526015.0,
+        "filterread": 658111.0,
+        "ofmapwrite": 5479.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "1024&4",
+        "totalcycle": 41615.0,
+        "totalutil": 0.6082542352517121,
+        "ifmapread": 161888.0,
+        "filterread": 15879776.0,
+        "ofmapwrite": 5192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "128&32",
+        "totalcycle": 5201.0,
+        "totalutil": 4.866852528359931,
+        "ifmapread": 1323776.0,
+        "filterread": 15880448.0,
+        "ofmapwrite": 5864.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "16&256",
+        "totalcycle": 1733.0,
+        "totalutil": 14.606174264281593,
+        "ifmapread": 5748992.0,
+        "filterread": 7940096.0,
+        "ofmapwrite": 7400.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "2&2048",
+        "totalcycle": 6935.0,
+        "totalutil": 3.6499639509733237,
+        "ifmapread": 4702974.0,
+        "filterread": 1320318.0,
+        "ofmapwrite": 5862.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "2048&2",
+        "totalcycle": 83231.0,
+        "totalutil": 0.30412346361331716,
+        "ifmapread": 78896.0,
+        "filterread": 15879728.0,
+        "ofmapwrite": 5144.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "256&16",
+        "totalcycle": 10403.0,
+        "totalutil": 2.43319234836105,
+        "ifmapread": 659840.0,
+        "filterread": 15880064.0,
+        "ofmapwrite": 5480.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "32&128",
+        "totalcycle": 1733.0,
+        "totalutil": 14.606174264281593,
+        "ifmapread": 5307392.0,
+        "filterread": 15882752.0,
+        "ofmapwrite": 8168.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "4&1024",
+        "totalcycle": 3467.0,
+        "totalutil": 7.3009806749351025,
+        "ifmapread": 6762748.0,
+        "filterread": 2644732.0,
+        "ofmapwrite": 6628.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "4096&1",
+        "totalcycle": 166463.0,
+        "totalutil": 0.15206081831998702,
+        "ifmapread": 37400.0,
+        "filterread": 15879704.0,
+        "ofmapwrite": 5120.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "512&8",
+        "totalcycle": 20807.0,
+        "totalutil": 1.216537703657423,
+        "ifmapread": 327872.0,
+        "filterread": 15879872.0,
+        "ofmapwrite": 5288.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "64&64",
+        "totalcycle": 3467.0,
+        "totalutil": 7.3009806749351025,
+        "ifmapread": 2651648.0,
+        "filterread": 15881216.0,
+        "ofmapwrite": 6632.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "4096",
+        "gridconfig": "8&512",
+        "totalcycle": 1733.0,
+        "totalutil": 14.606174264281593,
+        "ifmapread": 8822522.0,
+        "filterread": 3969146.0,
+        "ofmapwrite": 7394.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "1&512",
+        "totalcycle": 10403.0,
+        "totalutil": 19.4655387868884,
+        "ifmapread": 3529599.0,
+        "filterread": 661695.0,
+        "ofmapwrite": 9063.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "128&4",
+        "totalcycle": 41615.0,
+        "totalutil": 4.866033882013697,
+        "ifmapread": 165472.0,
+        "filterread": 15883360.0,
+        "ofmapwrite": 8776.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "16&32",
+        "totalcycle": 5201.0,
+        "totalutil": 38.934820226879445,
+        "ifmapread": 958336.0,
+        "filterread": 7941760.0,
+        "ofmapwrite": 9064.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "2&256",
+        "totalcycle": 6935.0,
+        "totalutil": 29.19971160778659,
+        "ifmapread": 2359168.0,
+        "filterread": 1323520.0,
+        "ofmapwrite": 9064.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "256&2",
+        "totalcycle": 83231.0,
+        "totalutil": 2.4329877089065373,
+        "ifmapread": 82480.0,
+        "filterread": 15883312.0,
+        "ofmapwrite": 8728.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "32&16",
+        "totalcycle": 10403.0,
+        "totalutil": 19.4655387868884,
+        "ifmapread": 663424.0,
+        "filterread": 15883648.0,
+        "ofmapwrite": 9064.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "4&128",
+        "totalcycle": 3467.0,
+        "totalutil": 58.40784539948082,
+        "ifmapread": 2260992.0,
+        "filterread": 2647296.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "512&1",
+        "totalcycle": 166463.0,
+        "totalutil": 1.2164865465598962,
+        "ifmapread": 40984.0,
+        "filterread": 15883288.0,
+        "ofmapwrite": 8704.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "64&8",
+        "totalcycle": 20807.0,
+        "totalutil": 9.732301629259384,
+        "ifmapread": 331456.0,
+        "filterread": 15883456.0,
+        "ofmapwrite": 8872.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "512",
+        "gridconfig": "8&64",
+        "totalcycle": 3467.0,
+        "totalutil": 58.40784539948082,
+        "ifmapread": 1474432.0,
+        "filterread": 3970816.0,
+        "ofmapwrite": 9064.0
     },
     {
         "topologies": "test.csv",
@@ -1330,6 +2060,186 @@
         "ofmapwrite": 9176.0
     },
     {
+        "topologies": "test.csv",
+        "gridsize": "8",
+        "gridconfig": "1&8",
+        "totalcycle": 124847.0,
+        "totalutil": 103.80705984124567,
+        "ifmapread": 73728.0,
+        "filterread": 661824.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8",
+        "gridconfig": "2&4",
+        "totalcycle": 166463.0,
+        "totalutil": 77.85513897983336,
+        "ifmapread": 49152.0,
+        "filterread": 1323648.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8",
+        "gridconfig": "4&2",
+        "totalcycle": 166463.0,
+        "totalutil": 77.85513897983336,
+        "ifmapread": 35328.0,
+        "filterread": 2647296.0,
+        "ofmapwrite": 9192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8",
+        "gridconfig": "8&1",
+        "totalcycle": 166463.0,
+        "totalutil": 77.85513897983336,
+        "ifmapread": 23038.0,
+        "filterread": 3970942.0,
+        "ofmapwrite": 9190.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "1&8192",
+        "totalcycle": 10403.0,
+        "totalutil": 1.216596174180525,
+        "ifmapread": 3521919.0,
+        "filterread": 654015.0,
+        "ofmapwrite": 1383.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "1024&8",
+        "totalcycle": 20807.0,
+        "totalutil": 0.6082688518287115,
+        "ifmapread": 323776.0,
+        "filterread": 15875776.0,
+        "ofmapwrite": 1192.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "128&64",
+        "totalcycle": 3467.0,
+        "totalutil": 3.6504903374675512,
+        "ifmapread": 2647552.0,
+        "filterread": 15877120.0,
+        "ofmapwrite": 2536.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "16&512",
+        "totalcycle": 1733.0,
+        "totalutil": 7.303087132140797,
+        "ifmapread": 11468020.0,
+        "filterread": 7938292.0,
+        "ofmapwrite": 5596.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "2&4096",
+        "totalcycle": 6935.0,
+        "totalutil": 1.8249819754866619,
+        "ifmapread": 4698878.0,
+        "filterread": 1316222.0,
+        "ofmapwrite": 1766.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "2048&4",
+        "totalcycle": 41615.0,
+        "totalutil": 0.30412711762585604,
+        "ifmapread": 157792.0,
+        "filterread": 15875680.0,
+        "ofmapwrite": 1096.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "256&32",
+        "totalcycle": 5201.0,
+        "totalutil": 2.4334262641799653,
+        "ifmapread": 1319680.0,
+        "filterread": 15876352.0,
+        "ofmapwrite": 1768.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "32&256",
+        "totalcycle": 1733.0,
+        "totalutil": 7.303087132140797,
+        "ifmapread": 7959040.0,
+        "filterread": 15880192.0,
+        "ofmapwrite": 5608.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "4&2048",
+        "totalcycle": 3467.0,
+        "totalutil": 3.6504903374675512,
+        "ifmapread": 6758652.0,
+        "filterread": 2640636.0,
+        "ofmapwrite": 2532.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "4096&2",
+        "totalcycle": 83231.0,
+        "totalutil": 0.15206173180665858,
+        "ifmapread": 74800.0,
+        "filterread": 15875632.0,
+        "ofmapwrite": 1048.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "512&16",
+        "totalcycle": 10403.0,
+        "totalutil": 1.216596174180525,
+        "ifmapread": 655744.0,
+        "filterread": 15875968.0,
+        "ofmapwrite": 1384.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "64&128",
+        "totalcycle": 1733.0,
+        "totalutil": 7.303087132140797,
+        "ifmapread": 5303296.0,
+        "filterread": 15878656.0,
+        "ofmapwrite": 4072.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "8&1024",
+        "totalcycle": 1733.0,
+        "totalutil": 7.303087132140797,
+        "ifmapread": 8818426.0,
+        "filterread": 3965050.0,
+        "ofmapwrite": 3298.0
+    },
+    {
+        "topologies": "test.csv",
+        "gridsize": "8192",
+        "gridconfig": "8192&1",
+        "totalcycle": 166463.0,
+        "totalutil": 0.07603040915999351,
+        "ifmapread": 33304.0,
+        "filterread": 15875608.0,
+        "ofmapwrite": 1024.0
+    },
+    {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "1024",
         "gridconfig": "1&1024",
@@ -1342,32 +2252,12 @@
     {
         "topologies": "AlphaGoZero.csv",
         "gridsize": "1024",
-        "gridconfig": "1024&1",
-        "totalcycle": 306110.0,
-        "totalutil": 7.035843697552555,
-        "ifmapread": 1456360.0,
-        "filterread": 349733032.0,
-        "ofmapwrite": 213712.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
-        "gridconfig": "128&8",
-        "totalcycle": 38486.0,
-        "totalutil": 55.96170332738692,
-        "ifmapread": 6368273.0,
-        "filterread": 116543649.0,
-        "ofmapwrite": 214436.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
         "gridconfig": "16&64",
         "totalcycle": 25459.0,
         "totalutil": 84.59649295957469,
-        "ifmapread": 31554561.0,
-        "filterread": 19420017.0,
-        "ofmapwrite": 215224.0
+        "ifmapread": 31640848.0,
+        "filterread": 19423872.0,
+        "ofmapwrite": 215576.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1375,19 +2265,9 @@
         "gridconfig": "2&512",
         "totalcycle": 188867.0,
         "totalutil": 11.403485597048782,
-        "ifmapread": 27152805.0,
-        "filterread": 1206885.0,
-        "ofmapwrite": 103680.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
-        "gridconfig": "256&4",
-        "totalcycle": 76718.0,
-        "totalutil": 28.07349141345984,
-        "ifmapread": 3752065.0,
-        "filterread": 174817713.0,
-        "ofmapwrite": 213859.0
+        "ifmapread": 54043500.0,
+        "filterread": 2421962.0,
+        "ofmapwrite": 214020.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1395,9 +2275,9 @@
         "gridconfig": "32&32",
         "totalcycle": 29452.0,
         "totalutil": 73.12719388353294,
-        "ifmapread": 19092449.0,
-        "filterread": 35202444.0,
-        "ofmapwrite": 214925.0
+        "ifmapread": 19181566.0,
+        "filterread": 35209897.0,
+        "ofmapwrite": 215302.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1405,19 +2285,9 @@
         "gridconfig": "4&256",
         "totalcycle": 96819.0,
         "totalutil": 22.245035729121476,
-        "ifmapread": 16338165.0,
-        "filterread": 1206885.0,
-        "ofmapwrite": 48510.0
-    },
-    {
-        "topologies": "AlphaGoZero.csv",
-        "gridsize": "1024",
-        "gridconfig": "512&2",
-        "totalcycle": 153182.0,
-        "totalutil": 14.060020852696873,
-        "ifmapread": 2736129.0,
-        "filterread": 349641633.0,
-        "ofmapwrite": 213858.0
+        "ifmapread": 64836632.0,
+        "filterread": 4852116.0,
+        "ofmapwrite": 215552.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1425,9 +2295,9 @@
         "gridconfig": "64&16",
         "totalcycle": 38748.0,
         "totalutil": 55.58331047429061,
-        "ifmapread": 10914689.0,
-        "filterread": 70410039.0,
-        "ofmapwrite": 214919.0
+        "ifmapread": 11005372.0,
+        "filterread": 70425202.0,
+        "ofmapwrite": 215332.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1435,9 +2305,9 @@
         "gridconfig": "8&128",
         "totalcycle": 50926.0,
         "totalutil": 42.29160181945985,
-        "ifmapread": 43342337.0,
-        "filterread": 9707577.0,
-        "ofmapwrite": 215247.0
+        "ifmapread": 43422728.0,
+        "filterread": 9709376.0,
+        "ofmapwrite": 215568.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1465,9 +2335,9 @@
         "gridconfig": "16&8",
         "totalcycle": 192724.0,
         "totalutil": 89.40213421298074,
-        "ifmapread": 3949473.0,
-        "filterread": 19424497.0,
-        "ofmapwrite": 219704.0
+        "ifmapread": 4035760.0,
+        "filterread": 19428352.0,
+        "ofmapwrite": 220056.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1475,9 +2345,9 @@
         "gridconfig": "2&64",
         "totalcycle": 188867.0,
         "totalutil": 91.22788477639025,
-        "ifmapread": 13588097.0,
-        "filterread": 2427727.0,
-        "ofmapwrite": 219862.0
+        "ifmapread": 13633922.0,
+        "filterread": 2427984.0,
+        "ofmapwrite": 220042.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1485,9 +2355,9 @@
         "gridconfig": "32&4",
         "totalcycle": 230170.0,
         "totalutil": 74.85743977956513,
-        "ifmapread": 2389245.0,
-        "filterread": 35207176.0,
-        "ofmapwrite": 219657.0
+        "ifmapread": 2478362.0,
+        "filterread": 35214629.0,
+        "ofmapwrite": 220034.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1495,9 +2365,9 @@
         "gridconfig": "4&32",
         "totalcycle": 187620.0,
         "totalutil": 91.83422297229772,
-        "ifmapread": 8148097.0,
-        "filterread": 4855837.0,
-        "ofmapwrite": 219772.0
+        "ifmapread": 8216964.0,
+        "filterread": 4856608.0,
+        "ofmapwrite": 220044.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1505,9 +2375,9 @@
         "gridconfig": "64&2",
         "totalcycle": 306372.0,
         "totalutil": 56.23861486709784,
-        "ifmapread": 1365681.0,
-        "filterread": 70414771.0,
-        "ofmapwrite": 219651.0
+        "ifmapread": 1456364.0,
+        "filterread": 70429934.0,
+        "ofmapwrite": 220064.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1515,9 +2385,179 @@
         "gridconfig": "8&16",
         "totalcycle": 194296.0,
         "totalutil": 88.67880406216545,
-        "ifmapread": 5428097.0,
-        "filterread": 9712057.0,
-        "ofmapwrite": 219727.0
+        "ifmapread": 5508488.0,
+        "filterread": 9713856.0,
+        "ofmapwrite": 220048.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "16",
+        "gridconfig": "1&16",
+        "totalcycle": 1399924.0,
+        "totalutil": 98.46212745299029,
+        "ifmapread": 3139121.0,
+        "filterread": 1214232.0,
+        "ofmapwrite": 220601.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "16",
+        "gridconfig": "16&1",
+        "totalcycle": 1530844.0,
+        "totalutil": 90.04150345332381,
+        "ifmapread": 585124.0,
+        "filterread": 19428912.0,
+        "ofmapwrite": 220616.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "16",
+        "gridconfig": "2&8",
+        "totalcycle": 1426628.0,
+        "totalutil": 96.61908732514713,
+        "ifmapread": 1784882.0,
+        "filterread": 2428544.0,
+        "ofmapwrite": 220602.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "16",
+        "gridconfig": "4&4",
+        "totalcycle": 1458834.0,
+        "totalutil": 94.4860726528858,
+        "ifmapread": 1107764.0,
+        "filterread": 4857168.0,
+        "ofmapwrite": 220604.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "16",
+        "gridconfig": "8&2",
+        "totalcycle": 1532416.0,
+        "totalutil": 89.9491360782581,
+        "ifmapread": 769208.0,
+        "filterread": 9714416.0,
+        "ofmapwrite": 220608.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "1&2048",
+        "totalcycle": 367660.0,
+        "totalutil": 2.928986175077263,
+        "ifmapread": 48638742.0,
+        "filterread": 1198693.0,
+        "ofmapwrite": 205062.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "1024&2",
+        "totalcycle": 153182.0,
+        "totalutil": 7.030010426348436,
+        "ifmapread": 2820200.0,
+        "filterread": 349725704.0,
+        "ofmapwrite": 206384.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "128&16",
+        "totalcycle": 19370.0,
+        "totalutil": 55.59478870051142,
+        "ifmapread": 12827288.0,
+        "filterread": 116568344.0,
+        "ofmapwrite": 209024.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "16&128",
+        "totalcycle": 25459.0,
+        "totalutil": 42.298246479787345,
+        "ifmapread": 63189520.0,
+        "filterread": 19418752.0,
+        "ofmapwrite": 210456.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "2&1024",
+        "totalcycle": 188867.0,
+        "totalutil": 5.701742798524391,
+        "ifmapread": 54035308.0,
+        "filterread": 2413770.0,
+        "ofmapwrite": 205828.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "2048&1",
+        "totalcycle": 306110.0,
+        "totalutil": 3.5179218487762776,
+        "ifmapread": 1448168.0,
+        "filterread": 349724840.0,
+        "ofmapwrite": 205520.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "256&8",
+        "totalcycle": 38486.0,
+        "totalutil": 27.98085166369346,
+        "ifmapread": 7595444.0,
+        "filterread": 174857252.0,
+        "ofmapwrite": 207932.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "32&64",
+        "totalcycle": 15115.0,
+        "totalutil": 71.24519068004673,
+        "ifmapread": 38270942.0,
+        "filterread": 35204489.0,
+        "ofmapwrite": 209894.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "4&512",
+        "totalcycle": 96819.0,
+        "totalutil": 11.122517864560738,
+        "ifmapread": 64828440.0,
+        "filterread": 4843924.0,
+        "ofmapwrite": 207360.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "512&4",
+        "totalcycle": 76718.0,
+        "totalutil": 14.03674570672992,
+        "ifmapread": 5564264.0,
+        "filterread": 349727432.0,
+        "ofmapwrite": 208112.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "64&32",
+        "totalcycle": 19632.0,
+        "totalutil": 54.85284520827763,
+        "ifmapread": 21918524.0,
+        "filterread": 70419794.0,
+        "ofmapwrite": 209924.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "2048",
+        "gridconfig": "8&256",
+        "totalcycle": 50926.0,
+        "totalutil": 21.145800909729925,
+        "ifmapread": 86414704.0,
+        "filterread": 9704232.0,
+        "ofmapwrite": 210424.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1535,9 +2575,9 @@
         "gridconfig": "128&2",
         "totalcycle": 153182.0,
         "totalutil": 56.24008341078749,
-        "ifmapread": 1592645.0,
-        "filterread": 116548065.0,
-        "ofmapwrite": 218852.0
+        "ifmapread": 1684156.0,
+        "filterread": 116578648.0,
+        "ofmapwrite": 219328.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1545,9 +2585,9 @@
         "gridconfig": "16&16",
         "totalcycle": 97144.0,
         "totalutil": 88.68245549937463,
-        "ifmapread": 7893057.0,
-        "filterread": 19423857.0,
-        "ofmapwrite": 219064.0
+        "ifmapread": 7979344.0,
+        "filterread": 19427712.0,
+        "ofmapwrite": 219416.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1555,9 +2595,9 @@
         "gridconfig": "2&128",
         "totalcycle": 188867.0,
         "totalutil": 45.61394238819513,
-        "ifmapread": 27129857.0,
-        "filterread": 2427087.0,
-        "ofmapwrite": 219222.0
+        "ifmapread": 27175682.0,
+        "filterread": 2427344.0,
+        "ofmapwrite": 219402.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1575,9 +2615,9 @@
         "gridconfig": "32&8",
         "totalcycle": 115474.0,
         "totalutil": 74.60526574840439,
-        "ifmapread": 4775417.0,
-        "filterread": 35206500.0,
-        "ofmapwrite": 218981.0
+        "ifmapread": 4864534.0,
+        "filterread": 35213953.0,
+        "ofmapwrite": 219358.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1585,9 +2625,9 @@
         "gridconfig": "4&64",
         "totalcycle": 96819.0,
         "totalutil": 88.9801429164859,
-        "ifmapread": 16272897.0,
-        "filterread": 4855197.0,
-        "ofmapwrite": 219132.0
+        "ifmapread": 16341764.0,
+        "filterread": 4855968.0,
+        "ofmapwrite": 219404.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1595,9 +2635,9 @@
         "gridconfig": "64&4",
         "totalcycle": 153444.0,
         "totalutil": 56.14405553186341,
-        "ifmapread": 2729825.0,
-        "filterread": 70414095.0,
-        "ofmapwrite": 218975.0
+        "ifmapread": 2820508.0,
+        "filterread": 70429258.0,
+        "ofmapwrite": 219388.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1605,9 +2645,209 @@
         "gridconfig": "8&32",
         "totalcycle": 98716.0,
         "totalutil": 87.27023437974847,
-        "ifmapread": 10844417.0,
-        "filterread": 9711417.0,
-        "ofmapwrite": 219087.0
+        "ifmapread": 10924808.0,
+        "filterread": 9713216.0,
+        "ofmapwrite": 219408.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "32",
+        "gridconfig": "1&32",
+        "totalcycle": 711748.0,
+        "totalutil": 96.8316702769098,
+        "ifmapread": 6186081.0,
+        "filterread": 1214152.0,
+        "ofmapwrite": 220521.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "32",
+        "gridconfig": "16&2",
+        "totalcycle": 766204.0,
+        "totalutil": 89.94960566148181,
+        "ifmapread": 1078072.0,
+        "filterread": 19428832.0,
+        "ofmapwrite": 220536.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "32",
+        "gridconfig": "2&16",
+        "totalcycle": 719336.0,
+        "totalutil": 95.81023006807668,
+        "ifmapread": 3477602.0,
+        "filterread": 2428464.0,
+        "ofmapwrite": 220522.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "32",
+        "gridconfig": "32&1",
+        "totalcycle": 918346.0,
+        "totalutil": 75.0476918898215,
+        "ifmapread": 688733.0,
+        "filterread": 35215136.0,
+        "ofmapwrite": 220541.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "32",
+        "gridconfig": "4&8",
+        "totalcycle": 732426.0,
+        "totalutil": 94.09789884063372,
+        "ifmapread": 2123364.0,
+        "filterread": 4857088.0,
+        "ofmapwrite": 220524.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "32",
+        "gridconfig": "8&4",
+        "totalcycle": 767776.0,
+        "totalutil": 89.76543634634322,
+        "ifmapread": 1446248.0,
+        "filterread": 9714336.0,
+        "ofmapwrite": 220528.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4",
+        "gridconfig": "1&4",
+        "totalcycle": 5528980.0,
+        "totalutil": 99.72146422124878,
+        "ifmapread": 853901.0,
+        "filterread": 1214292.0,
+        "ofmapwrite": 220661.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4",
+        "gridconfig": "2&2",
+        "totalcycle": 5670380.0,
+        "totalutil": 97.23474991975846,
+        "ifmapread": 515342.0,
+        "filterread": 2428604.0,
+        "ofmapwrite": 220662.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4",
+        "gridconfig": "4&1",
+        "totalcycle": 5817282.0,
+        "totalutil": 94.77931124019774,
+        "ifmapread": 346064.0,
+        "filterread": 4857228.0,
+        "ofmapwrite": 220664.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "1&4096",
+        "totalcycle": 367660.0,
+        "totalutil": 1.4644930875386315,
+        "ifmapread": 48622358.0,
+        "filterread": 1182309.0,
+        "ofmapwrite": 188678.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "1024&4",
+        "totalcycle": 76718.0,
+        "totalutil": 7.01837285336496,
+        "ifmapread": 5547880.0,
+        "filterread": 349711048.0,
+        "ofmapwrite": 191728.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "128&32",
+        "totalcycle": 9812.0,
+        "totalutil": 54.875206743217795,
+        "ifmapread": 25562296.0,
+        "filterread": 116556568.0,
+        "ofmapwrite": 197248.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "16&256",
+        "totalcycle": 25459.0,
+        "totalutil": 21.149123239893672,
+        "ifmapread": 125793788.0,
+        "filterread": 19408464.0,
+        "ofmapwrite": 200168.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "2&2048",
+        "totalcycle": 188867.0,
+        "totalutil": 2.8508713992621955,
+        "ifmapread": 54018924.0,
+        "filterread": 2397386.0,
+        "ofmapwrite": 189444.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "256&16",
+        "totalcycle": 19370.0,
+        "totalutil": 27.79739435025571,
+        "ifmapread": 15098548.0,
+        "filterread": 174844324.0,
+        "ofmapwrite": 195004.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "32&128",
+        "totalcycle": 15115.0,
+        "totalutil": 35.622595340023366,
+        "ifmapread": 76449694.0,
+        "filterread": 35193673.0,
+        "ofmapwrite": 199078.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "4&1024",
+        "totalcycle": 96819.0,
+        "totalutil": 5.561258932280369,
+        "ifmapread": 64812056.0,
+        "filterread": 4827540.0,
+        "ofmapwrite": 190976.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "512&8",
+        "totalcycle": 38486.0,
+        "totalutil": 13.99042583184673,
+        "ifmapread": 11036008.0,
+        "filterread": 349714504.0,
+        "ofmapwrite": 195184.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "64&64",
+        "totalcycle": 10074.0,
+        "totalutil": 53.44803737983454,
+        "ifmapread": 43744828.0,
+        "filterread": 70408978.0,
+        "ofmapwrite": 199108.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "4096",
+        "gridconfig": "8&512",
+        "totalcycle": 50926.0,
+        "totalutil": 10.572900454864962,
+        "ifmapread": 86398320.0,
+        "filterread": 9687848.0,
+        "ofmapwrite": 194040.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1625,9 +2865,9 @@
         "gridconfig": "128&4",
         "totalcycle": 76718.0,
         "totalutil": 56.14698282691968,
-        "ifmapread": 3184521.0,
-        "filterread": 116546593.0,
-        "ofmapwrite": 217380.0
+        "ifmapread": 3276032.0,
+        "filterread": 116577176.0,
+        "ofmapwrite": 217856.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1635,9 +2875,9 @@
         "gridconfig": "16&32",
         "totalcycle": 49354.0,
         "totalutil": 87.27730738168387,
-        "ifmapread": 15780225.0,
-        "filterread": 19422577.0,
-        "ofmapwrite": 217784.0
+        "ifmapread": 15866512.0,
+        "filterread": 19426432.0,
+        "ofmapwrite": 218136.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1645,9 +2885,9 @@
         "gridconfig": "2&256",
         "totalcycle": 188867.0,
         "totalutil": 22.806971194097564,
-        "ifmapread": 27156901.0,
-        "filterread": 1210981.0,
-        "ofmapwrite": 107776.0
+        "ifmapread": 54047596.0,
+        "filterread": 2426058.0,
+        "ofmapwrite": 218116.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1655,9 +2895,9 @@
         "gridconfig": "256&2",
         "totalcycle": 153182.0,
         "totalutil": 28.120041705393746,
-        "ifmapread": 1876289.0,
-        "filterread": 174820945.0,
-        "ofmapwrite": 217091.0
+        "ifmapread": 1968116.0,
+        "filterread": 174866948.0,
+        "ofmapwrite": 217628.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1665,9 +2905,9 @@
         "gridconfig": "32&16",
         "totalcycle": 58126.0,
         "totalutil": 74.10598060275306,
-        "ifmapread": 9547761.0,
-        "filterread": 35205148.0,
-        "ofmapwrite": 217629.0
+        "ifmapread": 9636878.0,
+        "filterread": 35212601.0,
+        "ofmapwrite": 218006.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1675,9 +2915,9 @@
         "gridconfig": "4&128",
         "totalcycle": 96819.0,
         "totalutil": 44.49007145824295,
-        "ifmapread": 32522497.0,
-        "filterread": 4853917.0,
-        "ofmapwrite": 217852.0
+        "ifmapread": 32591364.0,
+        "filterread": 4854688.0,
+        "ofmapwrite": 218124.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1695,9 +2935,9 @@
         "gridconfig": "64&8",
         "totalcycle": 76980.0,
         "totalutil": 55.95588761386886,
-        "ifmapread": 5458113.0,
-        "filterread": 70412743.0,
-        "ofmapwrite": 217623.0
+        "ifmapread": 5548796.0,
+        "filterread": 70427906.0,
+        "ofmapwrite": 218036.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1705,9 +2945,9 @@
         "gridconfig": "8&64",
         "totalcycle": 50926.0,
         "totalutil": 84.5832036389197,
-        "ifmapread": 21677057.0,
-        "filterread": 9710137.0,
-        "ofmapwrite": 217807.0
+        "ifmapread": 21757448.0,
+        "filterread": 9711936.0,
+        "ofmapwrite": 218128.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1725,9 +2965,9 @@
         "gridconfig": "16&4",
         "totalcycle": 383884.0,
         "totalutil": 89.7663716855222,
-        "ifmapread": 1977681.0,
-        "filterread": 19424817.0,
-        "ofmapwrite": 220024.0
+        "ifmapread": 2063968.0,
+        "filterread": 19428672.0,
+        "ofmapwrite": 220376.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1735,9 +2975,9 @@
         "gridconfig": "2&32",
         "totalcycle": 365690.0,
         "totalutil": 94.23247512408052,
-        "ifmapread": 6817217.0,
-        "filterread": 2428047.0,
-        "ofmapwrite": 220182.0
+        "ifmapread": 6863042.0,
+        "filterread": 2428304.0,
+        "ofmapwrite": 220362.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1745,9 +2985,9 @@
         "gridconfig": "32&2",
         "totalcycle": 459562.0,
         "totalutil": 74.98416715943661,
-        "ifmapread": 1196159.0,
-        "filterread": 35207514.0,
-        "ofmapwrite": 219995.0
+        "ifmapread": 1285276.0,
+        "filterread": 35214967.0,
+        "ofmapwrite": 220372.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1755,9 +2995,9 @@
         "gridconfig": "4&16",
         "totalcycle": 369222.0,
         "totalutil": 93.33104156340902,
-        "ifmapread": 4085697.0,
-        "filterread": 4856157.0,
-        "ofmapwrite": 220092.0
+        "ifmapread": 4154564.0,
+        "filterread": 4856928.0,
+        "ofmapwrite": 220364.0
     },
     {
         "topologies": "AlphaGoZero.csv",
@@ -1775,119 +3015,89 @@
         "gridconfig": "8&8",
         "totalcycle": 385456.0,
         "totalutil": 89.40027870398957,
-        "ifmapread": 2719937.0,
-        "filterread": 9712377.0,
-        "ofmapwrite": 220047.0
+        "ifmapread": 2800328.0,
+        "filterread": 9714176.0,
+        "ofmapwrite": 220368.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "8",
+        "gridconfig": "1&8",
+        "totalcycle": 2776276.0,
+        "totalutil": 99.29812116122459,
+        "ifmapread": 1615641.0,
+        "filterread": 1214272.0,
+        "ofmapwrite": 220641.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "8",
+        "gridconfig": "2&4",
+        "totalcycle": 2841212.0,
+        "totalutil": 97.02865911625038,
+        "ifmapread": 938522.0,
+        "filterread": 2428584.0,
+        "ofmapwrite": 220642.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "8",
+        "gridconfig": "4&2",
+        "totalcycle": 2911650.0,
+        "totalutil": 94.68136301581579,
+        "ifmapread": 599964.0,
+        "filterread": 4857208.0,
+        "ofmapwrite": 220644.0
+    },
+    {
+        "topologies": "AlphaGoZero.csv",
+        "gridsize": "8",
+        "gridconfig": "8&1",
+        "totalcycle": 3061696.0,
+        "totalutil": 90.04126818109964,
+        "ifmapread": 430688.0,
+        "filterread": 9714456.0,
+        "ofmapwrite": 220648.0
     },
     {
         "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "1&128",
-        "totalcycle": 5098463.0,
-        "totalutil": 34.10153952279344,
-        "ifmapread": 830956456.0,
-        "filterread": 13216658.0,
-        "ofmapwrite": 9914125.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
-        "totalcycle": 4007750.0,
-        "totalutil": 43.38230615682116,
-        "ifmapread": 12364536.0,
-        "filterread": 1110171055.0,
-        "ofmapwrite": 9877995.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "16&8",
-        "totalcycle": 2086570.0,
-        "totalutil": 83.32595479662793,
-        "ifmapread": 76540301.0,
-        "filterread": 206891877.0,
-        "ofmapwrite": 9887073.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "2&64",
-        "totalcycle": 2914157.0,
-        "totalutil": 59.66234403293989,
-        "ifmapread": 423644557.0,
-        "filterread": 26252954.0,
-        "ofmapwrite": 8956466.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "32&4",
-        "totalcycle": 2380714.0,
-        "totalutil": 73.03079559325477,
-        "ifmapread": 42927256.0,
-        "filterread": 382616124.0,
-        "ofmapwrite": 9902298.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "4&32",
-        "totalcycle": 2081313.0,
-        "totalutil": 83.53642027892967,
-        "ifmapread": 261453891.0,
-        "filterread": 52789207.0,
-        "ofmapwrite": 9906979.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "64&2",
-        "totalcycle": 2434194.0,
-        "totalutil": 71.42628627792195,
-        "ifmapread": 23240302.0,
-        "filterread": 659884636.0,
-        "ofmapwrite": 9880852.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "totalcycle": 1902469.0,
-        "totalutil": 91.38936692266732,
-        "ifmapread": 139013125.0,
-        "filterread": 105551997.0,
-        "ofmapwrite": 9905717.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "256",
-        "gridconfig": "1&256",
+        "gridsize": "2048",
+        "gridconfig": "1&2048",
         "totalcycle": 4992427.0,
-        "totalutil": 17.41291735462531,
-        "ifmapread": 1264207384.0,
-        "filterread": 13214466.0,
-        "ofmapwrite": 9911933.0
+        "totalutil": 2.176614669328164,
+        "ifmapread": 1775160075.0,
+        "filterread": 13138933.0,
+        "ofmapwrite": 9836400.0
     },
     {
         "topologies": "FasterRCNN.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
-        "totalcycle": 2559217.0,
-        "totalutil": 33.96848284065008,
-        "ifmapread": 645658117.0,
-        "filterread": 25437970.0,
-        "ofmapwrite": 8580902.0
+        "gridsize": "4",
+        "gridconfig": "1&4",
+        "totalcycle": 56601468.0,
+        "totalutil": 98.29593112319984,
+        "ifmapread": 31856628.0,
+        "filterread": 13217325.0,
+        "ofmapwrite": 9914792.0
     },
     {
         "topologies": "FasterRCNN.csv",
-        "gridsize": "256",
-        "gridconfig": "4&64",
-        "totalcycle": 1467853.0,
-        "totalutil": 59.22440377203982,
-        "ifmapread": 395405339.0,
-        "filterread": 52324378.0,
-        "ofmapwrite": 8476234.0
+        "gridsize": "4",
+        "gridconfig": "2&2",
+        "totalcycle": 56909658.0,
+        "totalutil": 97.76361685392665,
+        "ifmapread": 16178746.0,
+        "filterread": 26434650.0,
+        "ofmapwrite": 9914792.0
+    },
+    {
+        "topologies": "FasterRCNN.csv",
+        "gridsize": "4",
+        "gridconfig": "4&1",
+        "totalcycle": 57438534.0,
+        "totalutil": 96.86344014281423,
+        "ifmapread": 8342681.0,
+        "filterread": 52918340.0,
+        "ofmapwrite": 9914792.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -1915,19 +3125,9 @@
         "gridconfig": "2&32",
         "totalcycle": 4127049.0,
         "totalutil": 84.25654141736626,
-        "ifmapread": 254226243.0,
-        "filterread": 26407933.0,
-        "ofmapwrite": 9909655.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "totalcycle": 4759402.0,
-        "totalutil": 73.06188361479025,
-        "ifmapread": 21463628.0,
-        "filterread": 382616302.0,
-        "ofmapwrite": 9902476.0
+        "ifmapread": 255964518.0,
+        "filterread": 26434592.0,
+        "ofmapwrite": 9914734.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -1935,19 +3135,9 @@
         "gridconfig": "4&16",
         "totalcycle": 3597441.0,
         "totalutil": 96.66061931245015,
-        "ifmapread": 130814757.0,
-        "filterread": 52789321.0,
-        "ofmapwrite": 9907093.0
-    },
-    {
-        "topologies": "FasterRCNN.csv",
-        "gridsize": "64",
-        "gridconfig": "64&1",
-        "totalcycle": 4867398.0,
-        "totalutil": 71.4408139626141,
-        "ifmapread": 11620151.0,
-        "filterread": 659885006.0,
-        "ofmapwrite": 9881222.0
+        "ifmapread": 132384612.0,
+        "filterread": 52869256.0,
+        "ofmapwrite": 9914748.0
     },
     {
         "topologies": "FasterRCNN.csv",
@@ -1955,668 +3145,218 @@
         "gridconfig": "8&8",
         "totalcycle": 3801358.0,
         "totalutil": 91.47543456838318,
-        "ifmapread": 69538565.0,
-        "filterread": 105552117.0,
-        "ofmapwrite": 9905837.0
+        "ifmapread": 70670176.0,
+        "filterread": 105738576.0,
+        "ofmapwrite": 9914768.0
     },
     {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "1&128",
-        "totalcycle": 5005039.0,
-        "totalutil": 33.94563708694378,
-        "ifmapread": 857091060.0,
-        "filterread": 23401438.0,
-        "ofmapwrite": 10372758.0
+        "topologies": "FasterRCNN.csv",
+        "gridsize": "8",
+        "gridconfig": "1&8",
+        "totalcycle": 28313402.0,
+        "totalutil": 98.2519514963267,
+        "ifmapread": 63413733.0,
+        "filterread": 13217322.0,
+        "ofmapwrite": 9914789.0
     },
     {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
-        "totalcycle": 6572522.0,
-        "totalutil": 25.849930589810103,
-        "ifmapread": 11898674.0,
-        "filterread": 1207747049.0,
-        "ofmapwrite": 10192338.0
+        "topologies": "FasterRCNN.csv",
+        "gridsize": "8",
+        "gridconfig": "2&4",
+        "totalcycle": 28467756.0,
+        "totalutil": 97.71922310982292,
+        "ifmapread": 32357492.0,
+        "filterread": 26434650.0,
+        "ofmapwrite": 9914792.0
     },
     {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "16&8",
-        "totalcycle": 2106746.0,
-        "totalutil": 80.64533527060219,
-        "ifmapread": 76642016.0,
-        "filterread": 315802296.0,
-        "ofmapwrite": 10337015.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "2&64",
-        "totalcycle": 2893929.0,
-        "totalutil": 58.70884790193541,
-        "ifmapread": 436436441.0,
-        "filterread": 46649062.0,
-        "ofmapwrite": 9420143.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "32&4",
-        "totalcycle": 2723430.0,
-        "totalutil": 62.38428654307257,
-        "ifmapread": 42246948.0,
-        "filterread": 613872840.0,
-        "ofmapwrite": 10342577.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "4&32",
-        "totalcycle": 2094165.0,
-        "totalutil": 81.12982381999504,
-        "ifmapread": 267817632.0,
-        "filterread": 93607988.0,
-        "ofmapwrite": 10373221.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "64&2",
-        "totalcycle": 3716058.0,
-        "totalutil": 45.72028679315556,
-        "ifmapread": 22604758.0,
-        "filterread": 871790532.0,
-        "ofmapwrite": 10195497.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "totalcycle": 1884649.0,
-        "totalutil": 90.14900785239057,
-        "ifmapread": 141087136.0,
-        "filterread": 165231128.0,
-        "ofmapwrite": 10355107.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "256",
-        "gridconfig": "1&256",
-        "totalcycle": 4828747.0,
-        "totalutil": 17.59247663006573,
-        "ifmapread": 1321668324.0,
-        "filterread": 23399374.0,
-        "ofmapwrite": 10370694.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
-        "totalcycle": 2536149.0,
-        "totalutil": 33.49551574059727,
-        "ifmapread": 673851089.0,
-        "filterread": 45834206.0,
-        "ofmapwrite": 9044707.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "256",
-        "gridconfig": "4&64",
-        "totalcycle": 1467541.0,
-        "totalutil": 57.88568683941364,
-        "ifmapread": 408584423.0,
-        "filterread": 93143270.0,
-        "ofmapwrite": 8942587.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "1&64",
-        "totalcycle": 5666527.0,
-        "totalutil": 59.965914748134125,
-        "ifmapread": 510031356.0,
-        "filterread": 23401958.0,
-        "ofmapwrite": 10373278.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "totalcycle": 4213546.0,
-        "totalutil": 80.6443017354029,
-        "ifmapread": 38321008.0,
-        "filterread": 315802564.0,
-        "ofmapwrite": 10337283.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "2&32",
-        "totalcycle": 4112501.0,
-        "totalutil": 82.625748905593,
-        "ifmapread": 260170592.0,
-        "filterread": 46803994.0,
-        "ofmapwrite": 10373285.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "totalcycle": 5446914.0,
-        "totalutil": 62.38366807333473,
-        "ifmapread": 21123474.0,
-        "filterread": 613873204.0,
-        "ofmapwrite": 10342941.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "4&16",
-        "totalcycle": 3636621.0,
-        "totalutil": 93.4379675528464,
-        "ifmapread": 133908816.0,
-        "filterread": 93608052.0,
-        "ofmapwrite": 10373285.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "64&1",
-        "totalcycle": 7432170.0,
-        "totalutil": 45.71995460276069,
-        "ifmapread": 11302379.0,
-        "filterread": 871791234.0,
-        "ofmapwrite": 10196199.0
-    },
-    {
-        "topologies": "Resnet50.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "totalcycle": 3769352.0,
-        "totalutil": 90.14771637140818,
-        "ifmapread": 70543568.0,
-        "filterread": 165231296.0,
-        "ofmapwrite": 10355275.0
+        "topologies": "FasterRCNN.csv",
+        "gridsize": "8",
+        "gridconfig": "4&2",
+        "totalcycle": 28725978.0,
+        "totalutil": 96.84081078109857,
+        "ifmapread": 16685362.0,
+        "filterread": 52869300.0,
+        "ofmapwrite": 9914792.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "1&1024",
+        "gridsize": "16",
+        "gridconfig": "1&16",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -156.25,
+        "ifmapread": -32.0,
+        "filterread": -32.0,
+        "ofmapwrite": -32.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "1024&1",
+        "gridsize": "16",
+        "gridconfig": "16&1",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -156.25,
+        "ifmapread": -32.0,
+        "filterread": -32.0,
+        "ofmapwrite": -32.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "128&8",
+        "gridsize": "16",
+        "gridconfig": "2&8",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -156.25,
+        "ifmapread": -32.0,
+        "filterread": -32.0,
+        "ofmapwrite": -32.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "16&64",
+        "gridsize": "16",
+        "gridconfig": "4&4",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -156.25,
+        "ifmapread": -32.0,
+        "filterread": -32.0,
+        "ofmapwrite": -32.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "2&512",
+        "gridsize": "16",
+        "gridconfig": "8&2",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -156.25,
+        "ifmapread": -32.0,
+        "filterread": -32.0,
+        "ofmapwrite": -32.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "256&4",
+        "gridsize": "32",
+        "gridconfig": "1&32",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -78.125,
+        "ifmapread": -64.0,
+        "filterread": -64.0,
+        "ofmapwrite": -64.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "32&32",
+        "gridsize": "32",
+        "gridconfig": "16&2",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -78.125,
+        "ifmapread": -64.0,
+        "filterread": -64.0,
+        "ofmapwrite": -64.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "4&256",
+        "gridsize": "32",
+        "gridconfig": "2&16",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -78.125,
+        "ifmapread": -64.0,
+        "filterread": -64.0,
+        "ofmapwrite": -64.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "512&2",
+        "gridsize": "32",
+        "gridconfig": "32&1",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -78.125,
+        "ifmapread": -64.0,
+        "filterread": -64.0,
+        "ofmapwrite": -64.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "64&16",
+        "gridsize": "32",
+        "gridconfig": "4&8",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -78.125,
+        "ifmapread": -64.0,
+        "filterread": -64.0,
+        "ofmapwrite": -64.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "1024",
-        "gridconfig": "8&128",
+        "gridsize": "32",
+        "gridconfig": "8&4",
         "totalcycle": -2.0,
-        "totalutil": -2.44140625,
-        "ifmapread": -2048.0,
-        "filterread": -2048.0,
-        "ofmapwrite": -2048.0
+        "totalutil": -78.125,
+        "ifmapread": -64.0,
+        "filterread": -64.0,
+        "ofmapwrite": -64.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "1&128",
+        "gridsize": "4",
+        "gridconfig": "1&4",
         "totalcycle": -2.0,
-        "totalutil": -19.53125,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
+        "totalutil": -625.0,
+        "ifmapread": -8.0,
+        "filterread": -8.0,
+        "ofmapwrite": -8.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "128&1",
+        "gridsize": "4",
+        "gridconfig": "2&2",
         "totalcycle": -2.0,
-        "totalutil": -19.53125,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
+        "totalutil": -625.0,
+        "ifmapread": -8.0,
+        "filterread": -8.0,
+        "ofmapwrite": -8.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "16&8",
+        "gridsize": "4",
+        "gridconfig": "4&1",
         "totalcycle": -2.0,
-        "totalutil": -19.53125,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
+        "totalutil": -625.0,
+        "ifmapread": -8.0,
+        "filterread": -8.0,
+        "ofmapwrite": -8.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "2&64",
+        "gridsize": "8",
+        "gridconfig": "1&8",
         "totalcycle": -2.0,
-        "totalutil": -19.53125,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
+        "totalutil": -312.5,
+        "ifmapread": -16.0,
+        "filterread": -16.0,
+        "ofmapwrite": -16.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "32&4",
+        "gridsize": "8",
+        "gridconfig": "2&4",
         "totalcycle": -2.0,
-        "totalutil": -19.53125,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
+        "totalutil": -312.5,
+        "ifmapread": -16.0,
+        "filterread": -16.0,
+        "ofmapwrite": -16.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "4&32",
+        "gridsize": "8",
+        "gridconfig": "4&2",
         "totalcycle": -2.0,
-        "totalutil": -19.53125,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
+        "totalutil": -312.5,
+        "ifmapread": -16.0,
+        "filterread": -16.0,
+        "ofmapwrite": -16.0
     },
     {
         "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "64&2",
+        "gridsize": "8",
+        "gridconfig": "8&1",
         "totalcycle": -2.0,
-        "totalutil": -19.53125,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "128",
-        "gridconfig": "8&16",
-        "totalcycle": -2.0,
-        "totalutil": -19.53125,
-        "ifmapread": -256.0,
-        "filterread": -256.0,
-        "ofmapwrite": -256.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "1&256",
-        "totalcycle": -2.0,
-        "totalutil": -9.765625,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "128&2",
-        "totalcycle": -2.0,
-        "totalutil": -9.765625,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "16&16",
-        "totalcycle": -2.0,
-        "totalutil": -9.765625,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "2&128",
-        "totalcycle": -2.0,
-        "totalutil": -9.765625,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "256&1",
-        "totalcycle": -2.0,
-        "totalutil": -9.765625,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "32&8",
-        "totalcycle": -2.0,
-        "totalutil": -9.765625,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "4&64",
-        "totalcycle": -2.0,
-        "totalutil": -9.765625,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "64&4",
-        "totalcycle": -2.0,
-        "totalutil": -9.765625,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "256",
-        "gridconfig": "8&32",
-        "totalcycle": -2.0,
-        "totalutil": -9.765625,
-        "ifmapread": -512.0,
-        "filterread": -512.0,
-        "ofmapwrite": -512.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "1&512",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "128&4",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "16&32",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "2&256",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "256&2",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "32&16",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "4&128",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "512&1",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "64&8",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "512",
-        "gridconfig": "8&64",
-        "totalcycle": -2.0,
-        "totalutil": -4.8828125,
-        "ifmapread": -1024.0,
-        "filterread": -1024.0,
-        "ofmapwrite": -1024.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "1&64",
-        "totalcycle": -2.0,
-        "totalutil": -39.0625,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "16&4",
-        "totalcycle": -2.0,
-        "totalutil": -39.0625,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "2&32",
-        "totalcycle": -2.0,
-        "totalutil": -39.0625,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "32&2",
-        "totalcycle": -2.0,
-        "totalutil": -39.0625,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "4&16",
-        "totalcycle": -2.0,
-        "totalutil": -39.0625,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "64&1",
-        "totalcycle": -2.0,
-        "totalutil": -39.0625,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "handwriting_rec.csv",
-        "gridsize": "64",
-        "gridconfig": "8&8",
-        "totalcycle": -2.0,
-        "totalutil": -39.0625,
-        "ifmapread": -128.0,
-        "filterread": -128.0,
-        "ofmapwrite": -128.0
-    },
-    {
-        "topologies": "gpt2.csv",
-        "gridsize": "64",
-        "gridconfig": "1&64",
-        "totalcycle": 21474298.0,
-        "totalutil": 94.07279343892873,
-        "ifmapread": 585581567.0,
-        "filterread": 20192511.0,
-        "ofmapwrite": 12433541.0
-    },
-    {
-        "topologies": "gpt2.csv",
-        "gridsize": "64",
-        "gridconfig": "2&32",
-        "totalcycle": 20742906.0,
-        "totalutil": 97.38978713975757,
-        "ifmapread": 293314560.0,
-        "filterread": 40385024.0,
-        "ofmapwrite": 12433542.0
-    },
-    {
-        "topologies": "gpt2.csv",
-        "gridsize": "64",
-        "gridconfig": "4&16",
-        "totalcycle": 20274426.0,
-        "totalutil": 99.64016737144618,
-        "ifmapread": 146657280.0,
-        "filterread": 80770048.0,
-        "ofmapwrite": 12433542.0
+        "totalutil": -312.5,
+        "ifmapread": -16.0,
+        "filterread": -16.0,
+        "ofmapwrite": -16.0
     }
 ]
