@@ -164,7 +164,11 @@ class double_buffered_scratchpad:
         filter_serviced_cycles = []
         ofmap_serviced_cycles = []
 
-        pbar_disable = not self.verbose
+        #Belal added and changed and modified
+        #pbar_disable = not self.verbose
+        pbar_disable = True
+        #End Belal added and changed and modified
+
         for i in tqdm(range(ofmap_lines), disable=pbar_disable):
 
             cycle_arr = np.zeros((1,1)) + i + self.stall_cycles
@@ -221,7 +225,8 @@ class double_buffered_scratchpad:
         self.ofmap_trace_matrix = np.concatenate((ofmap_services_cycles_np, ofmap_demand_mat), axis=1)
         self.total_cycles = int(ofmap_serviced_cycles[-1][0])
         end1 = time.time()
-        print(f"Time taken to prepare traces: {end1 - start1:.6f} seconds")
+        #Belal made the following change and made the following print statement to comment
+        #print(f"Time taken to prepare traces: {end1 - start1:.6f} seconds")
 
         # END of serving demands from memory
         self.traces_valid = True

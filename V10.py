@@ -271,11 +271,11 @@ class scaled_out_simulator:
                     merged_content.append("\n")
 
         # Create the directory structure
-        output_dir = './ResPE'
+        output_dir = './ResSimulation'
         topology_name = self.topology_filename
         grid_size_dir = f"{self.grid_rows*self.grid_cols:04d}"
         grid_config_dir = f"{self.grid_rows:04d}&{self.grid_cols:04d}"
-        layer_dir = f"Layer{layer_id:02d}"
+        layer_dir = f"LayerBasedInfo"
 
         # Get the directory path of the current file
         current_file_dir = os.path.dirname(os.path.abspath(__file__))
@@ -291,13 +291,13 @@ class scaled_out_simulator:
                 os.makedirs(current_dir)
 
         # Create merged JSON file with folder name
-        merged_json_path = os.path.join(current_dir, f"merged_Layer{layer_id}.json")
+        merged_json_path = os.path.join(current_dir, f"merged_Layer{layer_id:02d}.json")
         with open(merged_json_path, "w") as merged_json:
             json.dump(merged_data, merged_json, indent=4)
         print(f"Merged JSON file created: {merged_json_path}")
 
         # Create merged text file with folder name
-        merged_txt_path = os.path.join(current_dir, f"merged_Layer{layer_id}.txt")
+        merged_txt_path = os.path.join(current_dir, f"merged_Layer{layer_id:02d}.txt")
         with open(merged_txt_path, "w") as merged_txt:
             merged_txt.writelines(merged_content)
         print(f"Merged text file created: {merged_txt_path}")
@@ -458,12 +458,15 @@ class scaled_out_simulator:
             os.chdir(current_file_dir)
 
 
-            output_file_path_ALL_Layers = './ResLayer/' + topology_name + '/' + str(gridName1*gridName2) + '/' + str(gridName1) + "&" + str(gridName2) + '/' + str(layer_id) + '.txt'
-            output_file_path_ALL_Layers2 = './ResLayer/' + topology_name + '/' + str(gridName1*gridName2) + '/' + str(gridName1) + "&" + str(gridName2)
+            output_file_path_ALL_Layers_layerinfo = f'./ResSimulation/{topology_name}/{gridName1*gridName2:04d}/{gridName1:04d}&{gridName2:04d}/LayerBasedInfo'
+            output_file_path_ALL_Layers = f'./ResSimulation/{topology_name}/{gridName1*gridName2:04d}/{gridName1:04d}&{gridName2:04d}/LayerBasedInfo/Layer{layer_id:02d}.txt'
+            output_file_path_ALL_Layers2 = f'./ResSimulation/{topology_name}/{gridName1*gridName2:04d}/{gridName1:04d}&{gridName2:04d}'
             #print("testttttttt\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_")
             #print(self.topology\_filename)
             if not os.path.exists(output_file_path_ALL_Layers2):
                 os.makedirs(output_file_path_ALL_Layers2)
+            if not os.path.exists(output_file_path_ALL_Layers_layerinfo):
+                os.makedirs(output_file_path_ALL_Layers_layerinfo)
             with open(output_file_path_ALL_Layers, 'w') as output_file:
                 output_file.write('Layer ID: ' + str(layer_id) + '\n')
                 output_file.write('Compute Cycles: ' + str(this_layer_compute_cycles) + '\n')
@@ -471,7 +474,7 @@ class scaled_out_simulator:
                 output_file.write('Total Ifmap DRAM Reads: ' + str(sum(self.stats_ifmap_dram_reads[layer_id])) + '\n')
                 output_file.write('Total Filter DRAM Reads: ' + str(sum(self.stats_filter_dram_reads[layer_id])) + '\n')
                 output_file.write('Total Ofmap DRAM Writes: ' + str(sum(self.stats_ofmap_dram_writes[layer_id])) + '\n')
-            output_file_path_One = './ResLayer/' + topology_name + '/' + str(gridName1*gridName2)+ '/' + str(gridName1) + "&" + str(gridName2) + '/All.txt'
+            output_file_path_One = f'./ResSimulation/{topology_name}/{gridName1*gridName2:04d}/{gridName1:04d}&{gridName2:04d}/All.txt'
             with open(output_file_path_One, 'a') as output_file2:
                 output_file2.write('Layer ID: ' + str(layer_id) + '\n')
                 output_file2.write('Compute Cycles: ' + str(this_layer_compute_cycles) + '\n')
@@ -521,13 +524,9 @@ def read_grid_file_info(file_path):
 if __name__ == '__main__':
     config_file = './configs/PTC.cfg'
     file_path = 'topologiesV6.txt'  # Update this with the correct file path if needed
-    date_written = '2024-05-15'
     file_info_list = read_csv_file_info(file_path)
 
-    #grid_sizes_list = ['Grids4']
-    #grid_sizes_list = ['Grids128']
-    #grid_sizes_list = ['Grids1', 'Grids4square', 'Grids16square', 'Grids64square', 'Grids256square']
-    #grid_sizes_list = ['Grids256mod']
+
     #grid_sizes_list = ['Grids1', 'Grids2', 'Grids4', 'Grids8', 'Grids16', 'Grids32', 'Grids64', 'Grids128', 'Grids256', 'Grids512', 'Grids1024', 'Grids2048', 'Grids4096', 'Grids8192', 'Grids16384', 'Grids32768', 'Grids65536']
     #grid_sizes_list = ['Grids4', 'Grids8', 'Grids16', 'Grids32']
     grid_sizes_list = ['Grids64', 'Grids128', 'Grids256', 'Grids512', 'Grids1024']    
@@ -546,7 +545,7 @@ if __name__ == '__main__':
                         try:
                             print("________________",size,"________________", file_info_list[i][1], "________________")
                             grid = scaled_out_simulator()
-                            grid.set_params(topology_filename= "./topologies/conv_nets/alexnet.csv",
+                            grid.set_params(topology_filename=file_info_list[i][1],
                                             single_arr_config_file=config_file,
                                             grid_rows=size[0], grid_cols=size[1], dataflow='os')
 
@@ -561,22 +560,6 @@ if __name__ == '__main__':
                             #output_file.write(f"Error in processing size -Size{size} - Grid{grid_size}: {e}\n")
                             print("===========Saving stats!===========")
                             grid.calc_overall_stats_all_layer()
-                            """
-                            cycles, util, ifmap_read, filter_reads, ofmap_writes = grid.get_report_items()
-
-                            toponame = str(file_info_list[i][0])
-                            toponame = toponame.replace(".csv", "")
-
-                            os.makedirs('./OutputRes-' + date_written + '/' + str(grid_size) + 'PE/' + str(size[0]) + '-' + str(size[1]), exist_ok=True)
-                            output_file_path = './OutputRes-' + date_written + '/' + str(grid_size) + 'PE/' + str(size[0]) + '-' + str(size[1]) + '/' + toponame + '_' + str(size[0]) + '-' + str(size[1]) + '.txt'
-                            try:
-                                with open(output_file_path, 'w') as output_file:
-                                    output_file.write(str(file_info_list[i][0]) + ', ' + str(size[0]) + ', ' + str(size[1]) + ', ' + str(cycles) + ', ' + str(util) + ', ' + str(ifmap_read) + ', ' + str(filter_reads) + ', ' + str(ofmap_writes) + '\n')
-                            except Exception as e:
-                                print("1 Error in processing size - " + str(size) + ": " + str(e))
-                                traceback.print_exc()
-                                continue
-                            """
                             traceback.print_exc()
                             continue
 

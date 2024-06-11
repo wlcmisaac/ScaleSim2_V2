@@ -122,7 +122,7 @@ class systolic_compute_os:
         prefetches = np.zeros((1,num_elems))
         idx = 0
 
-        pbar = tqdm(total=M*N, disable=True)
+        #pbar = tqdm(total=M*N, disable=True)
         #print('DEBUG: Total = ' + str(num_elems) + ' Diags = ' + str(num_diags))
 
         for diag_id in range(num_diags):
@@ -137,9 +137,9 @@ class systolic_compute_os:
                 elem = self.ifmap_prefetch_matrix[row_id][col_id]
                 prefetches[0, idx] = elem
                 idx += 1
-                pbar.update(1)
+                #pbar.update(1)
 
-        pbar.close()
+        #pbar.close()
         self.ifmap_prefetch_matrix = prefetches
 
         #t = time.time() - start_time
@@ -177,7 +177,7 @@ class systolic_compute_os:
         prefetches = np.zeros((1, num_elems))
         idx = 0
 
-        pbar = tqdm(total=M * N, disable=True)
+        #pbar = tqdm(total=M * N, disable=True)
         # print('DEBUG: Total = ' + str(num_elems) + ' Diags = ' + str(num_diags))
 
         for diag_id in range(num_diags):
@@ -192,9 +192,9 @@ class systolic_compute_os:
                 elem = self.filter_prefetch_matrix[row_id][col_id]
                 prefetches[0, idx] = elem
                 idx += 1
-                pbar.update(1)
+                #pbar.update(1)
 
-        pbar.close()
+        #pbar.close()
         self.filter_prefetch_matrix = prefetches
 
         #t = time.time() - start_time
@@ -228,7 +228,7 @@ class systolic_compute_os:
 
         fold_demands = []
 
-        pbar = tqdm(total=self.col_fold * self.row_fold, disable=True)
+        #pbar = tqdm(total=self.col_fold * self.row_fold, disable=True)
 
         for fc in range(self.col_fold):
             for fr in range(self.row_fold):
@@ -249,9 +249,9 @@ class systolic_compute_os:
 
                 fold_demands.append(this_fold_demand)
 
-                pbar.update(1)
+                #pbar.update(1)
 
-        pbar.close()
+        #pbar.close()
 
         # Concatenate all the fold demands together
         self.ifmap_demand_matrix = np.concatenate(fold_demands, axis=0)     
@@ -268,7 +268,7 @@ class systolic_compute_os:
 
         fold_demands = []
 
-        pbar = tqdm(total=self.col_fold * self.row_fold, disable=True)
+        #pbar = tqdm(total=self.col_fold * self.row_fold, disable=True)
 
         for fc in range(self.col_fold):
             for fr in range(self.row_fold):
@@ -289,9 +289,9 @@ class systolic_compute_os:
 
                 fold_demands.append(this_fold_demand)
 
-                pbar.update(1)
+                #pbar.update(1)
 
-        pbar.close()
+        #pbar.close()
 
         # Concatenate all the fold demands together
         self.filter_demand_matrix = np.concatenate(fold_demands, axis=0)
@@ -308,7 +308,7 @@ class systolic_compute_os:
 
         fold_demands = []
 
-        pbar = tqdm(total=self.col_fold * self.row_fold, disable=True)
+        #pbar = tqdm(total=self.col_fold * self.row_fold, disable=True)
 
         for fc in range(self.col_fold):
             for fr in range(self.row_fold):
@@ -352,9 +352,9 @@ class systolic_compute_os:
 
                 fold_demands.append(this_fold_demand)
 
-                pbar.update(1)
+                #pbar.update(1)
 
-        pbar.close()
+        #pbar.close()
 
         # Concatenate all the fold demands together
         self.ofmap_demand_matrix = np.concatenate(fold_demands, axis=0)
