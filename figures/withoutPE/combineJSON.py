@@ -28,7 +28,11 @@ for key, values in aggregated_data.items():
     total_util = 0
     for entry in output_data:
         if (entry['topologies'], entry['gridsize'], entry['gridconfig']) == key:
-            total_util += entry['util'] * (entry['cycle'] / values['totalcycle'])
+            # Ensure no division by zero
+            if values['totalcycle'] > 0:
+                total_util += entry['util'] * (entry['cycle'] / values['totalcycle'])
+            else:
+                total_util = 0
     aggregated_data[key]['totalutil'] = total_util
 
 # Create a list of dictionaries for the aggregated data

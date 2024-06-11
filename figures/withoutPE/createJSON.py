@@ -17,11 +17,11 @@ def process_txt_file(txt_file_path, subfolders):
 
     # Extract information from the text file
     layer_id = int(lines[0].split(': ')[1].strip())
-    compute_cycles = float(lines[1].split(': ')[1].strip())
-    overall_utilization = float(lines[2].split(': ')[1].strip())
-    ifmap_dram_reads = float(lines[3].split(': ')[1].strip())
-    filter_dram_reads = float(lines[4].split(': ')[1].strip())
-    ofmap_dram_writes = float(lines[5].split(': ')[1].strip())
+    compute_cycles = max(float(lines[1].split(': ')[1].strip()), 0)
+    overall_utilization = max(float(lines[2].split(': ')[1].strip()), 0)
+    ifmap_dram_reads = max(float(lines[3].split(': ')[1].strip()), 0)
+    filter_dram_reads = max(float(lines[4].split(': ')[1].strip()), 0)
+    ofmap_dram_writes = max(float(lines[5].split(': ')[1].strip()), 0)
 
     # Create the JSON object
     json_data = {
@@ -57,7 +57,7 @@ def traverse_directories(root_dir, layer_info):
     return json_data_list
 
 def write_to_json(json_data_list, output_file):
-    # Write the combined JSON data into a single file
+    # Write the combined JSON data into a single file, overwriting if it exists
     with open(output_file, 'w') as file:
         json.dump(json_data_list, file, indent=4)
 
