@@ -1,0 +1,786 @@
+2024-06-06 19:37:01,433 - INFO - Processing grid size: [1, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-06 19:37:01,434 - INFO - Processing grid size: [1, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-06 19:37:01,433 - INFO - Processing grid size: [1, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:37:01,434 - INFO - Processing grid size: [1, 64], topology: ./topologies/conv_nets/Resnet50.csv
+2024-06-06 19:37:01,434 - INFO - Processing grid size: [1, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 19:37:01,434 - INFO - Processing grid size: [1, 64], topology: ./topologies/conv_nets/alexnet.csv
+2024-06-06 19:37:01,434 - INFO - Processing grid size: [1, 64], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-06 19:37:01,435 - ERROR - Error in completing size - [1, 64]: invalid literal for int() with base 10: ''
+2024-06-06 19:37:01,435 - INFO - Saving stats!
+2024-06-06 19:37:01,434 - INFO - Processing grid size: [1, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 19:37:01,435 - ERROR - Error in processing grid file Grids64: 'NoneType' object cannot be interpreted as an integer
+2024-06-06 19:37:01,435 - INFO - Processing grid size: [1, 64], topology: ./topologies/translation/gpt2.csv
+2024-06-06 19:37:01,435 - INFO - Processing grid size: [1, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,435 - INFO - Processing grid size: [1, 64], topology: ./topologies/deepbench/DeepBench_Dense/DeepBench_GEMM_github.csv
+2024-06-06 19:37:01,435 - INFO - Processing grid size: [1, 128], topology: ./topologies/conv_nets/alexnet.csv
+2024-06-06 19:37:01,435 - INFO - Processing grid size: [1, 128], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:37:01,436 - INFO - Processing grid size: [1, 128], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-06 19:37:01,435 - ERROR - 'NoneType' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 536, in process_grid_topology
+    grid.set_params(topology_filename=topology_file,
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 80, in set_params
+    self.topo_obj.load_arrays(topology_filename)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 43, in load_arrays
+    self.load_arrays_conv(topofile)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 105, in load_arrays_conv
+    self.append_topo_arrays(layer_name, elems)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 158, in append_topo_arrays
+    val = int(str(elems[i]).strip())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 547, in process_grid_topology
+    grid.calc_overall_stats_all_layer()
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 430, in calc_overall_stats_all_layer
+    for layer_id in range(num_layers):
+                    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object cannot be interpreted as an integer
+2024-06-06 19:37:01,437 - INFO - Processing grid size: [1, 128], topology: ./topologies/conv_nets/Resnet50.csv
+2024-06-06 19:37:01,438 - ERROR - Error in completing size - [1, 128]: invalid literal for int() with base 10: ''
+2024-06-06 19:37:01,437 - INFO - Processing grid size: [1, 128], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-06 19:37:01,438 - INFO - Saving stats!
+2024-06-06 19:37:01,438 - ERROR - Error in processing grid file Grids128: 'NoneType' object cannot be interpreted as an integer
+2024-06-06 19:37:01,438 - ERROR - 'NoneType' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 536, in process_grid_topology
+    grid.set_params(topology_filename=topology_file,
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 80, in set_params
+    self.topo_obj.load_arrays(topology_filename)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 43, in load_arrays
+    self.load_arrays_conv(topofile)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 105, in load_arrays_conv
+    self.append_topo_arrays(layer_name, elems)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 158, in append_topo_arrays
+    val = int(str(elems[i]).strip())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 547, in process_grid_topology
+    grid.calc_overall_stats_all_layer()
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 430, in calc_overall_stats_all_layer
+    for layer_id in range(num_layers):
+                    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object cannot be interpreted as an integer
+2024-06-06 19:37:01,438 - INFO - Processing grid size: [1, 128], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 19:37:01,439 - INFO - Processing grid size: [1, 128], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-06 19:37:01,440 - INFO - Processing grid size: [1, 128], topology: ./topologies/translation/gpt2.csv
+2024-06-06 19:37:01,440 - INFO - Processing grid size: [1, 128], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 19:37:01,440 - INFO - Processing grid size: [1, 128], topology: ./topologies/deepbench/DeepBench_Dense/DeepBench_GEMM_github.csv
+2024-06-06 19:37:01,441 - INFO - Processing grid size: [1, 128], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,441 - INFO - Processing grid size: [1, 256], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:37:01,441 - INFO - Processing grid size: [1, 256], topology: ./topologies/conv_nets/alexnet.csv
+2024-06-06 19:37:01,442 - INFO - Processing grid size: [1, 256], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-06 19:37:01,445 - INFO - Processing grid size: [1, 256], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-06 19:37:01,446 - INFO - Processing grid size: [1, 256], topology: ./topologies/conv_nets/Resnet50.csv
+2024-06-06 19:37:01,446 - INFO - Processing grid size: [1, 256], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 19:37:01,447 - INFO - Processing grid size: [1, 256], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-06 19:37:01,447 - ERROR - Error in completing size - [1, 256]: invalid literal for int() with base 10: ''
+2024-06-06 19:37:01,448 - INFO - Saving stats!
+2024-06-06 19:37:01,448 - ERROR - Error in processing grid file Grids256: 'NoneType' object cannot be interpreted as an integer
+2024-06-06 19:37:01,448 - INFO - Processing grid size: [1, 256], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 19:37:01,448 - ERROR - 'NoneType' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 536, in process_grid_topology
+    grid.set_params(topology_filename=topology_file,
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 80, in set_params
+    self.topo_obj.load_arrays(topology_filename)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 43, in load_arrays
+    self.load_arrays_conv(topofile)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 105, in load_arrays_conv
+    self.append_topo_arrays(layer_name, elems)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 158, in append_topo_arrays
+    val = int(str(elems[i]).strip())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 547, in process_grid_topology
+    grid.calc_overall_stats_all_layer()
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 430, in calc_overall_stats_all_layer
+    for layer_id in range(num_layers):
+                    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object cannot be interpreted as an integer
+2024-06-06 19:37:01,452 - INFO - Processing grid size: [1, 256], topology: ./topologies/translation/gpt2.csv
+2024-06-06 19:37:01,453 - INFO - Processing grid size: [1, 256], topology: ./topologies/deepbench/DeepBench_Dense/DeepBench_GEMM_github.csv
+2024-06-06 19:37:01,454 - INFO - Completed processing grid size: [1, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,454 - INFO - Processing grid size: [2, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,454 - INFO - Processing grid size: [1, 256], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,457 - INFO - Processing grid size: [1, 512], topology: ./topologies/conv_nets/alexnet.csv
+2024-06-06 19:37:01,457 - INFO - Processing grid size: [1, 512], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:37:01,459 - INFO - Completed processing grid size: [1, 128], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,459 - INFO - Processing grid size: [2, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,464 - INFO - Completed processing grid size: [2, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,465 - INFO - Processing grid size: [4, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,475 - INFO - Completed processing grid size: [4, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,475 - INFO - Processing grid size: [8, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,477 - INFO - Completed processing grid size: [2, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,477 - INFO - Processing grid size: [4, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,485 - INFO - Completed processing grid size: [8, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,485 - INFO - Processing grid size: [16, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,486 - INFO - Completed processing grid size: [1, 256], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,486 - INFO - Processing grid size: [2, 128], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,493 - INFO - Completed processing grid size: [4, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,493 - INFO - Processing grid size: [8, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,494 - INFO - Completed processing grid size: [16, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,494 - INFO - Processing grid size: [32, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,504 - INFO - Completed processing grid size: [32, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,504 - INFO - Processing grid size: [64, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,508 - INFO - Completed processing grid size: [8, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,508 - INFO - Processing grid size: [16, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,513 - INFO - Completed processing grid size: [2, 128], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,513 - INFO - Processing grid size: [4, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,513 - INFO - Completed processing grid size: [64, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,523 - INFO - Processing grid size: [1, 512], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-06 19:37:01,524 - INFO - Completed processing grid size: [16, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,524 - INFO - Processing grid size: [32, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,540 - INFO - Completed processing grid size: [4, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,541 - INFO - Processing grid size: [8, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,541 - INFO - Completed processing grid size: [32, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,541 - INFO - Processing grid size: [64, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,560 - INFO - Completed processing grid size: [64, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,560 - INFO - Processing grid size: [128, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,572 - INFO - Completed processing grid size: [8, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,573 - INFO - Processing grid size: [16, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,578 - INFO - Completed processing grid size: [128, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,579 - INFO - Processing grid size: [1, 512], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-06 19:37:01,600 - INFO - Completed processing grid size: [16, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,600 - INFO - Processing grid size: [32, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,628 - INFO - Completed processing grid size: [32, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,628 - INFO - Processing grid size: [64, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,655 - INFO - Completed processing grid size: [64, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,655 - INFO - Processing grid size: [128, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,685 - INFO - Completed processing grid size: [128, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,685 - INFO - Processing grid size: [256, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,717 - INFO - Completed processing grid size: [256, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-06 19:37:01,718 - INFO - Processing grid size: [1, 512], topology: ./topologies/conv_nets/Resnet50.csv
+2024-06-06 19:37:01,718 - ERROR - Error in completing size - [1, 512]: invalid literal for int() with base 10: ''
+2024-06-06 19:37:01,718 - INFO - Saving stats!
+2024-06-06 19:37:01,719 - ERROR - Error in processing grid file Grids512: 'NoneType' object cannot be interpreted as an integer
+2024-06-06 19:37:01,719 - ERROR - 'NoneType' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 536, in process_grid_topology
+    grid.set_params(topology_filename=topology_file,
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 80, in set_params
+    self.topo_obj.load_arrays(topology_filename)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 43, in load_arrays
+    self.load_arrays_conv(topofile)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 105, in load_arrays_conv
+    self.append_topo_arrays(layer_name, elems)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 158, in append_topo_arrays
+    val = int(str(elems[i]).strip())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 547, in process_grid_topology
+    grid.calc_overall_stats_all_layer()
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 430, in calc_overall_stats_all_layer
+    for layer_id in range(num_layers):
+                    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object cannot be interpreted as an integer
+2024-06-06 19:37:01,722 - INFO - Processing grid size: [1, 512], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 19:40:19,615 - INFO - Completed processing grid size: [1, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:40:19,615 - INFO - Processing grid size: [2, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:40:22,745 - INFO - Completed processing grid size: [1, 128], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:40:22,746 - INFO - Processing grid size: [2, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:41:59,587 - INFO - Completed processing grid size: [1, 256], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:41:59,588 - INFO - Processing grid size: [2, 128], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:43:13,109 - INFO - Completed processing grid size: [2, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:43:13,109 - INFO - Processing grid size: [4, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:44:15,972 - INFO - Completed processing grid size: [2, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:44:15,973 - INFO - Processing grid size: [4, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:45:55,121 - INFO - Completed processing grid size: [2, 128], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:45:55,122 - INFO - Processing grid size: [4, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:46:04,405 - INFO - Completed processing grid size: [4, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:46:04,405 - INFO - Processing grid size: [8, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:46:47,338 - INFO - Completed processing grid size: [1, 512], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:46:47,339 - INFO - Processing grid size: [2, 256], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:47:09,893 - INFO - Completed processing grid size: [4, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:47:09,893 - INFO - Processing grid size: [8, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:48:33,274 - INFO - Completed processing grid size: [8, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:48:33,275 - INFO - Processing grid size: [16, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:49:46,641 - INFO - Completed processing grid size: [8, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:49:46,641 - INFO - Processing grid size: [16, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:49:46,929 - INFO - Completed processing grid size: [4, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:49:46,929 - INFO - Processing grid size: [8, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:52:16,969 - INFO - Completed processing grid size: [8, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:52:16,970 - INFO - Processing grid size: [16, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:52:36,758 - INFO - Completed processing grid size: [2, 256], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:52:36,758 - INFO - Processing grid size: [4, 128], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:53:28,648 - INFO - Completed processing grid size: [16, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:53:28,649 - INFO - Processing grid size: [32, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:54:40,602 - INFO - Completed processing grid size: [16, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:54:40,602 - INFO - Processing grid size: [32, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:56:53,105 - INFO - Completed processing grid size: [4, 128], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:56:53,106 - INFO - Processing grid size: [8, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:57:10,173 - INFO - Completed processing grid size: [16, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-06 19:57:10,173 - INFO - Processing grid size: [32, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:00:30,267 - INFO - Completed processing grid size: [8, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:00:30,267 - INFO - Processing grid size: [16, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:03:13,479 - INFO - Completed processing grid size: [32, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:03:13,479 - INFO - Processing grid size: [64, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:04:01,096 - INFO - Completed processing grid size: [32, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:04:01,096 - INFO - Processing grid size: [64, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:05:32,831 - INFO - Completed processing grid size: [16, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:05:32,831 - INFO - Processing grid size: [32, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:07:03,424 - INFO - Completed processing grid size: [32, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:07:03,424 - INFO - Processing grid size: [64, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:13:04,442 - INFO - Completed processing grid size: [64, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:13:04,443 - INFO - Processing grid size: [1, 512], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-06 20:13:38,948 - INFO - Completed processing grid size: [64, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:13:38,948 - INFO - Processing grid size: [128, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:15:10,753 - INFO - Completed processing grid size: [32, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:15:10,754 - INFO - Processing grid size: [64, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:16:38,319 - INFO - Completed processing grid size: [64, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:16:38,319 - INFO - Processing grid size: [128, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:23:16,083 - INFO - Completed processing grid size: [128, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:23:16,084 - INFO - Processing grid size: [1, 512], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 20:24:43,689 - INFO - Completed processing grid size: [64, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:24:43,690 - INFO - Processing grid size: [128, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:26:12,854 - INFO - Completed processing grid size: [128, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:26:12,854 - INFO - Processing grid size: [256, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:30:44,781 - INFO - Completed processing grid size: [1, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 20:30:44,782 - INFO - Processing grid size: [2, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 20:34:23,380 - INFO - Completed processing grid size: [128, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:34:23,380 - INFO - Processing grid size: [256, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:35:54,590 - INFO - Completed processing grid size: [256, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:35:54,593 - INFO - Processing grid size: [1, 512], topology: ./topologies/translation/gpt2.csv
+2024-06-06 20:43:47,158 - INFO - Completed processing grid size: [256, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:43:47,159 - INFO - Processing grid size: [512, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:53:40,649 - INFO - Completed processing grid size: [512, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-06 20:53:40,649 - INFO - Processing grid size: [1, 512], topology: ./topologies/deepbench/DeepBench_Dense/DeepBench_GEMM_github.csv
+2024-06-06 21:20:57,872 - INFO - Completed processing grid size: [1, 128], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 21:20:57,872 - INFO - Processing grid size: [2, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 21:23:38,768 - INFO - Completed processing grid size: [2, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 21:23:38,768 - INFO - Processing grid size: [4, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 21:35:48,790 - INFO - Completed processing grid size: [1, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 21:35:48,790 - INFO - Processing grid size: [2, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 22:10:57,778 - INFO - Completed processing grid size: [1, 128], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 22:10:57,778 - INFO - Processing grid size: [2, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 22:13:47,999 - INFO - Completed processing grid size: [2, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 22:13:47,999 - INFO - Processing grid size: [4, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 22:17:59,067 - INFO - Completed processing grid size: [4, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 22:17:59,067 - INFO - Processing grid size: [8, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 23:04:54,436 - INFO - Completed processing grid size: [1, 256], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 23:04:54,436 - INFO - Processing grid size: [2, 128], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 23:07:53,929 - INFO - Completed processing grid size: [4, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 23:07:53,929 - INFO - Processing grid size: [8, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 23:13:35,225 - INFO - Completed processing grid size: [2, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 23:13:35,225 - INFO - Processing grid size: [4, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 23:14:58,084 - INFO - Completed processing grid size: [8, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 23:14:58,085 - INFO - Processing grid size: [16, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 23:19:02,230 - INFO - Completed processing grid size: [1, 256], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 23:19:02,231 - INFO - Processing grid size: [2, 128], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-06 23:49:22,891 - INFO - Completed processing grid size: [1, 512], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-06 23:49:22,891 - INFO - Processing grid size: [2, 256], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 00:05:09,628 - INFO - Completed processing grid size: [8, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 00:05:09,628 - INFO - Processing grid size: [16, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 00:11:57,865 - INFO - Completed processing grid size: [16, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 00:11:57,865 - INFO - Processing grid size: [32, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 00:12:08,043 - INFO - Completed processing grid size: [2, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 00:12:08,043 - INFO - Processing grid size: [4, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 00:48:28,202 - INFO - Completed processing grid size: [4, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 00:48:28,203 - INFO - Processing grid size: [8, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 00:52:01,470 - INFO - Completed processing grid size: [2, 128], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 00:52:01,470 - INFO - Processing grid size: [4, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 00:59:26,443 - INFO - Completed processing grid size: [1, 512], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 00:59:26,443 - INFO - Processing grid size: [2, 256], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 01:01:23,659 - INFO - Completed processing grid size: [16, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 01:01:23,659 - INFO - Processing grid size: [32, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 01:16:39,594 - INFO - Completed processing grid size: [32, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 01:16:39,594 - INFO - Processing grid size: [64, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 01:46:52,860 - INFO - Completed processing grid size: [4, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 01:46:52,860 - INFO - Processing grid size: [8, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 01:55:03,103 - INFO - Completed processing grid size: [4, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 01:55:03,103 - INFO - Processing grid size: [8, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 01:56:40,622 - INFO - Completed processing grid size: [2, 128], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 01:56:40,622 - INFO - Processing grid size: [4, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 02:04:52,430 - INFO - Completed processing grid size: [32, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 02:04:52,431 - INFO - Processing grid size: [64, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 02:08:26,902 - INFO - Completed processing grid size: [1, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 02:08:26,903 - INFO - Processing grid size: [2, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 02:20:07,641 - INFO - Completed processing grid size: [8, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 02:20:07,641 - INFO - Processing grid size: [16, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 02:42:54,747 - INFO - Completed processing grid size: [64, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 02:42:54,748 - INFO - Processing grid size: [1, 512], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,792 - INFO - Completed processing grid size: [1, 512], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,792 - INFO - Processing grid size: [2, 256], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,835 - INFO - Completed processing grid size: [2, 256], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,836 - INFO - Processing grid size: [4, 128], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,879 - INFO - Completed processing grid size: [4, 128], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,879 - INFO - Processing grid size: [8, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,922 - INFO - Completed processing grid size: [8, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,923 - INFO - Processing grid size: [16, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,967 - INFO - Completed processing grid size: [16, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:54,967 - INFO - Processing grid size: [32, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,010 - INFO - Completed processing grid size: [32, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,011 - INFO - Processing grid size: [64, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,054 - INFO - Completed processing grid size: [64, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,054 - INFO - Processing grid size: [128, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,098 - INFO - Completed processing grid size: [128, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,098 - INFO - Processing grid size: [256, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,142 - INFO - Completed processing grid size: [256, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,142 - INFO - Processing grid size: [512, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,186 - INFO - Completed processing grid size: [512, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-07 02:42:55,187 - INFO - Processing grid size: [1, 1024], topology: ./topologies/conv_nets/test.csv
+2024-06-07 02:43:49,622 - INFO - Completed processing grid size: [8, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 02:43:49,623 - INFO - Processing grid size: [16, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 02:52:38,092 - INFO - Completed processing grid size: [1, 1024], topology: ./topologies/conv_nets/test.csv
+2024-06-07 02:52:38,093 - INFO - Processing grid size: [2, 512], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:04:17,800 - INFO - Completed processing grid size: [2, 512], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:04:17,801 - INFO - Processing grid size: [4, 256], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:10:45,273 - INFO - Completed processing grid size: [4, 256], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:10:45,273 - INFO - Processing grid size: [8, 128], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:14:49,203 - INFO - Completed processing grid size: [8, 128], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:14:49,203 - INFO - Processing grid size: [16, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:21:40,476 - INFO - Completed processing grid size: [2, 256], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 03:21:40,476 - INFO - Processing grid size: [4, 128], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 03:21:59,627 - INFO - Completed processing grid size: [16, 64], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:21:59,627 - INFO - Processing grid size: [32, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:30:16,690 - INFO - Completed processing grid size: [8, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 03:30:16,691 - INFO - Processing grid size: [16, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 03:30:21,478 - INFO - Completed processing grid size: [64, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 03:30:21,478 - INFO - Processing grid size: [128, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 03:32:20,755 - INFO - Completed processing grid size: [32, 32], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:32:20,755 - INFO - Processing grid size: [64, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:39:08,845 - INFO - Completed processing grid size: [16, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 03:39:08,845 - INFO - Processing grid size: [32, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 03:41:52,055 - INFO - Completed processing grid size: [64, 16], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:41:52,055 - INFO - Processing grid size: [128, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:51:39,716 - INFO - Completed processing grid size: [128, 8], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:51:39,716 - INFO - Processing grid size: [256, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-07 03:53:37,015 - INFO - Completed processing grid size: [16, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 03:53:37,015 - INFO - Processing grid size: [32, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 03:59:52,633 - INFO - Completed processing grid size: [4, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 03:59:52,634 - INFO - Processing grid size: [8, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 04:01:15,421 - INFO - Completed processing grid size: [256, 4], topology: ./topologies/conv_nets/test.csv
+2024-06-07 04:01:15,421 - INFO - Processing grid size: [512, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-07 04:10:56,095 - INFO - Completed processing grid size: [512, 2], topology: ./topologies/conv_nets/test.csv
+2024-06-07 04:10:56,096 - INFO - Processing grid size: [1024, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-07 04:17:14,999 - INFO - Completed processing grid size: [1, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 04:17:14,999 - INFO - Processing grid size: [2, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 04:20:45,878 - INFO - Completed processing grid size: [1024, 1], topology: ./topologies/conv_nets/test.csv
+2024-06-07 04:20:45,878 - INFO - Processing grid size: [1, 1024], topology: ./topologies/conv_nets/alexnet.csv
+2024-06-07 04:36:11,332 - INFO - Completed processing grid size: [1, 128], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 04:36:11,332 - INFO - Processing grid size: [2, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 04:42:10,481 - INFO - Completed processing grid size: [32, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 04:42:10,482 - INFO - Processing grid size: [64, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 04:42:18,682 - INFO - Completed processing grid size: [2, 256], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 04:42:18,682 - INFO - Processing grid size: [4, 128], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 04:43:46,140 - INFO - Completed processing grid size: [128, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 04:43:46,141 - INFO - Processing grid size: [1, 1024], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 05:06:45,980 - INFO - Completed processing grid size: [16, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 05:06:45,980 - INFO - Processing grid size: [32, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 05:10:50,233 - INFO - Completed processing grid size: [4, 128], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 05:10:50,233 - INFO - Processing grid size: [8, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 05:37:41,733 - INFO - Completed processing grid size: [32, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 05:37:41,733 - INFO - Processing grid size: [64, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 05:42:45,096 - INFO - Completed processing grid size: [8, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 05:42:45,096 - INFO - Processing grid size: [16, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 06:06:41,271 - INFO - Completed processing grid size: [64, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 06:06:41,272 - INFO - Processing grid size: [128, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 06:09:19,843 - INFO - Completed processing grid size: [8, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 06:09:19,843 - INFO - Processing grid size: [16, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 06:48:21,300 - INFO - Completed processing grid size: [1, 128], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 06:48:21,300 - INFO - Processing grid size: [2, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 06:52:35,190 - INFO - Completed processing grid size: [32, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 06:52:35,190 - INFO - Processing grid size: [64, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 07:03:42,633 - INFO - Completed processing grid size: [2, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 07:03:42,633 - INFO - Processing grid size: [4, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 07:06:19,557 - INFO - Completed processing grid size: [16, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 07:06:19,557 - INFO - Processing grid size: [32, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 07:19:01,044 - INFO - Completed processing grid size: [128, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 07:19:01,044 - INFO - Processing grid size: [256, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 07:22:49,758 - INFO - Completed processing grid size: [16, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 07:22:49,758 - INFO - Processing grid size: [32, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 07:24:41,062 - INFO - Completed processing grid size: [4, 128], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 07:24:41,062 - INFO - Processing grid size: [8, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 07:43:32,567 - INFO - Completed processing grid size: [64, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 07:43:32,570 - INFO - Processing grid size: [1, 1024], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 08:09:52,162 - INFO - Completed processing grid size: [32, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 08:09:52,162 - INFO - Processing grid size: [64, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 08:14:06,582 - INFO - Completed processing grid size: [1, 256], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 08:14:06,582 - INFO - Processing grid size: [2, 128], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 08:51:13,539 - INFO - Completed processing grid size: [1, 256], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 08:51:13,539 - INFO - Processing grid size: [2, 128], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 08:56:14,683 - INFO - Completed processing grid size: [64, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 08:56:14,683 - INFO - Processing grid size: [128, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 09:03:38,174 - INFO - Completed processing grid size: [1, 512], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 09:03:38,175 - INFO - Processing grid size: [2, 256], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 09:08:00,292 - INFO - Completed processing grid size: [256, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 09:08:00,294 - INFO - Processing grid size: [1, 1024], topology: ./topologies/conv_nets/Resnet50.csv
+2024-06-07 09:08:00,294 - ERROR - Error in completing size - [1, 1024]: invalid literal for int() with base 10: ''
+2024-06-07 09:08:00,294 - INFO - Saving stats!
+2024-06-07 09:08:00,294 - ERROR - Error in processing grid file Grids1024: 'NoneType' object cannot be interpreted as an integer
+2024-06-07 09:08:00,294 - ERROR - 'NoneType' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 536, in process_grid_topology
+    grid.set_params(topology_filename=topology_file,
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 80, in set_params
+    self.topo_obj.load_arrays(topology_filename)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 43, in load_arrays
+    self.load_arrays_conv(topofile)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 105, in load_arrays_conv
+    self.append_topo_arrays(layer_name, elems)
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/scalesim/topology_utils.py", line 158, in append_topo_arrays
+    val = int(str(elems[i]).strip())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 547, in process_grid_topology
+    grid.calc_overall_stats_all_layer()
+  File "/home/UFAD/b.jahannia/Desktop/SimulationPTCV2/ScaleSim2_V2/V11.py", line 430, in calc_overall_stats_all_layer
+    for layer_id in range(num_layers):
+                    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object cannot be interpreted as an integer
+2024-06-07 09:08:00,299 - INFO - Processing grid size: [1, 1024], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 09:10:07,181 - INFO - Completed processing grid size: [32, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 09:10:07,181 - INFO - Processing grid size: [64, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 09:24:55,672 - INFO - Completed processing grid size: [2, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 09:24:55,672 - INFO - Processing grid size: [4, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 09:33:19,869 - INFO - Completed processing grid size: [8, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 09:33:19,870 - INFO - Processing grid size: [16, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 09:33:38,221 - INFO - Completed processing grid size: [64, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 09:33:38,222 - INFO - Processing grid size: [128, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 10:01:39,108 - INFO - Completed processing grid size: [1, 512], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 10:01:39,108 - INFO - Processing grid size: [2, 256], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 10:21:52,928 - INFO - Completed processing grid size: [1, 64], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-07 10:21:52,929 - INFO - Processing grid size: [2, 32], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-07 10:53:28,576 - INFO - Completed processing grid size: [128, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 10:53:28,576 - INFO - Processing grid size: [256, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 10:58:18,524 - INFO - Completed processing grid size: [4, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 10:58:18,524 - INFO - Processing grid size: [8, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 11:18:32,216 - INFO - Completed processing grid size: [2, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 11:18:32,216 - INFO - Processing grid size: [4, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 11:23:22,169 - INFO - Completed processing grid size: [64, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 11:23:22,169 - INFO - Processing grid size: [128, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 11:32:25,502 - INFO - Completed processing grid size: [16, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 11:32:25,502 - INFO - Processing grid size: [32, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 11:52:16,870 - INFO - Completed processing grid size: [128, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 11:52:16,871 - INFO - Processing grid size: [1, 1024], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-07 12:38:59,694 - INFO - Completed processing grid size: [256, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 12:38:59,694 - INFO - Processing grid size: [512, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 13:17:45,174 - INFO - Completed processing grid size: [4, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 13:17:45,174 - INFO - Processing grid size: [8, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 13:25:37,493 - INFO - Completed processing grid size: [32, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 13:25:37,493 - INFO - Processing grid size: [64, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 14:11:12,690 - INFO - Completed processing grid size: [128, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 14:11:12,691 - INFO - Processing grid size: [256, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 14:46:15,746 - INFO - Completed processing grid size: [8, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 14:46:15,746 - INFO - Processing grid size: [16, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 15:09:55,361 - INFO - Completed processing grid size: [1, 1024], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 15:09:55,362 - INFO - Processing grid size: [2, 512], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 15:58:37,618 - INFO - Completed processing grid size: [64, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 15:58:37,619 - INFO - Processing grid size: [128, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 16:00:53,374 - INFO - Completed processing grid size: [2, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 16:00:53,374 - INFO - Processing grid size: [4, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 16:18:56,268 - INFO - Completed processing grid size: [1, 128], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-07 16:18:56,268 - INFO - Processing grid size: [2, 64], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-07 16:38:05,040 - INFO - Completed processing grid size: [4, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 16:38:05,040 - INFO - Processing grid size: [8, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 16:40:38,627 - INFO - Completed processing grid size: [512, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 16:40:38,630 - INFO - Processing grid size: [1, 1024], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 17:31:50,943 - INFO - Completed processing grid size: [8, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 17:31:50,944 - INFO - Processing grid size: [16, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 17:56:00,176 - INFO - Completed processing grid size: [2, 128], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 17:56:00,176 - INFO - Processing grid size: [4, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 18:44:51,410 - INFO - Completed processing grid size: [1, 1024], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 18:44:51,410 - INFO - Processing grid size: [2, 512], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 18:50:18,784 - INFO - Completed processing grid size: [128, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 18:50:18,784 - INFO - Processing grid size: [256, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 18:52:55,033 - INFO - Completed processing grid size: [256, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 18:52:55,044 - INFO - Processing grid size: [1, 1024], topology: ./topologies/translation/gpt2.csv
+2024-06-07 19:00:24,512 - INFO - Completed processing grid size: [16, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 19:00:24,512 - INFO - Processing grid size: [32, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 20:10:37,837 - INFO - Completed processing grid size: [1, 1024], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 20:10:37,837 - INFO - Processing grid size: [2, 512], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 20:38:37,035 - INFO - Completed processing grid size: [8, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 20:38:37,036 - INFO - Processing grid size: [16, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 20:40:55,002 - INFO - Completed processing grid size: [2, 128], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 20:40:55,002 - INFO - Processing grid size: [4, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 20:49:21,895 - INFO - Completed processing grid size: [2, 512], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 20:49:21,895 - INFO - Processing grid size: [4, 256], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 21:18:43,548 - INFO - Completed processing grid size: [4, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 21:18:43,549 - INFO - Processing grid size: [8, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 21:27:38,016 - INFO - Completed processing grid size: [2, 32], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-07 21:27:38,016 - INFO - Processing grid size: [4, 16], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-07 21:58:07,277 - INFO - Completed processing grid size: [16, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 21:58:07,277 - INFO - Processing grid size: [32, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 22:21:36,890 - INFO - Completed processing grid size: [2, 256], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 22:21:36,890 - INFO - Processing grid size: [4, 128], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 22:44:20,359 - INFO - Completed processing grid size: [1, 1024], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 22:44:20,359 - INFO - Processing grid size: [2, 512], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 23:05:07,133 - INFO - Completed processing grid size: [256, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 23:05:07,133 - INFO - Processing grid size: [512, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-07 23:20:30,717 - INFO - Completed processing grid size: [32, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 23:20:30,717 - INFO - Processing grid size: [64, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-07 23:39:24,315 - INFO - Completed processing grid size: [2, 512], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 23:39:24,315 - INFO - Processing grid size: [4, 256], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-07 23:50:09,955 - INFO - Completed processing grid size: [1, 256], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-07 23:50:09,956 - INFO - Processing grid size: [2, 128], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-07 23:59:24,340 - INFO - Completed processing grid size: [2, 256], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-07 23:59:24,340 - INFO - Processing grid size: [4, 128], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 00:35:27,050 - INFO - Completed processing grid size: [16, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 00:35:27,050 - INFO - Processing grid size: [32, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 00:39:48,214 - INFO - Completed processing grid size: [4, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 00:39:48,215 - INFO - Processing grid size: [8, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 00:44:36,801 - INFO - Completed processing grid size: [4, 256], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 00:44:36,801 - INFO - Processing grid size: [8, 128], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 01:13:16,761 - INFO - Completed processing grid size: [8, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 01:13:16,761 - INFO - Processing grid size: [16, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 03:17:07,001 - INFO - Completed processing grid size: [4, 256], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 03:17:07,002 - INFO - Processing grid size: [8, 128], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 03:34:44,791 - INFO - Completed processing grid size: [512, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 03:34:44,792 - INFO - Processing grid size: [1, 1024], topology: ./topologies/deepbench/DeepBench_Dense/DeepBench_GEMM_github.csv
+2024-06-08 03:35:48,043 - INFO - Completed processing grid size: [8, 128], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 03:35:48,043 - INFO - Processing grid size: [16, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 03:44:36,141 - INFO - Completed processing grid size: [32, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 03:44:36,142 - INFO - Processing grid size: [64, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 03:52:38,992 - INFO - Completed processing grid size: [64, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 03:52:38,994 - INFO - Processing grid size: [1, 1024], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,112 - INFO - Completed processing grid size: [1, 1024], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,112 - INFO - Processing grid size: [2, 512], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,229 - INFO - Completed processing grid size: [2, 512], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,229 - INFO - Processing grid size: [4, 256], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,346 - INFO - Completed processing grid size: [4, 256], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,346 - INFO - Processing grid size: [8, 128], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,462 - INFO - Completed processing grid size: [8, 128], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,462 - INFO - Processing grid size: [16, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,580 - INFO - Completed processing grid size: [16, 64], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,580 - INFO - Processing grid size: [32, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,698 - INFO - Completed processing grid size: [32, 32], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,698 - INFO - Processing grid size: [64, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,816 - INFO - Completed processing grid size: [64, 16], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,816 - INFO - Processing grid size: [128, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,933 - INFO - Completed processing grid size: [128, 8], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:39,933 - INFO - Processing grid size: [256, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:40,052 - INFO - Completed processing grid size: [256, 4], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:40,052 - INFO - Processing grid size: [512, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:40,171 - INFO - Completed processing grid size: [512, 2], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:40,171 - INFO - Processing grid size: [1024, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 03:52:40,326 - INFO - Completed processing grid size: [1024, 1], topology: ./topologies/rnn_eval/handwriting_rec.csv
+2024-06-08 04:54:25,525 - INFO - Completed processing grid size: [32, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 04:54:25,526 - INFO - Processing grid size: [64, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 05:09:24,151 - INFO - Completed processing grid size: [8, 128], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 05:09:24,151 - INFO - Processing grid size: [16, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 05:23:06,157 - INFO - Completed processing grid size: [4, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 05:23:06,157 - INFO - Processing grid size: [8, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 05:37:10,335 - INFO - Completed processing grid size: [16, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 05:37:10,336 - INFO - Processing grid size: [32, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 05:48:08,137 - INFO - Completed processing grid size: [8, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 05:48:08,137 - INFO - Processing grid size: [16, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 05:52:30,429 - INFO - Completed processing grid size: [16, 64], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 05:52:30,430 - INFO - Processing grid size: [32, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 06:06:13,143 - INFO - Completed processing grid size: [16, 64], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 06:06:13,143 - INFO - Processing grid size: [32, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 06:31:10,705 - INFO - Completed processing grid size: [4, 16], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 06:31:10,705 - INFO - Processing grid size: [8, 8], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 06:43:38,609 - INFO - Completed processing grid size: [1, 512], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 06:43:38,610 - INFO - Processing grid size: [2, 256], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 06:57:41,897 - INFO - Completed processing grid size: [2, 64], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 06:57:41,897 - INFO - Processing grid size: [4, 32], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 07:09:16,140 - INFO - Completed processing grid size: [32, 32], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 07:09:16,140 - INFO - Processing grid size: [64, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 07:34:17,471 - INFO - Completed processing grid size: [4, 128], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 07:34:17,471 - INFO - Processing grid size: [8, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 07:57:39,069 - INFO - Completed processing grid size: [32, 32], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 07:57:39,070 - INFO - Processing grid size: [64, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 08:10:05,296 - INFO - Completed processing grid size: [2, 512], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 08:10:05,297 - INFO - Processing grid size: [4, 256], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 08:32:39,324 - INFO - Completed processing grid size: [64, 16], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 08:32:39,325 - INFO - Processing grid size: [128, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 09:19:06,081 - INFO - Completed processing grid size: [64, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 09:19:06,081 - INFO - Processing grid size: [128, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 09:43:46,776 - INFO - Completed processing grid size: [128, 8], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 09:43:46,776 - INFO - Processing grid size: [256, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 09:44:01,296 - INFO - Completed processing grid size: [64, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 09:58:19,413 - INFO - Completed processing grid size: [16, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 09:58:19,414 - INFO - Processing grid size: [32, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 10:10:02,422 - INFO - Completed processing grid size: [64, 16], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 10:10:02,422 - INFO - Processing grid size: [128, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 10:27:56,770 - INFO - Completed processing grid size: [8, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 10:27:56,770 - INFO - Processing grid size: [16, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 11:06:07,589 - INFO - Completed processing grid size: [4, 128], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 11:06:07,589 - INFO - Processing grid size: [8, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 11:06:35,759 - INFO - Completed processing grid size: [32, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 11:06:35,760 - INFO - Processing grid size: [64, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 11:22:30,790 - INFO - Completed processing grid size: [256, 4], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 11:22:30,790 - INFO - Processing grid size: [512, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 12:55:28,109 - INFO - Completed processing grid size: [128, 8], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 12:55:28,109 - INFO - Processing grid size: [256, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 13:13:18,399 - INFO - Completed processing grid size: [2, 512], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 13:13:18,399 - INFO - Processing grid size: [4, 256], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 14:04:10,745 - INFO - Completed processing grid size: [32, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 14:04:10,745 - INFO - Processing grid size: [64, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 14:15:06,363 - INFO - Completed processing grid size: [8, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 14:15:06,363 - INFO - Processing grid size: [16, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 14:34:46,700 - INFO - Completed processing grid size: [16, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 14:34:46,700 - INFO - Processing grid size: [32, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 14:40:36,541 - INFO - Completed processing grid size: [512, 2], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 14:40:36,541 - INFO - Processing grid size: [1024, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 14:40:42,156 - INFO - Completed processing grid size: [128, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 15:37:05,348 - INFO - Completed processing grid size: [8, 8], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 15:37:05,349 - INFO - Processing grid size: [16, 4], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 16:41:14,859 - INFO - Completed processing grid size: [64, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 16:41:14,859 - INFO - Processing grid size: [128, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 16:49:24,503 - INFO - Completed processing grid size: [4, 32], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 16:49:24,503 - INFO - Processing grid size: [8, 16], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 16:50:12,711 - INFO - Completed processing grid size: [256, 4], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 16:50:12,711 - INFO - Processing grid size: [512, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 17:52:49,943 - INFO - Completed processing grid size: [1024, 1], topology: ./topologies/mlperf/AlphaGoZero.csv
+2024-06-08 18:15:36,947 - INFO - Completed processing grid size: [64, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 18:15:36,947 - INFO - Processing grid size: [128, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 18:57:29,908 - INFO - Completed processing grid size: [2, 128], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 18:57:29,908 - INFO - Processing grid size: [4, 64], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 19:10:02,699 - INFO - Completed processing grid size: [8, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 19:10:02,699 - INFO - Processing grid size: [16, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 19:17:53,065 - INFO - Completed processing grid size: [16, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 19:17:53,065 - INFO - Processing grid size: [32, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 19:39:39,667 - INFO - Completed processing grid size: [32, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 19:39:39,667 - INFO - Processing grid size: [64, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 20:01:07,978 - INFO - Completed processing grid size: [4, 256], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 20:01:07,978 - INFO - Processing grid size: [8, 128], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 20:47:57,888 - INFO - Completed processing grid size: [512, 2], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 20:47:57,889 - INFO - Processing grid size: [1024, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-08 22:44:15,962 - INFO - Completed processing grid size: [1, 1024], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 22:44:15,962 - INFO - Processing grid size: [2, 512], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-08 22:47:50,274 - INFO - Completed processing grid size: [128, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-08 23:14:43,524 - INFO - Completed processing grid size: [128, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 23:14:43,524 - INFO - Processing grid size: [256, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 23:37:01,232 - INFO - Completed processing grid size: [32, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-08 23:37:01,232 - INFO - Processing grid size: [64, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 00:13:48,640 - INFO - Completed processing grid size: [16, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 00:13:48,641 - INFO - Processing grid size: [32, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 00:46:44,030 - INFO - Completed processing grid size: [64, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 00:46:44,030 - INFO - Processing grid size: [128, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 00:52:14,569 - INFO - Completed processing grid size: [16, 4], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 00:52:14,569 - INFO - Processing grid size: [32, 2], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 00:58:50,868 - INFO - Completed processing grid size: [1024, 1], topology: ./topologies/conv_nets/mobilenet.csv
+2024-06-09 01:18:33,386 - INFO - Completed processing grid size: [4, 256], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 01:18:33,386 - INFO - Processing grid size: [8, 128], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 01:21:21,072 - INFO - Completed processing grid size: [8, 16], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 01:21:21,073 - INFO - Processing grid size: [16, 8], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 03:39:34,515 - INFO - Completed processing grid size: [64, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 03:39:34,515 - INFO - Processing grid size: [128, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 04:33:22,366 - INFO - Completed processing grid size: [8, 128], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 04:33:22,366 - INFO - Processing grid size: [16, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 05:02:05,971 - INFO - Completed processing grid size: [32, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 05:02:05,971 - INFO - Processing grid size: [64, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 05:40:36,739 - INFO - Completed processing grid size: [256, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 06:27:13,035 - INFO - Completed processing grid size: [128, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 06:27:13,035 - INFO - Processing grid size: [256, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 07:11:17,380 - INFO - Completed processing grid size: [1, 64], topology: ./topologies/translation/gpt2.csv
+2024-06-09 07:11:17,380 - INFO - Processing grid size: [2, 32], topology: ./topologies/translation/gpt2.csv
+2024-06-09 07:17:10,994 - INFO - Completed processing grid size: [4, 64], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 07:17:10,994 - INFO - Processing grid size: [8, 32], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 07:31:37,211 - INFO - Completed processing grid size: [2, 256], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 07:31:37,211 - INFO - Processing grid size: [4, 128], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 08:24:18,780 - INFO - Completed processing grid size: [128, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 08:24:18,781 - INFO - Processing grid size: [256, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 08:31:20,889 - INFO - Completed processing grid size: [1, 256], topology: ./topologies/translation/gpt2.csv
+2024-06-09 08:31:20,890 - INFO - Processing grid size: [2, 128], topology: ./topologies/translation/gpt2.csv
+2024-06-09 09:52:30,243 - INFO - Completed processing grid size: [64, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 09:52:30,243 - INFO - Processing grid size: [128, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 09:58:26,499 - INFO - Completed processing grid size: [16, 8], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 09:58:26,500 - INFO - Processing grid size: [32, 4], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 10:23:22,926 - INFO - Completed processing grid size: [32, 2], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 10:23:22,926 - INFO - Processing grid size: [64, 1], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 10:30:31,631 - INFO - Completed processing grid size: [1, 128], topology: ./topologies/translation/gpt2.csv
+2024-06-09 10:30:31,632 - INFO - Processing grid size: [2, 64], topology: ./topologies/translation/gpt2.csv
+2024-06-09 10:51:54,424 - INFO - Completed processing grid size: [8, 128], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 10:51:54,424 - INFO - Processing grid size: [16, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 10:53:42,715 - INFO - Completed processing grid size: [16, 64], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 10:53:42,715 - INFO - Processing grid size: [32, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 13:18:59,775 - INFO - Completed processing grid size: [256, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 13:31:13,798 - INFO - Completed processing grid size: [1, 512], topology: ./topologies/translation/gpt2.csv
+2024-06-09 13:31:13,798 - INFO - Processing grid size: [2, 256], topology: ./topologies/translation/gpt2.csv
+2024-06-09 14:36:29,523 - INFO - Completed processing grid size: [256, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 14:36:29,524 - INFO - Processing grid size: [512, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 15:14:20,137 - INFO - Completed processing grid size: [128, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 15:14:20,137 - INFO - Processing grid size: [256, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 15:58:34,946 - INFO - Completed processing grid size: [8, 32], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 15:58:34,946 - INFO - Processing grid size: [16, 16], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 16:07:42,157 - INFO - Completed processing grid size: [32, 32], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 16:07:42,157 - INFO - Processing grid size: [64, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 18:19:55,364 - INFO - Completed processing grid size: [16, 64], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 18:19:55,365 - INFO - Processing grid size: [32, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 18:58:22,360 - INFO - Completed processing grid size: [32, 4], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 18:58:22,360 - INFO - Processing grid size: [64, 2], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 19:09:04,042 - INFO - Completed processing grid size: [64, 1], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 19:28:27,372 - INFO - Completed processing grid size: [1, 64], topology: ./topologies/conv_nets/alexnet.csv
+2024-06-09 19:28:27,372 - INFO - Processing grid size: [2, 32], topology: ./topologies/conv_nets/alexnet.csv
+2024-06-09 20:17:04,221 - INFO - Completed processing grid size: [64, 16], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 20:17:04,221 - INFO - Processing grid size: [128, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 21:06:28,360 - INFO - Completed processing grid size: [512, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-09 21:29:50,389 - INFO - Completed processing grid size: [256, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 21:29:50,389 - INFO - Processing grid size: [512, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 23:08:35,678 - INFO - Completed processing grid size: [4, 128], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 23:08:35,681 - INFO - Processing grid size: [8, 64], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 23:27:33,583 - INFO - Completed processing grid size: [16, 16], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 23:27:33,583 - INFO - Processing grid size: [32, 8], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-09 23:28:57,104 - INFO - Completed processing grid size: [32, 32], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-09 23:28:57,104 - INFO - Processing grid size: [64, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 00:39:41,012 - INFO - Completed processing grid size: [128, 8], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-10 00:39:41,013 - INFO - Processing grid size: [256, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-10 01:11:14,823 - INFO - Completed processing grid size: [2, 512], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 01:11:14,823 - INFO - Processing grid size: [4, 256], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 02:43:51,744 - INFO - Completed processing grid size: [64, 2], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 02:43:51,744 - INFO - Processing grid size: [128, 1], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 03:39:32,181 - INFO - Completed processing grid size: [64, 16], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 03:39:32,181 - INFO - Processing grid size: [128, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 04:06:37,335 - INFO - Completed processing grid size: [512, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 06:06:51,816 - INFO - Completed processing grid size: [256, 4], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-10 06:06:51,816 - INFO - Processing grid size: [512, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-10 07:12:56,454 - INFO - Completed processing grid size: [32, 8], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 07:12:56,454 - INFO - Processing grid size: [64, 4], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 08:10:26,064 - INFO - Completed processing grid size: [128, 8], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 08:10:26,064 - INFO - Processing grid size: [256, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 09:33:08,045 - INFO - Completed processing grid size: [8, 64], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 09:33:08,045 - INFO - Processing grid size: [16, 32], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 11:59:25,600 - INFO - Completed processing grid size: [512, 2], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-10 11:59:25,600 - INFO - Processing grid size: [1024, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-10 13:10:43,491 - INFO - Completed processing grid size: [128, 1], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 13:47:11,181 - INFO - Completed processing grid size: [256, 4], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 13:47:11,181 - INFO - Processing grid size: [512, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 14:46:31,740 - INFO - Completed processing grid size: [64, 4], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 14:46:31,741 - INFO - Processing grid size: [128, 2], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 17:56:28,739 - INFO - Completed processing grid size: [16, 32], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 17:56:28,740 - INFO - Processing grid size: [32, 16], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 19:28:12,152 - INFO - Completed processing grid size: [1024, 1], topology: ./topologies/conv_nets/Googlenet.csv
+2024-06-10 20:04:15,135 - INFO - Completed processing grid size: [4, 256], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 20:04:15,135 - INFO - Processing grid size: [8, 128], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-10 20:13:23,800 - INFO - Completed processing grid size: [512, 2], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 20:13:23,800 - INFO - Processing grid size: [1024, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-10 23:28:54,376 - INFO - Completed processing grid size: [2, 32], topology: ./topologies/translation/gpt2.csv
+2024-06-10 23:28:54,376 - INFO - Processing grid size: [4, 16], topology: ./topologies/translation/gpt2.csv
+2024-06-11 00:34:56,247 - INFO - Completed processing grid size: [128, 2], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-11 00:34:56,247 - INFO - Processing grid size: [256, 1], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-11 01:03:39,206 - INFO - Completed processing grid size: [32, 16], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-11 01:03:39,206 - INFO - Processing grid size: [64, 8], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-11 02:15:45,999 - INFO - Completed processing grid size: [1, 1024], topology: ./topologies/translation/gpt2.csv
+2024-06-11 02:15:45,999 - INFO - Processing grid size: [2, 512], topology: ./topologies/translation/gpt2.csv
+2024-06-11 03:07:45,853 - INFO - Completed processing grid size: [2, 64], topology: ./topologies/translation/gpt2.csv
+2024-06-11 03:07:45,853 - INFO - Processing grid size: [4, 32], topology: ./topologies/translation/gpt2.csv
+2024-06-11 03:14:23,876 - INFO - Completed processing grid size: [1024, 1], topology: ./topologies/conv_nets/Resnet18.csv
+2024-06-11 03:32:36,670 - INFO - Completed processing grid size: [2, 128], topology: ./topologies/translation/gpt2.csv
+2024-06-11 03:32:36,671 - INFO - Processing grid size: [4, 64], topology: ./topologies/translation/gpt2.csv
+2024-06-11 06:15:40,863 - INFO - Completed processing grid size: [2, 256], topology: ./topologies/translation/gpt2.csv
+2024-06-11 06:15:40,867 - INFO - Processing grid size: [4, 128], topology: ./topologies/translation/gpt2.csv
+2024-06-11 07:28:37,824 - INFO - Completed processing grid size: [64, 8], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-11 07:28:37,824 - INFO - Processing grid size: [128, 4], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-11 08:57:16,361 - INFO - Completed processing grid size: [8, 128], topology: ./topologies/mlperf/FasterRCNN.csv
+2024-06-11 08:57:16,361 - INFO - Processing grid size: [16, 64], topology: ./topologies/mlperf/FasterRCNN.csv
