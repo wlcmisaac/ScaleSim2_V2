@@ -9,7 +9,7 @@ def extract_subfolders(root_dir, layer_info):
 
 def process_txt_file(txt_file_path, subfolders):
     # Extract subfolder names
-    topocategories, topologies, gridsize, gridconfig = subfolders
+    topocategories, topologies, gridsize, gridconfig, layerbasedinfo = subfolders
 
     # Read the contents of the text file
     with open(txt_file_path, 'r') as file:
@@ -48,7 +48,7 @@ def traverse_directories(root_dir, layer_info):
 
         for filename in files:
             # Check if the file is a .txt file
-            if filename.endswith('.txt'):
+            if filename.endswith('.txt') and filename.startswith('L'):
                 # Process the text file
                 txt_file_path = os.path.join(root, filename)
                 json_data = process_txt_file(txt_file_path, subfolders)
@@ -63,7 +63,7 @@ def write_to_json(json_data_list, output_file):
 
 # Main function
 def main():
-    layer_info = './ResLayer/topologies'  # Directory provided by you
+    layer_info = './ResSimulation/topologies'  # Directory provided by you
     output_file = './figures/withoutPE/output.json'  # Output file to store combined JSON data
 
     # Traverse through directories and process text files
